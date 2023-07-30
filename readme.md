@@ -47,3 +47,5 @@
 | restful:followers               |             15 ✅ |             15 ✅ |             15 ✅ |             15 ✅ |            180 ✅ |
 | restful:likes                   |            187 ❌ |            180 ❌ |            187 ❌ |            180 ✅ |             75 ❌ |
 | restful:onbroading              |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |              _ ❌ |
+
+><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate-limit-checker>
