@@ -8,14 +8,14 @@
 | :-- | --: | --: | --: | --: | --: |
 | graphql:userinfo_screen_name    |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |
 | graphql:userinfo_uid            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |
-| graphql:tweets_web              |             50 ✅ |             50 ✅ |             50 ✅ |            300 ✅ |             50 ✅ |
+| graphql:tweets_web              |             50 ✅ |             50 ✅ |             50 ✅ |            800 ✅ |             50 ✅ |
 | graphql:tweets_with_replies_web |             50 ❌ |             50 ❌ |             50 ❌ |            300 ❌ |             50 ✅ |
 | graphql:tweets_v2               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |
 | graphql:tweets_with_replies_v2  |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |
 | graphql:conversation            |            150 ❌ |            150 ❌ |            150 ❌ |            150 ❌ |            150 ✅ |
 | graphql:conversation_v2         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |
-| graphql:search                  |             50 ❌ |             50 ❌ |             50 ❌ |            400 ❌ |             50 ✅ |
-| graphql:search_client           |             50 ❌ |             50 ❌ |             50 ❌ |            400 ❌ |             50 ✅ |
+| graphql:search                  |             50 ❌ |             50 ❌ |             50 ❌ |           1200 ❌ |             50 ✅ |
+| graphql:search_client           |             50 ❌ |             50 ❌ |             50 ❌ |           1200 ❌ |             50 ✅ |
 | graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |
 | graphql:audiospace              |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
