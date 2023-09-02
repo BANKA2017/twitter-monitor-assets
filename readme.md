@@ -2,6 +2,9 @@
 
 ---
 
+- The number is the number of rate limit, and `_` means response headers have no field `x-rate-limit-limit`
+- ❌ means the endpoint is unavailable
+
 ## Graphql
 
 |                               |            old web |            new web |   tweetdeck legacy |  tweetdeck preview |      guest account|
