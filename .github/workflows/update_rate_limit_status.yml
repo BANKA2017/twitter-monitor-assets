@@ -32,6 +32,7 @@ jobs:
                   export now_date=$(date -u +"%y%m%d")
             - name: Rate limit checker
               run: |
+                  mkdir tmpFiles/rate_limit/
                   cd twitter-monitor/apps/rate_limit_checker/
                   node run.mjs
                   cp data/readme.md ../../../tmpFiles/rate_limit/readme.md
@@ -39,6 +40,7 @@ jobs:
                   cd ../../../
             - name: Graphql
               run: |
+                  mkdir tmpFiles/graphql/
                   cd twitter-monitor/apps/scripts/
                   node updateQueryIdList.mjs
                   cp ../../../libs/assets/graphql/featuresValueList.js ../../../tmpFiles/graphql/featuresValueList.js
