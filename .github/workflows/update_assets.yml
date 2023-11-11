@@ -26,14 +26,13 @@ jobs:
                   cd twitter-monitor
                   npm install --global yarn
                   yarn install --frozen-lockfile --frozen-dependencies
-                  guest_account=$(curl "https://${{ secrets.CF_SECRET_DOMAIN }}/data/random?key=${{ secrets.SECRET_WORKERS_KEY }}" | jq .data)
-                  export TWITTER_GUEST_OAUTH_TOKEN_SECRET=$(jq -r .oauth_token_secret <<< $guest_account)
-                  export TWITTER_GUEST_OAUTH_TOKEN=$(jq -r .oauth_token <<< $guest_account)
-                  export now_date=$(date -u +"%y%m%d")
             - name: Rate limit checker
               run: |
                   mkdir tmpFiles/rate_limit/
                   cd twitter-monitor/apps/rate_limit_checker/
+                  guest_account=$(curl "https://${{ secrets.CF_SECRET_DOMAIN }}/data/random?key=${{ secrets.SECRET_WORKERS_KEY }}" | jq .data)
+                  export TWITTER_GUEST_OAUTH_TOKEN_SECRET=$(jq -r .oauth_token_secret <<< $guest_account)
+                  export TWITTER_GUEST_OAUTH_TOKEN=$(jq -r .oauth_token <<< $guest_account)
                   node run.mjs
                   cp data/readme.md ../../../tmpFiles/rate_limit/readme.md
                   cp data/rate_limit_status.json ../../../tmpFiles/rate_limit/rate_limit_status.json
