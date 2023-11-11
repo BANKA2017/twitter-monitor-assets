@@ -1,0 +1,60 @@
+name: Update rate limit status
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: '0 0 * * *'
+jobs:
+    build:
+        runs-on: self-hosted
+        strategy:
+            matrix:
+                node-version: [18.x]
+        steps:
+            - uses: actions/checkout@v3
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - name: Init
+              run: |
+                  mkdir tmpFiles
+                  cp LICENSE tmpFiles/
+                  cp readme.md tmpFiles/
+                  cp -r .github/ tmpFiles/
+                  git clone https://github.com/BANKA2017/twitter-monitor
+                  cd twitter-monitor
+                  npm install --global yarn
+                  yarn install --frozen-lockfile --frozen-dependencies
+                  guest_account=$(curl "https://${{ secrets.CF_SECRET_DOMAIN }}/data/random?key=${{ secrets.SECRET_WORKERS_KEY }}" | jq .data)
+                  export TWITTER_GUEST_OAUTH_TOKEN_SECRET=$(jq -r .oauth_token_secret <<< $guest_account)
+                  export TWITTER_GUEST_OAUTH_TOKEN=$(jq -r .oauth_token <<< $guest_account)
+                  export now_date=$(date -u +"%y%m%d")
+            - name: Rate limit checker
+              run: |
+                  cd apps/rate_limit_checker/
+                  node run.mjs
+                  cp data/readme.md ../../tmpFiles/rate_limit/readme.md
+                  cp data/rate_limit_status.json ../../tmpFiles/rate_limit/rate_limit_status.json
+                  cd ../../
+            - name: Graphql
+              run: |
+                  cd apps/scripts/
+                  node updateQueryIdList.mjs
+                  cp ../../libs/assets/graphql/featuresValueList.js ../../tmpFiles/graphql/featuresValueList.js
+                  cp ../../libs/assets/graphql/graphqlQueryIdList.js ../../tmpFiles/graphql/graphqlQueryIdList.js
+                  cd ../../
+            - name: Back to root
+              run: cd ../
+            - name: Deploy
+              uses: BANKA2017/git-publish-subdir-action@develop
+              env:
+                  REPO: git@github.com:BANKA2017/twitter-monitor-assets.git
+                  BRANCH: master
+                  FOLDER: tmpFiles/
+                  COMMIT_NAME: ${{ secrets.COMMIT_NAME }}
+                  COMMIT_EMAIL: ${{ secrets.COMMIT_EMAIL }}
+                  MESSAGE: 'Run - {sha}'
+                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+            - name: Clean
+              run: rm -r tmpFiles twitter-monitor
