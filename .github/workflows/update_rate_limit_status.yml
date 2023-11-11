@@ -32,20 +32,18 @@ jobs:
                   export now_date=$(date -u +"%y%m%d")
             - name: Rate limit checker
               run: |
-                  cd apps/rate_limit_checker/
+                  cd twitter-monitor/apps/rate_limit_checker/
                   node run.mjs
-                  cp data/readme.md ../../tmpFiles/rate_limit/readme.md
-                  cp data/rate_limit_status.json ../../tmpFiles/rate_limit/rate_limit_status.json
-                  cd ../../
+                  cp data/readme.md ../../../tmpFiles/rate_limit/readme.md
+                  cp data/rate_limit_status.json ../../../tmpFiles/rate_limit/rate_limit_status.json
+                  cd ../../../
             - name: Graphql
               run: |
-                  cd apps/scripts/
+                  cd twitter-monitor/apps/scripts/
                   node updateQueryIdList.mjs
-                  cp ../../libs/assets/graphql/featuresValueList.js ../../tmpFiles/graphql/featuresValueList.js
-                  cp ../../libs/assets/graphql/graphqlQueryIdList.js ../../tmpFiles/graphql/graphqlQueryIdList.js
-                  cd ../../
-            - name: Back to root
-              run: cd ../
+                  cp ../../../libs/assets/graphql/featuresValueList.js ../../../tmpFiles/graphql/featuresValueList.js
+                  cp ../../../libs/assets/graphql/graphqlQueryIdList.js ../../../tmpFiles/graphql/graphqlQueryIdList.js
+                  cd ../../../
             - name: Deploy
               uses: BANKA2017/git-publish-subdir-action@develop
               env:
