@@ -1,4 +1,4 @@
-name: Update rate limit status
+name: Update assets
 
 on:
     workflow_dispatch:
@@ -37,15 +37,13 @@ jobs:
                   node run.mjs
                   cp data/readme.md ../../../tmpFiles/rate_limit/readme.md
                   cp data/rate_limit_status.json ../../../tmpFiles/rate_limit/rate_limit_status.json
-                  cd ../../../
             - name: Graphql
               run: |
                   mkdir tmpFiles/graphql/
                   cd twitter-monitor/apps/scripts/
                   node updateQueryIdList.mjs
-                  cp ../../../libs/assets/graphql/featuresValueList.js ../../../tmpFiles/graphql/featuresValueList.js
-                  cp ../../../libs/assets/graphql/graphqlQueryIdList.js ../../../tmpFiles/graphql/graphqlQueryIdList.js
-                  cd ../../../
+                  cp ../../libs/assets/graphql/featuresValueList.js ../../../tmpFiles/graphql/featuresValueList.js
+                  cp ../../libs/assets/graphql/graphqlQueryIdList.js ../../../tmpFiles/graphql/graphqlQueryIdList.js
             - name: Deploy
               uses: BANKA2017/git-publish-subdir-action@develop
               env:
