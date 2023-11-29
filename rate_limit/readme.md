@@ -35,7 +35,7 @@
 
 |                               |            old web |            new web |  tweetdeck preview |      guest account|
 | :-- | --: | --: | --: | --: |
-| restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |
+| restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ✅ |            900 ✅ |
 | restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            180 ✅ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |
