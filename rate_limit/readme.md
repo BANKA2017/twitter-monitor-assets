@@ -46,7 +46,7 @@
 | restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |
 | restful:translate_bio           |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |
 | restful:translate_tweet         |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |
-| restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |           1800 ✅ |
+| restful:list_timeline           |            180 ❌ |            180 ❌ |              _ ❌ |           1800 ✅ |
 | restful:following               |            187 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |
 | restful:followers               |             15 ✅ |             15 ✅ |             15 ✅ |            180 ✅ |
 | restful:likes                   |            187 ❌ |            180 ❌ |            180 ❌ |             75 ✅ |
