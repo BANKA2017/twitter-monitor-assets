@@ -24,8 +24,8 @@ jobs:
                   cp -r .github/ tmpFiles/
                   git clone https://github.com/BANKA2017/twitter-monitor
                   cd twitter-monitor
-                  npm install --global yarn
-                  yarn install --frozen-lockfile --frozen-dependencies
+                  corepack enable
+                  yarn install
             - name: Rate limit checker
               run: |
                   mkdir tmpFiles/rate_limit/
