@@ -31,8 +31,8 @@ jobs:
                   mkdir tmpFiles/rate_limit/
                   cd twitter-monitor/apps/rate_limit_checker/
                   guest_account=$(curl "https://${{ secrets.CF_SECRET_DOMAIN }}/data/random?key=${{ secrets.SECRET_WORKERS_KEY }}")
-                  export TWITTER_GUEST_OAUTH_TOKEN_SECRET=$(jq -n $guest_account | jq '.data|.[0]|.oauth_token_secret')
-                  export TWITTER_GUEST_OAUTH_TOKEN=$(jq -n $guest_account | jq '.data|.[0]|.oauth_token')
+                  export TWITTER_GUEST_OAUTH_TOKEN_SECRET=$(jq -r '.data|.[0]|.oauth_token_secret' <<< $guest_account)
+                  export TWITTER_GUEST_OAUTH_TOKEN=$(jq -r '.data|.[0]|.oauth_token' <<< $guest_account)
                   node run.mjs
                   cp data/readme.md ../../../tmpFiles/rate_limit/readme.md
                   cp data/rate_limit_status.json ../../../tmpFiles/rate_limit/rate_limit_status.json
