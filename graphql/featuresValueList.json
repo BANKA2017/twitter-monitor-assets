@@ -620,6 +620,7 @@
     "responsive_web_graphql_feedback": true,
     "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
     "responsive_web_graphql_timeline_navigation_enabled": true,
+    "responsive_web_grok_prompt_deeplink_enabled": false,
     "responsive_web_hashtag_highlight_is_enabled": false,
     "responsive_web_hashtag_highlight_show_avatar": false,
     "responsive_web_hashtag_highlight_use_small_font": false,
@@ -750,7 +751,6 @@
     "rweb_2_column_htl_prototype_virtual_scroller_enabled": false,
     "rweb_client_transaction_id_enabled": true,
     "rweb_enable_logged_out_search_search_bar_enabled": false,
-    "rweb_home_bookmark_in_action_bar_enabled": true,
     "rweb_home_compact_inline_composer_enabled": false,
     "rweb_home_compact_timeline_enabled": false,
     "rweb_home_mixer_enable_social_context_filter_social_contexts": true,
@@ -770,6 +770,7 @@
     "rweb_update_fatigue_switch_to_app_link": "BannerSwitchToApp",
     "rweb_video_pip_enabled": true,
     "rweb_video_tagging_enabled": false,
+    "rweb_video_timestamps_enabled": true,
     "sc_mock_data_enabled": false,
     "sc_r4_enabled": false,
     "scribe_api_error_sample_size": 0,
@@ -924,6 +925,7 @@
     "subscriptions_inapp_grok_disable_links": true,
     "subscriptions_inapp_grok_enable_roast_me_prompt": true,
     "subscriptions_inapp_grok_nux_enabled": true,
+    "subscriptions_inapp_grok_share_enabled": false,
     "subscriptions_inapp_grok_upsell_enabled": false,
     "subscriptions_inapp_grok_video_upsell": "",
     "subscriptions_inapp_grok_video_upsell_dim": "",
@@ -1226,6 +1228,5 @@
     "web_video_transcribed_captions_enabled": false,
     "xprofile_consumption_enabled": false,
     "xprofile_editing_enabled": false,
-    "xprofile_emojis_enabled": false,
-    "rweb_video_timestamps_enabled": true
+    "xprofile_emojis_enabled": false
 }
