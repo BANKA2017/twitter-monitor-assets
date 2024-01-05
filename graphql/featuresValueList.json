@@ -620,6 +620,7 @@
     "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
     "responsive_web_graphql_timeline_navigation_enabled": true,
     "responsive_web_grok_prompt_deeplink_enabled": false,
+    "responsive_web_grok_share_enabled": false,
     "responsive_web_hashtag_highlight_is_enabled": false,
     "responsive_web_hashtag_highlight_show_avatar": false,
     "responsive_web_hashtag_highlight_use_small_font": false,
@@ -758,7 +759,6 @@
     "rweb_home_refetch_on_refocus_min_delay_seconds": 60,
     "rweb_lists_discovery_list_mixer_enabled": true,
     "rweb_master_detail_enabled": false,
-    "rweb_no_scroll_sidenav": true,
     "rweb_panning_nav_behavior": true,
     "rweb_quick_promote_boost_enabled": false,
     "rweb_recommendations_sidebar_graphql_enabled": false,
@@ -1228,6 +1228,5 @@
     "web_video_transcribed_captions_enabled": false,
     "xprofile_consumption_enabled": false,
     "xprofile_editing_enabled": false,
-    "xprofile_emojis_enabled": false,
-    "responsive_web_grok_share_enabled": false
+    "xprofile_emojis_enabled": false
 }
