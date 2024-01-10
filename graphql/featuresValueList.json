@@ -741,7 +741,6 @@
     "responsive_web_verified_organizations_invoice_update_enabled": true,
     "responsive_web_verified_organizations_paid_to_invoice_enabled": false,
     "responsive_web_verified_organizations_skip_welcome_screen": true,
-    "responsive_web_verified_organizations_tiers_enabled": true,
     "responsive_web_video_pcomplete_enabled": true,
     "responsive_web_video_promoted_logging_enabled": true,
     "responsive_web_video_trimmer_enabled": false,
@@ -926,7 +925,6 @@
     "subscriptions_inapp_grok_disable_links": true,
     "subscriptions_inapp_grok_enable_roast_me_prompt": true,
     "subscriptions_inapp_grok_nux_enabled": true,
-    "subscriptions_inapp_grok_share_enabled": false,
     "subscriptions_inapp_grok_upsell_enabled": false,
     "subscriptions_inapp_grok_video_upsell": "",
     "subscriptions_inapp_grok_video_upsell_dim": "",
@@ -1228,5 +1226,6 @@
     "web_video_transcribed_captions_enabled": false,
     "xprofile_consumption_enabled": false,
     "xprofile_editing_enabled": false,
-    "xprofile_emojis_enabled": false
+    "xprofile_emojis_enabled": false,
+    "responsive_web_grok_trends_design_enabled": false
 }
