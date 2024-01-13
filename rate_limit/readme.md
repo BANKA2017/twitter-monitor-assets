@@ -39,8 +39,8 @@
 | restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            180 ✅ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |
-| restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ✅ |
-| restful:broadcast               |            187 ✅ |            187 ✅ |            187 ✅ |            900 ✅ |
+| restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
+| restful:broadcast               |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |
 | restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:typeahead               |              _ ❌ |              _ ❌ |              _ ❌ |              _ ✅ |
 | restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |
@@ -53,3 +53,5 @@
 | restful:onbroading              |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |
 
 ><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate_limit_checker>
+
+\* Now everyone can embed broadcast players directly, so the rate limit of the broadcast endpoint can be regarded as none [[original tweet](https://twitter.com/Live/status/1733197678706852095)]
