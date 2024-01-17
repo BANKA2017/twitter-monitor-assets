@@ -40,7 +40,7 @@
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            180 ✅ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| restful:broadcast               |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |
+| restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:typeahead               |              _ ❌ |              _ ❌ |              _ ❌ |              _ ✅ |
 | restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |
