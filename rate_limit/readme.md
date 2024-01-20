@@ -37,7 +37,7 @@
 | :-- | --: | --: | --: | --: |
 | restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |
 | restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |
-| restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            180 ✅ |
+| restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            180 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
@@ -46,10 +46,10 @@
 | restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |
 | restful:translate_bio           |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |
 | restful:translate_tweet         |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |
-| restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |           1800 ✅ |
+| restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |           1800 ❌ |
 | restful:following               |            187 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |
 | restful:followers               |             15 ✅ |             15 ✅ |             15 ✅ |            180 ✅ |
-| restful:likes                   |            187 ❌ |            180 ❌ |            180 ❌ |             75 ✅ |
+| restful:likes                   |            187 ❌ |            180 ❌ |            180 ❌ |             75 ❌ |
 | restful:onbroading              |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |
 
 ><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate_limit_checker>
