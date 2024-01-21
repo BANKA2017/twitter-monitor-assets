@@ -6504,6 +6504,7 @@
         },
         "features": {
             "responsive_web_birdwatch_top_contributor_enabled": true,
+            "responsive_web_birdwatch_mobile_nav_setting_enabled": false,
             "responsive_web_birdwatch_note_limit_enabled": true
         }
     },
@@ -6788,7 +6789,8 @@
         "operationName": "CommunityQuery",
         "queryId": "yS6jfnsuc5O1aFlFnGBdzQ",
         "features": {
-            "c9s_list_members_action_api_enabled": false
+            "c9s_list_members_action_api_enabled": false,
+            "c9s_superc9s_indication_enabled": false
         }
     },
     "lists_UsersListsQuery": {
