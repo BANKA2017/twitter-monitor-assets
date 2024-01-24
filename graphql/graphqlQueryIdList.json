@@ -8530,19 +8530,12 @@
         "operationName": "JobsApiDeckContainerMutation",
         "queryId": "YK_GC9-oFq8Juqd5qJihfQ"
     },
-    "JobListItemFeatureMutation": {
+    "FeatureActionUnfeatureMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "JobListItemFeatureMutation",
-        "queryId": "-TkDQMRqYiRti2ZvQO0JrA"
-    },
-    "JobListItemUnfeatureMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "JobListItemUnfeatureMutation",
-        "queryId": "8b-5thQwsUpLs6xt_mczqQ"
+        "operationName": "FeatureActionUnfeatureMutation",
+        "queryId": "lESVPvjYiWfo2MdVwqBBPQ"
     },
     "useUpdateOrganizationMutation": {
         "metadata": {},
@@ -8550,6 +8543,13 @@
         "text": null,
         "operationName": "useUpdateOrganizationMutation",
         "queryId": "gq7_UQoL3PDhdfsR3Gpokg"
+    },
+    "useUpdateJobShareItemMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useUpdateJobShareItemMutation",
+        "queryId": "hIiPNvZDvzDTN4q7UTE1tg"
     },
     "useFetchAdminJobsQuery": {
         "metadata": {},
@@ -8564,6 +8564,13 @@
         "text": null,
         "operationName": "JobListQuery",
         "queryId": "8QKaIpQLN6PiC0-FHYf4iw"
+    },
+    "FeatureActionFeatureMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "FeatureActionFeatureMutation",
+        "queryId": "5Tzlp_ZWK10RtHqi7tRjAg"
     },
     "SyncAtsJobsSyncMutation": {
         "metadata": {},
