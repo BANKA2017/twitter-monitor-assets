@@ -4097,6 +4097,13 @@
         },
         "features": {}
     },
+    "fetchDownloadSettingAllowedQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "fetchDownloadSettingAllowedQuery",
+        "queryId": "ZUvMlezijpatabA-IJ6Ugg"
+    },
     "DisableVerifiedPhoneLabel": {
         "queryId": "g2m0pAOamawNtVIfjXNMJg",
         "operationName": "DisableVerifiedPhoneLabel",
@@ -5895,19 +5902,19 @@
         "operationName": "useDMReactionMutationRemoveMutation",
         "queryId": "bV_Nim3RYHsaJwMkTXJ6ew"
     },
-    "DMMessageDeleteMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "DMMessageDeleteMutation",
-        "queryId": "BJ6DtxA2llfjnRoRjaiIiw"
-    },
     "useDMReactionMutationAddMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useDMReactionMutationAddMutation",
         "queryId": "VyDyV9pC2oZEj6g52hgnhA"
+    },
+    "DMMessageDeleteMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "DMMessageDeleteMutation",
+        "queryId": "BJ6DtxA2llfjnRoRjaiIiw"
     },
     "useTypingNotifierMutation": {
         "metadata": {},
@@ -6972,7 +6979,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "withAllowVideoDownloadDefaultQuery",
-        "queryId": "lPWKtmnm-k8AdT8wxWbYEA"
+        "queryId": "JDeOuPXWR_b1gp1KozHQ0g"
     },
     "ArticleEntityUpdateCoverMedia": {
         "queryId": "MkPEBG7D5XfkWzLRTtAMEQ",
@@ -7877,7 +7884,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "AudienceAndTaggingQuery",
-        "queryId": "HZ9fxYngE10soPCOtDrWcw"
+        "queryId": "FWApxg844rupV7YVWzHNug"
     },
     "RepliesGetUserToxicReplyFilterSettingQuery": {
         "metadata": {},
@@ -8447,13 +8454,6 @@
         "operationName": "AddLocationMutation",
         "queryId": "6Sf6579QPw2lFt02lPAk-A"
     },
-    "RefreshJobRecommendationsButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "RefreshJobRecommendationsButtonMutation",
-        "queryId": "0FFxYo3Q8_PiSsnSvxmGkQ"
-    },
     "CreateMatchingProfileButtonMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -8468,12 +8468,19 @@
         "operationName": "AddJobTitleMutation",
         "queryId": "Y4OJFP3aMw2Ge07Pkdl0qg"
     },
+    "LocationInputQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "LocationInputQuery",
+        "queryId": "Pu5x4--nQzROL6nvZeqhZw"
+    },
     "JobRecommendationsListContainerQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "JobRecommendationsListContainerQuery",
-        "queryId": "xZdrBzJfyDiybOdlUQxmRw"
+        "queryId": "41gBlD8MlRZ421kF8J9jlw"
     },
     "LocationFilterQuery": {
         "metadata": {},
@@ -8507,6 +8514,13 @@
         "text": null,
         "operationName": "JobSearchQueryScreenJobsQuery",
         "queryId": "Z1VPGYYTQBtak0rLROOafg"
+    },
+    "useRefreshJobRecommendationsMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useRefreshJobRecommendationsMutation",
+        "queryId": "NjDhjn_53KnOmYAcoyxqew"
     },
     "MatchingProfileFieldMutation": {
         "metadata": {},
