@@ -5782,7 +5782,7 @@
         "features": {}
     },
     "BroadcastQuery": {
-        "queryId": "8uPrWW4AMR_myflfUW6d9Q",
+        "queryId": "KCdGFHmo8Bi_DbzBtBH1GQ",
         "operationName": "BroadcastQuery",
         "operationType": "query",
         "metadata": {
@@ -8434,6 +8434,13 @@
         "operationName": "JobScreenQuery",
         "queryId": "yY7vHIpOH4-sAOTYQlPAqw"
     },
+    "LocationSelectorQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "LocationSelectorQuery",
+        "queryId": "hbib0bN-dlHHvUhiy3YVyg"
+    },
     "JobRecommendationsOnboardingContentQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8462,26 +8469,12 @@
         "operationName": "AddJobTitleMutation",
         "queryId": "Y4OJFP3aMw2Ge07Pkdl0qg"
     },
-    "LocationInputQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "LocationInputQuery",
-        "queryId": "Pu5x4--nQzROL6nvZeqhZw"
-    },
     "JobRecommendationsListContainerQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "JobRecommendationsListContainerQuery",
         "queryId": "41gBlD8MlRZ421kF8J9jlw"
-    },
-    "LocationFilterQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "LocationFilterQuery",
-        "queryId": "oQ9g7Odo85nLuXvxA9YBzg"
     },
     "MatchingCriteriaListItemMutation": {
         "metadata": {},
