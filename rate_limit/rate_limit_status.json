@@ -355,8 +355,8 @@
             {
                 "code": 34,
                 "message": "Sorry, that page does not exist",
-                "rate_limit": "_",
-                "rate_limit_reset": "_",
+                "rate_limit": 187,
+                "rate_limit_reset": 900,
                 "status": "❌",
                 "url": "https://api.twitter.com/1.1/favorites/list.json?screen_name=783214&count=20",
                 "method": "GET",
