@@ -28,10 +28,10 @@ jobs:
                   yarn install
             - name: Rate limit checker
               env:
-                TWITTER_REAL_OAUTH_TOKEN: ${{ secret.TWITTER_REAL_OAUTH_TOKEN }}
-                TWITTER_REAL_OAUTH_TOKEN_SECRET: ${{ secret.TWITTER_REAL_OAUTH_TOKEN_SECRET }}
-                TWITTER_COOKIE_AUTH_TOKEN: ${{ secret.TWITTER_COOKIE_AUTH_TOKEN }}
-                TWITTER_COOKIE_CT0: ${{ secret.TWITTER_COOKIE_CT0 }}
+                TWITTER_REAL_OAUTH_TOKEN: ${{ secrets.TWITTER_REAL_OAUTH_TOKEN }}
+                TWITTER_REAL_OAUTH_TOKEN_SECRET: ${{ secrets.TWITTER_REAL_OAUTH_TOKEN_SECRET }}
+                TWITTER_COOKIE_AUTH_TOKEN: ${{ secrets.TWITTER_COOKIE_AUTH_TOKEN }}
+                TWITTER_COOKIE_CT0: ${{ secrets.TWITTER_COOKIE_CT0 }}
               run: |
                   mkdir tmpFiles/rate_limit/
                   cd twitter-monitor/apps/rate_limit_checker/
