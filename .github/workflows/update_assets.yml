@@ -27,13 +27,14 @@ jobs:
                   corepack enable
                   yarn install
             - name: Rate limit checker
+              env:
+                TWITTER_REAL_OAUTH_TOKEN: ${{ secret.TWITTER_REAL_OAUTH_TOKEN }}
+                TWITTER_REAL_OAUTH_TOKEN_SECRET: ${{ secret.TWITTER_REAL_OAUTH_TOKEN_SECRET }}
+                TWITTER_COOKIE_AUTH_TOKEN: ${{ secret.TWITTER_COOKIE_AUTH_TOKEN }}
+                TWITTER_COOKIE_CT0: ${{ secret.TWITTER_COOKIE_CT0 }}
               run: |
                   mkdir tmpFiles/rate_limit/
                   cd twitter-monitor/apps/rate_limit_checker/
-                  export TWITTER_REAL_OAUTH_TOKEN={{ secret.TWITTER_REAL_OAUTH_TOKEN }}
-                  export TWITTER_REAL_OAUTH_TOKEN_SECRET={{ secret.TWITTER_REAL_OAUTH_TOKEN_SECRET }}
-                  export TWITTER_COOKIE_AUTH_TOKEN={{ secret.TWITTER_COOKIE_AUTH_TOKEN }}
-                  export TWITTER_COOKIE_CT0={{ secret.TWITTER_COOKIE_CT0 }}
                   node run.mjs
                   cp data/readme.md ../../../tmpFiles/rate_limit/readme.md
                   cp data/rate_limit_status.json ../../../tmpFiles/rate_limit/rate_limit_status.json
