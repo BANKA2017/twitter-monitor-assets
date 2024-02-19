@@ -6665,6 +6665,18 @@
         "operationName": "EditTopicQuery",
         "queryId": "YMFiZ6bltHE9jDQfqRWwMg"
     },
+    "TopicTimelineQuery": {
+        "metadata": {
+            "sliceInfoPath": [
+                "fetch_popular_communities",
+                "slice_info"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "TopicTimelineQuery",
+        "queryId": "Wh3_ekBg7hfqiPD7XboAmA"
+    },
     "lists_UsersListsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -6678,6 +6690,13 @@
         "text": null,
         "operationName": "EditHashtagsQuery",
         "queryId": "BrxNyEqlSHU3dDSOgomqFA"
+    },
+    "TopicCarouselQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "TopicCarouselQuery",
+        "queryId": "byVjaS0CUtBqAao_lhZFgA"
     },
     "EditTopicMutation": {
         "metadata": {
@@ -8403,7 +8422,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "PremiumHubQuery",
-        "queryId": "TCmXpmFSS-Iue3mEquFPrQ"
+        "queryId": "QKr3_azsOyFqYW-_bhCmgQ"
     },
     "JobsApiDeckContainerMutation": {
         "metadata": {},
