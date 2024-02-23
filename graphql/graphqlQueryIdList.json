@@ -5638,12 +5638,11 @@
         "features": {}
     },
     "BroadcastQuery": {
-        "queryId": "5wJfDtA_o-cXGeOCEqLPQw",
+        "queryId": "nB_-dSXmgVrGz0ffgN3SeA",
         "operationName": "BroadcastQuery",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [
-                "rweb_view_count_graph_enabled",
                 "creator_subscriptions_tweet_preview_api_enabled",
                 "c9s_tweet_anatomy_moderator_badge_enabled",
                 "responsive_web_graphql_exclude_directive_enabled",
@@ -5671,7 +5670,6 @@
             ]
         },
         "features": {
-            "rweb_view_count_graph_enabled": false,
             "creator_subscriptions_tweet_preview_api_enabled": true,
             "c9s_tweet_anatomy_moderator_badge_enabled": true,
             "responsive_web_graphql_exclude_directive_enabled": true,
@@ -6013,6 +6011,13 @@
             "longform_notetweets_inline_media_enabled": true,
             "responsive_web_enhance_cards_enabled": false
         }
+    },
+    "ArticleRedirectScreenQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ArticleRedirectScreenQuery",
+        "queryId": "X6ZxrOo0zyipREm6CNVKjg"
     },
     "BirdwatchProfileAcknowledgeEarnOut": {
         "queryId": "cED9wJy8Nd1kZCCYuIq9zQ",

@@ -304,7 +304,7 @@
     "conversation_controls_verified_only_enabled": true,
     "conversational_safety_heads_up_treatment_A_enabled": "",
     "creator_monetization_profile_subscription_tweets_tab_enabled": true,
-    "creator_monetization_settings_revamp": false,
+    "creator_monetization_settings_revamp": true,
     "creator_monetization_video_ads_onboarding": false,
     "creator_monetization_web_tips_dashboard_enabled": false,
     "creator_monetization_web_tips_onboarding_enabled": false,
@@ -665,6 +665,7 @@
     "responsive_web_media_upload_metrics_enabled": true,
     "responsive_web_media_upload_target_jpg_pixels_per_byte": 1,
     "responsive_web_menu_section_divider_enabled": false,
+    "responsive_web_messages_enabled": false,
     "responsive_web_mobile_app_spotlight_v1_config": false,
     "responsive_web_mobile_app_spotlight_v1_display": false,
     "responsive_web_multiple_account_limit": 5,
@@ -731,6 +732,7 @@
     "responsive_web_twitter_article_data_v2_enabled": false,
     "responsive_web_twitter_article_geo_gated": false,
     "responsive_web_twitter_article_notes_tab_enabled": true,
+    "responsive_web_twitter_article_redirect_enabled": true,
     "responsive_web_twitter_article_seed_tweet_detail_enabled": true,
     "responsive_web_twitter_article_seed_tweet_enabled": true,
     "responsive_web_twitter_article_seed_tweet_summary_enabled": true,
@@ -1240,5 +1242,6 @@
     "xprofile_consumption_enabled": false,
     "xprofile_editing_enabled": false,
     "xprofile_emojis_enabled": false,
-    "xprofile_work_history_enabled": false
+    "xprofile_work_history_enabled": false,
+    "rweb_media_carousel_enabled": false
 }
