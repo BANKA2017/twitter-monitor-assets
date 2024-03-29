@@ -6688,6 +6688,16 @@
         },
         "features": {}
     },
+    "ReportTrend": {
+        "queryId": "3BZlCEmD645zQ-MpJM19CA",
+        "operationName": "ReportTrend",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "LiveCommerceItemsSlice": {
         "queryId": "-lnNX56S2YrZYrLzbccFAQ",
         "operationName": "LiveCommerceItemsSlice",
@@ -6698,8 +6708,18 @@
         },
         "features": {}
     },
+    "SaveTrend": {
+        "queryId": "_fJD2rm-lJI06lKxbUZT2Q",
+        "operationName": "SaveTrend",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "AiTrendByRestId": {
-        "queryId": "P2_MIxpAGn7b6fRIiT0X-Q",
+        "queryId": "VuDLxy2eIhtl_ufLaeSxpg",
         "operationName": "AiTrendByRestId",
         "operationType": "query",
         "metadata": {
@@ -7606,7 +7626,14 @@
         "operationKind": "query",
         "text": null,
         "operationName": "JobRecommendationSettingsContainerQuery",
-        "queryId": "9ffulGyKqEFcBJY9lo30SA"
+        "queryId": "KyP8Xn6i971KhAlvtt82BA"
+    },
+    "useRefreshJobRecommendationsMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useRefreshJobRecommendationsMutation",
+        "queryId": "NjDhjn_53KnOmYAcoyxqew"
     },
     "JobSearchQueryScreenJobsQuery": {
         "metadata": {
@@ -7618,14 +7645,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "JobSearchQueryScreenJobsQuery",
-        "queryId": "tJI5ZVLxd7qD8d8Vh08jAQ"
-    },
-    "useRefreshJobRecommendationsMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useRefreshJobRecommendationsMutation",
-        "queryId": "NjDhjn_53KnOmYAcoyxqew"
+        "queryId": "JyATh-zc07YHeyDDl3rDgg"
     },
     "useSetupOrgMutation": {
         "metadata": {},
@@ -7773,7 +7793,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "PremiumSignUpQuery",
-        "queryId": "jWsLp9Dc2sazYryRsCqhZw"
+        "queryId": "FjYVIEM7Kk3l_RQupgKEbw"
     },
     "ProfessionalProfileQuery": {
         "metadata": {},
