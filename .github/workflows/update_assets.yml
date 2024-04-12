@@ -3,7 +3,7 @@ name: Update assets
 on:
     workflow_dispatch:
     schedule:
-        - cron: '0 0 * * *'
+        - cron: '2 0 * * *'
 jobs:
     build:
         runs-on: self-hosted
