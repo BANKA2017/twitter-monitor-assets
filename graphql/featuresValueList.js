@@ -388,7 +388,7 @@ export const _responsive_web_media_upload_target_jpg_pixels_per_byte = 1
 export const _responsive_web_menu_section_divider_enabled = false
 export const _responsive_web_messages_enabled = false
 export const _responsive_web_messages_next_enabled = false
-export const _responsive_web_messages_search_enabled = false
+export const _responsive_web_messages_search_enabled = true
 export const _responsive_web_mobile_app_spotlight_v1_config = false
 export const _responsive_web_mobile_app_spotlight_v1_display = false
 export const _responsive_web_multiple_account_limit = 5
@@ -452,7 +452,7 @@ export const _responsive_web_tweet_analytics_promoted_audience_demographics_enab
 export const _responsive_web_tweet_analytics_video_metrics_v2_enabled = true
 export const _responsive_web_twitter_article_block_limit = 10000
 export const _responsive_web_twitter_article_character_limit = 100
-export const _responsive_web_twitter_article_code_block_enabled = false
+export const _responsive_web_twitter_article_code_block_enabled = true
 export const _responsive_web_twitter_article_content_debounce_ms = 3000
 export const _responsive_web_twitter_article_insert_enabled = true
 export const _responsive_web_twitter_article_latex_enabled = false
