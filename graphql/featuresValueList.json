@@ -640,6 +640,7 @@
     "responsive_web_graphql_feedback": true,
     "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
     "responsive_web_graphql_timeline_navigation_enabled": true,
+    "responsive_web_grok_chat_history_enabled": false,
     "responsive_web_grok_delete_conversations_enabled": false,
     "responsive_web_grok_opt_out_enabled": false,
     "responsive_web_grok_prompt_deeplink_enabled": true,
@@ -678,6 +679,7 @@
     "responsive_web_media_upload_metrics_enabled": true,
     "responsive_web_media_upload_target_jpg_pixels_per_byte": 1,
     "responsive_web_menu_section_divider_enabled": false,
+    "responsive_web_messages_continue_enabled": false,
     "responsive_web_messages_enabled": false,
     "responsive_web_messages_related_enabled": false,
     "responsive_web_messages_search_enabled": true,
@@ -978,7 +980,6 @@
     "subscriptions_long_video_rweb_new_copy_enabled": true,
     "subscriptions_long_video_upload": true,
     "subscriptions_marketing_page_include_tax_enabled": true,
-    "subscriptions_marketing_page_redesign_enabled": true,
     "subscriptions_mute_ad_upsell_enabled": true,
     "subscriptions_premium_experiment_nav_text": false,
     "subscriptions_premium_tiers_default_product": "BlueVerifiedPlus",
@@ -1109,7 +1110,6 @@
     "tweet_limited_actions_config_community_tweet_member": [
         "embed",
         "pin_to_profile",
-        "retweet",
         "highlight"
     ],
     "tweet_limited_actions_config_community_tweet_member_removed": [
@@ -1140,7 +1140,6 @@
         "react",
         "reply",
         "reply_down_vote",
-        "retweet",
         "vote_on_poll",
         "highlight"
     ],
@@ -1150,7 +1149,6 @@
         "react",
         "reply",
         "reply_down_vote",
-        "retweet",
         "vote_on_poll",
         "highlight"
     ],
@@ -1160,7 +1158,6 @@
         "react",
         "reply",
         "reply_down_vote",
-        "retweet",
         "vote_on_poll",
         "highlight"
     ],
@@ -1268,6 +1265,5 @@
     "web_video_transcribed_captions_enabled": false,
     "xprofile_consumption_enabled": false,
     "xprofile_editing_enabled": false,
-    "xprofile_emojis_enabled": false,
-    "responsive_web_grok_chat_history_enabled": false
+    "xprofile_emojis_enabled": false
 }
