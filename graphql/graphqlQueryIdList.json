@@ -785,6 +785,13 @@
             "responsive_web_enhance_cards_enabled": false
         }
     },
+    "useVerifiedOrgFeatureHelperQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useVerifiedOrgFeatureHelperQuery",
+        "queryId": "l01KUB8NLHuocID_MLkX-g"
+    },
     "usersModuleProtectedQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -1425,13 +1432,6 @@
             "fieldToggles": []
         },
         "features": {}
-    },
-    "useVerifiedOrgFeaturesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useVerifiedOrgFeaturesQuery",
-        "queryId": "6jDY0S3hd5WFPN-5_OS2sQ"
     },
     "getAltTextPromptPreference": {
         "queryId": "PFIxTk8owMoZgiMccP0r4g",
@@ -8478,13 +8478,6 @@
             "responsive_web_enhance_cards_enabled": false
         }
     },
-    "HiddenVerifiedCheckmarkSettingsMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "HiddenVerifiedCheckmarkSettingsMutation",
-        "queryId": "_P16DPt32NaCPo9bXMci2Q"
-    },
     "GrokSettingsScreenQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8512,13 +8505,6 @@
         "text": null,
         "operationName": "MonetizationSettingsQuery",
         "queryId": "669l97INfasuMJpzgAZckA"
-    },
-    "CheckmarkSettingQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "CheckmarkSettingQuery",
-        "queryId": "oJhyh6QimXwVWm8iqv4Kpw"
     },
     "RitoFlaggedTweetsTimeline": {
         "queryId": "husVHJ3pbdcwd1aP-G0NNA",
@@ -8591,7 +8577,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "ProfileCustomizationScreenQuery",
-        "queryId": "ViUDXzQkTjCwRXgf3atc7A"
+        "queryId": "DFypLVll-XM7mFPmDuRmIA"
     },
     "DisableUserAccountLabel": {
         "queryId": "_ckHEj05gan2VfNHG6thBA",
@@ -8718,13 +8704,6 @@
         "operationName": "AddParticipantsMutation",
         "queryId": "oBwyQ0_xVbAQ8FAyG0pCRA"
     },
-    "ShareButton_shareGrokConversationMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "ShareButton_shareGrokConversationMutation",
-        "queryId": "s4k8WVy0TUoDGWGpb3PQnQ"
-    },
     "SentimentActionsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8821,6 +8800,13 @@
         "operationName": "useFetchAdminJobsQuery",
         "queryId": "Zwa1pAmGFWTEtv-ksvuhHg"
     },
+    "useVerifiedOrgSubscriptionDetailsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useVerifiedOrgSubscriptionDetailsQuery",
+        "queryId": "fj2ulMrJvcFooDZh_rz-1A"
+    },
     "JobListQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8891,13 +8877,6 @@
         "text": null,
         "operationName": "AffiliatesScreenAffiliatesQuery",
         "queryId": "W29_ue3uq9pXCbuknUJisg"
-    },
-    "useVerifiedOrgSubscriptionDetailsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useVerifiedOrgSubscriptionDetailsQuery",
-        "queryId": "fj2ulMrJvcFooDZh_rz-1A"
     },
     "useStripeCheckoutMutation": {
         "metadata": {},
