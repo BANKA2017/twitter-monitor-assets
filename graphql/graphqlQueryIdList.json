@@ -8275,7 +8275,7 @@
         "features": {}
     },
     "GrokConversationItemsByRestId": {
-        "queryId": "F4jX5YH_mtjCPLKIxM22Gg",
+        "queryId": "syZOJafnAX32mjD1JChdqw",
         "operationName": "GrokConversationItemsByRestId",
         "operationType": "query",
         "metadata": {
@@ -8341,7 +8341,7 @@
         }
     },
     "GrokHome": {
-        "queryId": "cdHoKeM-ZKjVA4Mu7mYz7A",
+        "queryId": "rkRtWImgl48lzYzk5giREg",
         "operationName": "GrokHome",
         "operationType": "query",
         "metadata": {
@@ -8361,7 +8361,7 @@
         "features": {}
     },
     "GrokShare": {
-        "queryId": "-u4at1S61H7uTLcPKtdEtw",
+        "queryId": "1nKe7Zv5k2EFKWXAZ37Byw",
         "operationName": "GrokShare",
         "operationType": "query",
         "metadata": {
@@ -8395,7 +8395,7 @@
         "features": {}
     },
     "GrokHistory": {
-        "queryId": "nAc4LtED5ISPG49b3twDiQ",
+        "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
         "operationName": "GrokHistory",
         "operationType": "query",
         "metadata": {
@@ -8730,6 +8730,13 @@
         "text": null,
         "operationName": "AddParticipantsMutation",
         "queryId": "oBwyQ0_xVbAQ8FAyG0pCRA"
+    },
+    "GrokHistory_DeleteConversationMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "GrokHistory_DeleteConversationMutation",
+        "queryId": "5z2yboe4gJu7-ei4npR9Bg"
     },
     "SentimentActionsQuery": {
         "metadata": {},
