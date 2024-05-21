@@ -262,7 +262,7 @@
     "blue_business_affiliates_list_order_setting_enabled": false,
     "blue_business_direct_invites_enabled": true,
     "blue_business_multi_affiliates_ui_enabled": false,
-    "blue_business_tier_switching_enabled": false,
+    "blue_business_tier_switching_enabled": true,
     "blue_business_username_change_prompt_enabled": true,
     "blue_business_verified_admin_cancellation_flow_enabled": true,
     "blue_business_verified_admin_enabled": true,
@@ -792,7 +792,6 @@
     "rweb_client_transaction_id_enabled": true,
     "rweb_creator_analytics_enabled": false,
     "rweb_enable_logged_out_search_search_bar_enabled": false,
-    "rweb_home_compact_inline_composer_enabled": false,
     "rweb_home_compact_timeline_enabled": false,
     "rweb_home_mixer_enable_social_context_filter_social_contexts": true,
     "rweb_home_nav_single_direction_scroll_enabled": false,
@@ -972,6 +971,7 @@
     "subscriptions_feature_premium_jobs": true,
     "subscriptions_hide_ad_upsell_enabled": true,
     "subscriptions_inapp_grok": true,
+    "subscriptions_inapp_grok_analyze": false,
     "subscriptions_inapp_grok_default_mode": "fun",
     "subscriptions_inapp_grok_disable_links": true,
     "subscriptions_inapp_grok_enable_roast_me_prompt": true,
@@ -1266,5 +1266,6 @@
     "web_video_transcribed_captions_enabled": false,
     "xprofile_consumption_enabled": false,
     "xprofile_editing_enabled": false,
-    "xprofile_emojis_enabled": false
+    "xprofile_emojis_enabled": false,
+    "xprofile_work_history_consumption_enabled": false
 }
