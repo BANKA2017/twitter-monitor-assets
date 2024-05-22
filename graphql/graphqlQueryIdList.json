@@ -7214,17 +7214,29 @@
         }
     },
     "BirdwatchFetchNoteTranslation": {
-        "queryId": "UZppVC62g5sGFE2k0FjVzw",
+        "queryId": "ANySWYw8kbPdkGt7JqH9mg",
         "operationName": "BirdwatchFetchNoteTranslation",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [
-                "responsive_web_birdwatch_translation_enabled"
+                "responsive_web_birdwatch_translation_enabled",
+                "responsive_web_graphql_timeline_navigation_enabled",
+                "rweb_tipjar_consumption_enabled",
+                "responsive_web_graphql_exclude_directive_enabled",
+                "verified_phone_label_enabled",
+                "responsive_web_graphql_skip_user_profile_image_extensions_enabled"
             ],
-            "fieldToggles": []
+            "fieldToggles": [
+                "withAuxiliaryUserLabels"
+            ]
         },
         "features": {
-            "responsive_web_birdwatch_translation_enabled": false
+            "responsive_web_birdwatch_translation_enabled": false,
+            "responsive_web_graphql_timeline_navigation_enabled": true,
+            "rweb_tipjar_consumption_enabled": true,
+            "responsive_web_graphql_exclude_directive_enabled": true,
+            "verified_phone_label_enabled": false,
+            "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false
         }
     },
     "BirdwatchFetchAliasSelfSelectOptions": {
@@ -7375,7 +7387,7 @@
         }
     },
     "BirdwatchFetchContributorNotesSlice": {
-        "queryId": "TFJGPWiqz1UeY7nktvHOdg",
+        "queryId": "DIv4Svm9rNNexJXtpODhRw",
         "operationName": "BirdwatchFetchContributorNotesSlice",
         "operationType": "query",
         "metadata": {
@@ -7452,7 +7464,7 @@
         "features": {}
     },
     "BirdwatchFetchNotes": {
-        "queryId": "sm90olUft05lYjzqqvT-Bg",
+        "queryId": "j4l7zYOXnGFJ_HHmufairw",
         "operationName": "BirdwatchFetchNotes",
         "operationType": "query",
         "metadata": {
@@ -7480,7 +7492,7 @@
         }
     },
     "BirdwatchFetchOneNote": {
-        "queryId": "X8OWH9Mq69TjQCoQdIYS0g",
+        "queryId": "srbqAEEL8v2ktXqz-UIJZQ",
         "operationName": "BirdwatchFetchOneNote",
         "operationType": "query",
         "metadata": {
@@ -7548,7 +7560,7 @@
         "features": {}
     },
     "BirdwatchCreateNote": {
-        "queryId": "tq8TvzVyQXM0bo_9GUojtA",
+        "queryId": "La4IR_AZpsqrVVJzh3-eHg",
         "operationName": "BirdwatchCreateNote",
         "operationType": "mutation",
         "metadata": {
