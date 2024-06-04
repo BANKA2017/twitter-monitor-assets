@@ -454,6 +454,7 @@
     "machine_translation_holdback_logged_in": false,
     "machine_translation_holdback_logged_out": false,
     "media_async_upload_amplify_duration_threshold": 600,
+    "media_async_upload_longer_dm_video_max_video_duration": 600,
     "media_async_upload_longer_video_max_video_duration": 14460,
     "media_async_upload_longer_video_max_video_size": 8388608,
     "media_async_upload_longer_video_resolution_selector": true,
@@ -544,6 +545,7 @@
     "responsive_web_birdwatch_consumption_enabled": true,
     "responsive_web_birdwatch_contribution_enabled": false,
     "responsive_web_birdwatch_country_allowed": true,
+    "responsive_web_birdwatch_match_page_enabled": true,
     "responsive_web_birdwatch_media_notes_enabled": true,
     "responsive_web_birdwatch_netzdg_enabled": false,
     "responsive_web_birdwatch_note_limit_enabled": true,
@@ -1266,8 +1268,8 @@
     "web_video_prefetch_playlist_autoplay_disabled": false,
     "web_video_safari_hlsjs_enabled": true,
     "web_video_transcribed_captions_enabled": false,
-    "xprofile_consumption_enabled": false,
-    "xprofile_editing_enabled": false,
-    "xprofile_emojis_enabled": false,
+    "xprofile_consumption_enabled": true,
+    "xprofile_editing_enabled": true,
+    "xprofile_emojis_enabled": true,
     "xprofile_work_history_consumption_enabled": true
 }
