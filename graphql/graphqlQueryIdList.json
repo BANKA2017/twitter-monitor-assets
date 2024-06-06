@@ -7020,20 +7020,6 @@
             "responsive_web_enhance_cards_enabled": false
         }
     },
-    "AccountAnalyticsQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "responsive_web_account_analytics_timeframe_enabled"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AccountAnalyticsQuery",
-        "queryId": "Hc0HE5Fz_FUZwR35Wn6qPQ",
-        "features": {
-            "responsive_web_account_analytics_timeframe_enabled": true
-        }
-    },
     "ArticleTweetsTimeline": {
         "queryId": "w7TCB9N9OlhKJIQKIbCqcg",
         "operationName": "ArticleTweetsTimeline",
@@ -7207,7 +7193,7 @@
             ]
         },
         "features": {
-            "responsive_web_birdwatch_translation_enabled": false,
+            "responsive_web_birdwatch_translation_enabled": true,
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "rweb_tipjar_consumption_enabled": true,
             "responsive_web_graphql_exclude_directive_enabled": true,
@@ -7459,7 +7445,7 @@
         },
         "features": {
             "responsive_web_birdwatch_media_notes_enabled": true,
-            "responsive_web_birdwatch_translation_enabled": false,
+            "responsive_web_birdwatch_translation_enabled": true,
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "rweb_tipjar_consumption_enabled": true,
             "responsive_web_graphql_exclude_directive_enabled": true,
@@ -7487,7 +7473,7 @@
         },
         "features": {
             "responsive_web_birdwatch_media_notes_enabled": true,
-            "responsive_web_birdwatch_translation_enabled": false,
+            "responsive_web_birdwatch_translation_enabled": true,
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "rweb_tipjar_consumption_enabled": true,
             "responsive_web_graphql_exclude_directive_enabled": true,
@@ -7620,7 +7606,7 @@
         },
         "features": {
             "responsive_web_birdwatch_media_notes_enabled": true,
-            "responsive_web_birdwatch_translation_enabled": false,
+            "responsive_web_birdwatch_translation_enabled": true,
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "rweb_tipjar_consumption_enabled": true,
             "responsive_web_graphql_exclude_directive_enabled": true,
@@ -8347,6 +8333,13 @@
         },
         "features": {}
     },
+    "MonetizationIDVScreenQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "MonetizationIDVScreenQuery",
+        "queryId": "YL--3gZGOFn6xigIZR2Rlg"
+    },
     "AudienceAndTaggingAllowVideoDownloadsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -8588,6 +8581,13 @@
         "operationName": "LocationSelectorQuery",
         "queryId": "hbib0bN-dlHHvUhiy3YVyg"
     },
+    "EditBlockBlockQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "EditBlockBlockQuery",
+        "queryId": "Thkreb9_48SocE6P2hP4yQ"
+    },
     "useEditSensitiveMediaSettingsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -8609,13 +8609,6 @@
         "operationName": "MonetizationAwardsRevenueQuery",
         "queryId": "kXcc0Edof6svF-lk2byuyg"
     },
-    "AdRevShareIDVScreenQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AdRevShareIDVScreenQuery",
-        "queryId": "auOnXjHMfUjAdEBiPpPdaA"
-    },
     "AdRevShareEligibilityScreenQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8629,13 +8622,6 @@
         "text": null,
         "operationName": "SuperFollowsSettingsQuery",
         "queryId": "msKFl0UFrF1P-nGdn9PY4Q"
-    },
-    "CreatorSubscriptionsIDVScreenQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "CreatorSubscriptionsIDVScreenQuery",
-        "queryId": "QdnL_pHqtseD4tLJSCAAjg"
     },
     "PreRollAdsEligibilityScreenQuery": {
         "metadata": {},
@@ -8700,12 +8686,19 @@
         "operationName": "FeedbackButtons_FeedbackMutation",
         "queryId": "-8ltiFRpwp6Daksi3btQug"
     },
+    "JobListItemContentUserQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "JobListItemContentUserQuery",
+        "queryId": "RxOP--hDqELH_fWn5VylUA"
+    },
     "SentimentActionsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "SentimentActionsQuery",
-        "queryId": "uxYPf68XNY3tbVWXs5aHmw"
+        "queryId": "qHd1d0swWQGc38vT_2YChQ"
     },
     "SentimentActionButtonMutation": {
         "metadata": {},
@@ -8810,12 +8803,12 @@
         "operationName": "JobListQuery",
         "queryId": "zi4Ytgt-xQDrYykb7-tmjQ"
     },
-    "AdvertisingScreenScheduledPromotionsQuery": {
+    "ScheduledPromotionsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "AdvertisingScreenScheduledPromotionsQuery",
-        "queryId": "nHIAnmq03OyW3aTAGFHuLQ"
+        "operationName": "ScheduledPromotionsQuery",
+        "queryId": "6IRVlz226IV3xB-ezvhcKg"
     },
     "useTierSwitchStatusQuery": {
         "metadata": {},
