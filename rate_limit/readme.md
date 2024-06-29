@@ -18,8 +18,8 @@
 | graphql:conversation            |            150 ❌ |            150 ❌ |            150 ❌ |            150 ❌ |            150 ✅ |            150 ✅ |
 | graphql:conversation_v2         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:tweet_result_by_id      |             50 ✅ |             50 ✅ |            300 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
-| graphql:search                  |             50 ❌ |             50 ❌ |           1200 ❌ |             50 ❌ |             50 ✅ |             50 ✅ |
-| graphql:search_client           |             50 ❌ |             50 ❌ |           1200 ❌ |             50 ❌ |             50 ✅ |             50 ✅ |
+| graphql:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
+| graphql:search_client           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:audiospace              |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
