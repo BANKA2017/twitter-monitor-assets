@@ -9253,13 +9253,6 @@
         "operationName": "PremiumHubQuery",
         "queryId": "ZSf-h40cwVaFsNHK_PiHUw"
     },
-    "JobListQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "JobListQuery",
-        "queryId": "zi4Ytgt-xQDrYykb7-tmjQ"
-    },
     "FeatureActionUnfeatureMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9288,12 +9281,19 @@
         "operationName": "useUpdateJobMutation",
         "queryId": "q48czDjETWjUNO2iNHSpyQ"
     },
+    "JobListQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "JobListQuery",
+        "queryId": "fsTUH1MmtCveYzW7UAWOeQ"
+    },
     "useFetchAdminJobsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "useFetchAdminJobsQuery",
-        "queryId": "Zwa1pAmGFWTEtv-ksvuhHg"
+        "queryId": "SzwNqQ3VZVEEd2h6p-791A"
     },
     "ScheduledPromotionsQuery": {
         "metadata": {},
@@ -9810,13 +9810,6 @@
         "operationName": "PremiumGiftingQuery",
         "queryId": "1l69l_17caIoKHypMFrLlg"
     },
-    "ProfileSpotlightsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ProfileSpotlightsQuery",
-        "queryId": "-0XdHI-mrHWBQd8-oLo1aA"
-    },
     "TweetStats": {
         "queryId": "EvbTkPDT-xQCfupPu0rWMA",
         "operationName": "TweetStats",
@@ -9832,6 +9825,13 @@
             "profile_foundations_tweet_stats_enabled": false,
             "profile_foundations_tweet_stats_tweet_frequency": false
         }
+    },
+    "ProfileSpotlightsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ProfileSpotlightsQuery",
+        "queryId": "-0XdHI-mrHWBQd8-oLo1aA"
     },
     "PeopleSearchListQuery": {
         "metadata": {},
