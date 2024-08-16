@@ -318,7 +318,6 @@
     "communities_topic_display": true,
     "communities_topics_enabled": true,
     "communities_web_enable_tweet_community_results_fetch": true,
-    "conversation_controls_my_subscribers_enabled": true,
     "conversation_controls_verified_only_enabled": true,
     "conversational_safety_heads_up_treatment_A_enabled": "",
     "creator_monetization_profile_subscription_tweets_tab_enabled": true,
@@ -668,6 +667,7 @@
         "image/png"
     ],
     "responsive_web_grok_file_upload_enabled": false,
+    "responsive_web_grok_in_app_learn_more": "https://x.com/xai/status/1823597788573098215",
     "responsive_web_grok_model_selector_enabled": true,
     "responsive_web_grok_opt_out_enabled": true,
     "responsive_web_grok_prompt_deeplink_enabled": true,
@@ -771,6 +771,7 @@
     "responsive_web_trends_ui_community_notes_enabled": false,
     "responsive_web_trends_ui_top_articles": true,
     "responsive_web_tv_cast_enabled": true,
+    "responsive_web_tv_screen_logging_enabled": false,
     "responsive_web_tweet_analytics_m2_enabled": false,
     "responsive_web_tweet_analytics_m3_enabled": false,
     "responsive_web_tweet_analytics_promoted_audience_demographics_enabled": false,
@@ -825,6 +826,7 @@
     "rweb_2_column_htl_prototype_virtual_scroller_enabled": false,
     "rweb_analytics_content_page_new_query_enabled": true,
     "rweb_analytics_country_device_breakdown_enabled": true,
+    "rweb_analytics_device_breakdown_enabled": false,
     "rweb_analytics_export_data_enabled": false,
     "rweb_analytics_in_out_network_enabled": false,
     "rweb_analytics_post_audience_page_enabled": true,
@@ -833,6 +835,7 @@
     "rweb_client_transaction_id_enabled": true,
     "rweb_conf_enabled": false,
     "rweb_creator_analytics_enabled": true,
+    "rweb_dummy_audio_enabled": true,
     "rweb_enable_logged_out_search_search_bar_enabled": false,
     "rweb_home_compact_timeline_enabled": false,
     "rweb_home_mixer_enable_social_context_filter_social_contexts": true,
@@ -1322,5 +1325,5 @@
     "xprofile_emojis_enabled": true,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_enabled": true,
-    "responsive_web_tv_screen_logging_enabled": false
+    "rweb_spatial_audio_enabled": true
 }

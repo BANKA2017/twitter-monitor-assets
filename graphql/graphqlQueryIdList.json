@@ -9286,14 +9286,14 @@
         "operationKind": "query",
         "text": null,
         "operationName": "JobListQuery",
-        "queryId": "U39YKM158WO45amjK5YzuQ"
+        "queryId": "wiHvWDhTmGrpvUBjmrBixQ"
     },
     "useFetchAdminJobsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "useFetchAdminJobsQuery",
-        "queryId": "dmgKOQEmCjinzQUHc5i2gw"
+        "queryId": "eZKFLqDOrHSwCwsfCyqBnw"
     },
     "ScheduledPromotionsQuery": {
         "metadata": {},
@@ -9854,12 +9854,19 @@
         "operationName": "InsightsDetailsUpdateMutation",
         "queryId": "50nu6iYj-4IMfzpafIYLAw"
     },
-    "PostCountContextQuery": {
+    "PostListTopPostsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "PostCountContextQuery",
-        "queryId": "60cWsxqIZ2Iwqn4Tc-bmgQ"
+        "operationName": "PostListTopPostsQuery",
+        "queryId": "6JIHXzAgBHm6U8zBIIdA0A"
+    },
+    "PostListLatestPostsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "PostListLatestPostsQuery",
+        "queryId": "GKFXRuZmd8-iBur2szhB8g"
     },
     "CreateInsightInputQuery": {
         "metadata": {},
@@ -9867,6 +9874,13 @@
         "text": null,
         "operationName": "CreateInsightInputQuery",
         "queryId": "oKZ7joWc-rKapCC1xAJFXg"
+    },
+    "PostCountContextQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "PostCountContextQuery",
+        "queryId": "60cWsxqIZ2Iwqn4Tc-bmgQ"
     },
     "DeleteInsightButtonMutation": {
         "metadata": {},
@@ -9881,13 +9895,6 @@
         "text": null,
         "operationName": "InsightsDetailsGetQuery",
         "queryId": "TBbPfYSzjLbsskwTd3G8BA"
-    },
-    "PostListQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "PostListQuery",
-        "queryId": "pKJ2oTdmQi70EGLlsiEt-Q"
     },
     "FollowHostButtonQuery": {
         "metadata": {},
