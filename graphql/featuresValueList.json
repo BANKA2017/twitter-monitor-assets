@@ -318,8 +318,6 @@
     "communities_topic_display": true,
     "communities_topics_enabled": true,
     "communities_web_enable_tweet_community_results_fetch": true,
-    "conversation_controls_verified_only_enabled": true,
-    "conversational_safety_heads_up_treatment_A_enabled": "",
     "creator_monetization_profile_subscription_tweets_tab_enabled": true,
     "creator_monetization_video_ads_onboarding": false,
     "creator_monetization_web_tips_dashboard_enabled": false,
@@ -503,6 +501,7 @@
         "en",
         "ja"
     ],
+    "payments_pin_enabled": false,
     "professional_launchpad_m1_enabled": true,
     "professional_launchpad_mobile_promotable_timeline": false,
     "professional_launchpad_upload_address_book": true,
@@ -827,7 +826,7 @@
     "rweb_analytics_content_page_new_query_enabled": true,
     "rweb_analytics_country_device_breakdown_enabled": true,
     "rweb_analytics_device_breakdown_enabled": false,
-    "rweb_analytics_export_data_enabled": false,
+    "rweb_analytics_export_data_enabled": true,
     "rweb_analytics_in_out_network_enabled": false,
     "rweb_analytics_post_audience_page_enabled": true,
     "rweb_analytics_theme": false,
@@ -857,6 +856,7 @@
     "rweb_sidebar_lower_whats_happening_enabled": false,
     "rweb_spaces_invite_search_enabled": true,
     "rweb_spaces_next_codec_enabled": true,
+    "rweb_spatial_audio_enabled": true,
     "rweb_tipjar_consumption_enabled": true,
     "rweb_tweets_boosting_enabled": true,
     "rweb_tweets_reply_context_hidden": true,
@@ -1324,6 +1324,5 @@
     "xprofile_editing_enabled": true,
     "xprofile_emojis_enabled": true,
     "xprofile_work_history_consumption_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "rweb_spatial_audio_enabled": true
+    "xprofile_work_history_enabled": true
 }
