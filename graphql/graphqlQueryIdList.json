@@ -9840,13 +9840,6 @@
         "operationName": "PeopleSearchListQuery",
         "queryId": "oKGys7yWCJaC1sH2WEynFg"
     },
-    "InsightsListQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "InsightsListQuery",
-        "queryId": "e3dhyqTozdzZWdmVP_MDQg"
-    },
     "InsightsDetailsUpdateMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9861,6 +9854,27 @@
         "operationName": "PostListTopPostsQuery",
         "queryId": "6JIHXzAgBHm6U8zBIIdA0A"
     },
+    "InsightsListContextQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "InsightsListContextQuery",
+        "queryId": "r3T0ZwKT4KR-Y6lzsuLO8A"
+    },
+    "useUserClaimsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useUserClaimsQuery",
+        "queryId": "5iEUNKRzCRIpQuybnrHNiw"
+    },
+    "usePostCountQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePostCountQuery",
+        "queryId": "x1h45DzULWzptcoHcFBfHA"
+    },
     "PostListLatestPostsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9874,13 +9888,6 @@
         "text": null,
         "operationName": "CreateInsightInputQuery",
         "queryId": "oKZ7joWc-rKapCC1xAJFXg"
-    },
-    "PostCountContextQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "PostCountContextQuery",
-        "queryId": "60cWsxqIZ2Iwqn4Tc-bmgQ"
     },
     "DeleteInsightButtonMutation": {
         "metadata": {},
