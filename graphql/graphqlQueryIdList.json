@@ -9847,13 +9847,6 @@
         "operationName": "InsightsDetailsUpdateMutation",
         "queryId": "50nu6iYj-4IMfzpafIYLAw"
     },
-    "PostListTopPostsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "PostListTopPostsQuery",
-        "queryId": "6JIHXzAgBHm6U8zBIIdA0A"
-    },
     "InsightsListContextQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9875,13 +9868,6 @@
         "operationName": "usePostCountQuery",
         "queryId": "x1h45DzULWzptcoHcFBfHA"
     },
-    "PostListLatestPostsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "PostListLatestPostsQuery",
-        "queryId": "GKFXRuZmd8-iBur2szhB8g"
-    },
     "CreateInsightInputQuery": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9902,6 +9888,13 @@
         "text": null,
         "operationName": "InsightsDetailsGetQuery",
         "queryId": "TBbPfYSzjLbsskwTd3G8BA"
+    },
+    "PostListQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "PostListQuery",
+        "queryId": "jyC-boVKED0tofnEyveyQQ"
     },
     "FollowHostButtonQuery": {
         "metadata": {},
