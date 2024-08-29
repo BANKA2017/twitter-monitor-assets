@@ -433,6 +433,7 @@
     "identity_verification_settings_enabled": true,
     "identity_verification_vendor_idv_migration_enabled": false,
     "immersive_viewer_enable_profile_viewer": false,
+    "insights_chart_filter_enabled": false,
     "krs_registration_enabled": false,
     "live_event_docking_enabled": true,
     "live_event_interstitial_seen_cache_enabled": true,
@@ -1051,7 +1052,7 @@
     "subscriptions_inapp_grok_video_upsell": "https://abs.twimg.com/sticky/videos/inapp_dark_square_v4.mp4",
     "subscriptions_inapp_grok_video_upsell_dim": "https://abs.twimg.com/sticky/videos/inapp_dim_square_v4.mp4",
     "subscriptions_inapp_grok_video_upsell_light": "https://abs.twimg.com/sticky/videos/inapp_light_square_v4.mp4",
-    "subscriptions_is_blue_verified_review_status_profile_enabled": false,
+    "subscriptions_is_blue_verified_review_status_profile_enabled": true,
     "subscriptions_long_video_rweb_new_copy_enabled": true,
     "subscriptions_long_video_upload": true,
     "subscriptions_marketing_page_discounts_enabled": true,
@@ -1067,6 +1068,8 @@
     "subscriptions_report_ad_upsell_enabled": true,
     "subscriptions_sign_up_enabled": true,
     "subscriptions_stripe_testing": false,
+    "subscriptions_upsells_analytics_profile_enabled": false,
+    "subscriptions_upsells_analytics_profile_variant": "",
     "subscriptions_upsells_get_verified_profile": false,
     "subscriptions_upsells_longform_sidebar_variant": "",
     "subscriptions_upsells_premium_home_nav": "",
@@ -1100,6 +1103,7 @@
     "trusted_friends_dash_discovery_enabled": false,
     "trusted_friends_tweet_creation_enabled": false,
     "tv_app_qrcode_login_enabled": true,
+    "tv_app_samsung_exit_configuration": "EXIT",
     "tweet_awards_web_coin_purchase_enabled": false,
     "tweet_awards_web_coin_purchase_sandbox_enabled": false,
     "tweet_awards_web_non_focal_tweet_coins_enabled": false,
@@ -1348,5 +1352,6 @@
     "xprofile_editing_enabled": true,
     "xprofile_emojis_enabled": true,
     "xprofile_work_history_consumption_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "verified_vo_refreshed_advertising_screen_enabled": true
 }

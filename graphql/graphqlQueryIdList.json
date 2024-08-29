@@ -7587,6 +7587,13 @@
         },
         "features": {}
     },
+    "overviewDataPostQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "overviewDataPostQuery",
+        "queryId": "m4NVCqWXD-Mg19vHJB9RGA"
+    },
     "ArticleTimeline": {
         "queryId": "Zoq3J6IOxvRaJ-t9LyMK_A",
         "operationName": "ArticleTimeline",
@@ -9810,6 +9817,13 @@
         "operationName": "PremiumGiftingQuery",
         "queryId": "1l69l_17caIoKHypMFrLlg"
     },
+    "useFetchAnalyticsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchAnalyticsQuery",
+        "queryId": "5JkoDLRvQrXv2QV4U5gKFg"
+    },
     "TweetStats": {
         "queryId": "EvbTkPDT-xQCfupPu0rWMA",
         "operationName": "TweetStats",
@@ -9825,13 +9839,6 @@
             "profile_foundations_tweet_stats_enabled": false,
             "profile_foundations_tweet_stats_tweet_frequency": false
         }
-    },
-    "ProfileSpotlightsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ProfileSpotlightsQuery",
-        "queryId": "-0XdHI-mrHWBQd8-oLo1aA"
     },
     "PeopleSearchListQuery": {
         "metadata": {},
@@ -9874,13 +9881,6 @@
         "text": null,
         "operationName": "CreateInsightInputQuery",
         "queryId": "oKZ7joWc-rKapCC1xAJFXg"
-    },
-    "DeleteInsightButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "DeleteInsightButtonMutation",
-        "queryId": "PxZeB_GBK2iAG3cu6YDF1g"
     },
     "InsightsDetailsGetQuery": {
         "metadata": {},
