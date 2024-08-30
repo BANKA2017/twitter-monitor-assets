@@ -2441,6 +2441,13 @@
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
     },
+    "useVerifiedOrgSubscriptionDetailsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useVerifiedOrgSubscriptionDetailsQuery",
+        "queryId": "fj2ulMrJvcFooDZh_rz-1A"
+    },
     "GenericTimelineById": {
         "queryId": "vCtY9zrenXNJcbNl1rqNjw",
         "operationName": "GenericTimelineById",
@@ -7978,12 +7985,13 @@
         }
     },
     "BirdwatchCreateNote": {
-        "queryId": "oRoMBcjBXh6iz6PkafNPdg",
+        "queryId": "-12_MtS7WzLb0tjO6F7A_w",
         "operationName": "BirdwatchCreateNote",
         "operationType": "mutation",
         "metadata": {
             "featureSwitches": [
                 "responsive_web_birdwatch_media_notes_enabled",
+                "responsive_web_birdwatch_url_notes_enabled",
                 "responsive_web_birdwatch_translation_enabled",
                 "responsive_web_graphql_timeline_navigation_enabled",
                 "rweb_tipjar_consumption_enabled",
@@ -7997,6 +8005,7 @@
         },
         "features": {
             "responsive_web_birdwatch_media_notes_enabled": true,
+            "responsive_web_birdwatch_url_notes_enabled": false,
             "responsive_web_birdwatch_translation_enabled": true,
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "rweb_tipjar_consumption_enabled": true,
@@ -8148,12 +8157,13 @@
         "features": {}
     },
     "BirdwatchFetchNotes": {
-        "queryId": "tN61H6PgO4UgYB2QKJCBvg",
+        "queryId": "GXPKelZ-em7ugrJ9GHH0tA",
         "operationName": "BirdwatchFetchNotes",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [
                 "responsive_web_birdwatch_media_notes_enabled",
+                "responsive_web_birdwatch_url_notes_enabled",
                 "responsive_web_birdwatch_translation_enabled",
                 "responsive_web_graphql_timeline_navigation_enabled",
                 "rweb_tipjar_consumption_enabled",
@@ -8167,6 +8177,7 @@
         },
         "features": {
             "responsive_web_birdwatch_media_notes_enabled": true,
+            "responsive_web_birdwatch_url_notes_enabled": false,
             "responsive_web_birdwatch_translation_enabled": true,
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "rweb_tipjar_consumption_enabled": true,
@@ -8226,12 +8237,13 @@
         "features": {}
     },
     "BirdwatchFetchOneNote": {
-        "queryId": "zzrrQ2D5JMaXlUtuXlgW4w",
+        "queryId": "UffJ1h9UEaqKlGqR8nf-PA",
         "operationName": "BirdwatchFetchOneNote",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [
                 "responsive_web_birdwatch_media_notes_enabled",
+                "responsive_web_birdwatch_url_notes_enabled",
                 "responsive_web_birdwatch_translation_enabled",
                 "responsive_web_graphql_timeline_navigation_enabled",
                 "rweb_tipjar_consumption_enabled",
@@ -8245,6 +8257,7 @@
         },
         "features": {
             "responsive_web_birdwatch_media_notes_enabled": true,
+            "responsive_web_birdwatch_url_notes_enabled": false,
             "responsive_web_birdwatch_translation_enabled": true,
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "rweb_tipjar_consumption_enabled": true,
@@ -9260,13 +9273,6 @@
         "operationName": "PremiumHubQuery",
         "queryId": "ZSf-h40cwVaFsNHK_PiHUw"
     },
-    "useVerifiedOrgSubscriptionDetailsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useVerifiedOrgSubscriptionDetailsQuery",
-        "queryId": "fj2ulMrJvcFooDZh_rz-1A"
-    },
     "FeatureActionUnfeatureMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9302,6 +9308,13 @@
         "operationName": "useFetchAdminJobsQuery",
         "queryId": "tKFZsaGv-5RsfyORFTY-RQ"
     },
+    "ScheduledPromotionsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ScheduledPromotionsQuery",
+        "queryId": "DwmNKZXS-QQLRd3_U17X3A"
+    },
     "useTierSwitchStatusQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9322,13 +9335,6 @@
         "text": null,
         "operationName": "CancelFlowOfferQuery",
         "queryId": "NaVp35ScHTh-CVUA9-kYwQ"
-    },
-    "ScheduledPromotionsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ScheduledPromotionsQuery",
-        "queryId": "DwmNKZXS-QQLRd3_U17X3A"
     },
     "useAffiliatesAndInvitesQuery": {
         "metadata": {},
