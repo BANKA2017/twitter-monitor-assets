@@ -9888,12 +9888,19 @@
         "operationName": "PeopleSearchListQuery",
         "queryId": "oKGys7yWCJaC1sH2WEynFg"
     },
-    "InsightsDetailsUpdateMutation": {
+    "AiTrendsSearchQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AiTrendsSearchQuery",
+        "queryId": "Hov00l5SN17KXDJvkOG5wA"
+    },
+    "CreateInsightInputQuery": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "InsightsDetailsUpdateMutation",
-        "queryId": "50nu6iYj-4IMfzpafIYLAw"
+        "operationName": "CreateInsightInputQuery",
+        "queryId": "oKZ7joWc-rKapCC1xAJFXg"
     },
     "InsightsListContextQuery": {
         "metadata": {},
@@ -9901,20 +9908,6 @@
         "text": null,
         "operationName": "InsightsListContextQuery",
         "queryId": "r3T0ZwKT4KR-Y6lzsuLO8A"
-    },
-    "PostListQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "PostListQuery",
-        "queryId": "jyC-boVKED0tofnEyveyQQ"
-    },
-    "AiTrendsSearchQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AiTrendsSearchQuery",
-        "queryId": "Hov00l5SN17KXDJvkOG5wA"
     },
     "useUserClaimsQuery": {
         "metadata": {},
@@ -9930,19 +9923,26 @@
         "operationName": "usePostCountQuery",
         "queryId": "x1h45DzULWzptcoHcFBfHA"
     },
-    "CreateInsightInputQuery": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "CreateInsightInputQuery",
-        "queryId": "oKZ7joWc-rKapCC1xAJFXg"
-    },
-    "InsightsDetailsGetQuery": {
+    "PostListQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "InsightsDetailsGetQuery",
-        "queryId": "TBbPfYSzjLbsskwTd3G8BA"
+        "operationName": "PostListQuery",
+        "queryId": "jyC-boVKED0tofnEyveyQQ"
+    },
+    "InsightProviderGetQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "InsightProviderGetQuery",
+        "queryId": "AJebrA37UGlqMZPjWS7nSg"
+    },
+    "InsightProviderUpdateMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "InsightProviderUpdateMutation",
+        "queryId": "kzmTVWGUbSjXLfqEcC2VVA"
     },
     "FollowHostButtonQuery": {
         "metadata": {},

@@ -667,6 +667,7 @@
     "responsive_web_grok_animated_text_enabled": true,
     "responsive_web_grok_chat_history_enabled": true,
     "responsive_web_grok_delete_conversations_enabled": true,
+    "responsive_web_grok_file_compression_enabled": true,
     "responsive_web_grok_file_max_size": 5242880,
     "responsive_web_grok_file_supported_mimetypes": [
         "image/jpg",
@@ -706,6 +707,7 @@
     "responsive_web_grok_trends_design_enabled": false,
     "responsive_web_grok_v2_start_screen_enabled": true,
     "responsive_web_grok_v2_upsell_enabled": true,
+    "responsive_web_grok_webview_file_actions_enabled": false,
     "responsive_web_grok_webview_file_upload_enabled": false,
     "responsive_web_hashtag_highlight_is_enabled": false,
     "responsive_web_hashtag_highlight_show_avatar": false,
@@ -862,6 +864,7 @@
     "rweb_client_transaction_id_enabled": true,
     "rweb_conf_enabled": true,
     "rweb_conf_merged_audio_in_enabled": true,
+    "rweb_conf_rnnoise_enabled": false,
     "rweb_creator_analytics_enabled": true,
     "rweb_dummy_audio_enabled": true,
     "rweb_enable_logged_out_search_search_bar_enabled": false,
