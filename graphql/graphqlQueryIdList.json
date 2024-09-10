@@ -1213,13 +1213,6 @@
         },
         "features": {}
     },
-    "useRelayDelegateDataQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useRelayDelegateDataQuery",
-        "queryId": "uVSfSBLEpnAQ7NfZ4umyXg"
-    },
     "UserAboutTimeline": {
         "queryId": "iTDi9UUsvZ5OfzL2jYPv-g",
         "operationName": "UserAboutTimeline",
@@ -3468,6 +3461,13 @@
             "longform_notetweets_inline_media_enabled": true,
             "responsive_web_enhance_cards_enabled": false
         }
+    },
+    "useRelayDelegateDataPendingQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useRelayDelegateDataPendingQuery",
+        "queryId": "0d3YLrCrAvgiPrMFGc33SA"
     },
     "TopicUndoNotInterested": {
         "queryId": "4tVnt6FoSxaX8L-mDDJo4Q",
@@ -6786,13 +6786,6 @@
         },
         "features": {}
     },
-    "AccountSwitcherDelegateQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AccountSwitcherDelegateQuery",
-        "queryId": "1gowCMPzY09WyApNQM68kA"
-    },
     "EnableLoggedOutWebNotifications": {
         "queryId": "BqIHKmwZKtiUBPi07jKctg",
         "operationName": "EnableLoggedOutWebNotifications",
@@ -7876,7 +7869,7 @@
         "features": {}
     },
     "BirdwatchFetchContributorNotesSlice": {
-        "queryId": "QDC16Dag-V7M4ZIpFFsNvw",
+        "queryId": "UTqroyQoGoJ4kIUYj2FxgQ",
         "operationName": "BirdwatchFetchContributorNotesSlice",
         "operationType": "query",
         "metadata": {
@@ -8006,7 +7999,7 @@
         }
     },
     "BirdwatchCreateNote": {
-        "queryId": "x8P2D5IURH2pedYotYuLPg",
+        "queryId": "s1dqV02ubRTzJyeCLJDUOA",
         "operationName": "BirdwatchCreateNote",
         "operationType": "mutation",
         "metadata": {
@@ -8178,7 +8171,7 @@
         "features": {}
     },
     "BirdwatchFetchNotes": {
-        "queryId": "dXahn3PnV__Cv8bNeeoAEw",
+        "queryId": "p-CVMyCQg7ZObeL4OvsQcg",
         "operationName": "BirdwatchFetchNotes",
         "operationType": "query",
         "metadata": {
@@ -8258,7 +8251,7 @@
         "features": {}
     },
     "BirdwatchFetchOneNote": {
-        "queryId": "C3gksbRr7pTLju2MI3z-XA",
+        "queryId": "t-op2R8aP11yLcAeMHbCMg",
         "operationName": "BirdwatchFetchOneNote",
         "operationType": "query",
         "metadata": {
