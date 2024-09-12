@@ -106,6 +106,16 @@
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
     },
+    "dmBlockUser": {
+        "queryId": "IYw9u1KEhrS-t-BXsau4Uw",
+        "operationName": "dmBlockUser",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "TopicsPickerPageById": {
         "queryId": "pGFjPkKn9WmoZPiW1TueCQ",
         "operationName": "TopicsPickerPageById",
@@ -1480,6 +1490,70 @@
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
             "creator_subscriptions_tweet_preview_api_enabled": true,
+            "communities_web_enable_tweet_community_results_fetch": true,
+            "c9s_tweet_anatomy_moderator_badge_enabled": true,
+            "articles_preview_enabled": true,
+            "responsive_web_edit_tweet_api_enabled": true,
+            "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
+            "view_counts_everywhere_api_enabled": true,
+            "longform_notetweets_consumption_enabled": true,
+            "responsive_web_twitter_article_tweet_consumption_enabled": true,
+            "tweet_awards_web_tipping_enabled": false,
+            "creator_subscriptions_quote_tweet_preview_enabled": false,
+            "freedom_of_speech_not_reach_fetch_enabled": true,
+            "standardized_nudges_misinfo": true,
+            "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": true,
+            "rweb_video_timestamps_enabled": true,
+            "longform_notetweets_rich_text_read_enabled": true,
+            "longform_notetweets_inline_media_enabled": true,
+            "responsive_web_enhance_cards_enabled": false
+        }
+    },
+    "GlobalCommunitiesPostSearchTimeline": {
+        "queryId": "6qcbLxkCn3_yU6Zbnnwdpg",
+        "operationName": "GlobalCommunitiesPostSearchTimeline",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [
+                "rweb_tipjar_consumption_enabled",
+                "responsive_web_graphql_exclude_directive_enabled",
+                "verified_phone_label_enabled",
+                "creator_subscriptions_tweet_preview_api_enabled",
+                "responsive_web_graphql_timeline_navigation_enabled",
+                "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+                "communities_web_enable_tweet_community_results_fetch",
+                "c9s_tweet_anatomy_moderator_badge_enabled",
+                "articles_preview_enabled",
+                "responsive_web_edit_tweet_api_enabled",
+                "graphql_is_translatable_rweb_tweet_is_translatable_enabled",
+                "view_counts_everywhere_api_enabled",
+                "longform_notetweets_consumption_enabled",
+                "responsive_web_twitter_article_tweet_consumption_enabled",
+                "tweet_awards_web_tipping_enabled",
+                "creator_subscriptions_quote_tweet_preview_enabled",
+                "freedom_of_speech_not_reach_fetch_enabled",
+                "standardized_nudges_misinfo",
+                "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled",
+                "rweb_video_timestamps_enabled",
+                "longform_notetweets_rich_text_read_enabled",
+                "longform_notetweets_inline_media_enabled",
+                "responsive_web_enhance_cards_enabled"
+            ],
+            "fieldToggles": [
+                "withAuxiliaryUserLabels",
+                "withArticleRichContentState",
+                "withArticlePlainText",
+                "withGrokAnalyze",
+                "withDisallowedReplyControls"
+            ]
+        },
+        "features": {
+            "rweb_tipjar_consumption_enabled": true,
+            "responsive_web_graphql_exclude_directive_enabled": true,
+            "verified_phone_label_enabled": false,
+            "creator_subscriptions_tweet_preview_api_enabled": true,
+            "responsive_web_graphql_timeline_navigation_enabled": true,
+            "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
             "communities_web_enable_tweet_community_results_fetch": true,
             "c9s_tweet_anatomy_moderator_badge_enabled": true,
             "articles_preview_enabled": true,
@@ -3362,6 +3436,16 @@
         "queryId": "xFxU-O8hEYe74ovNVU74jA",
         "operationName": "UserPreferences",
         "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "dmUnblockUser": {
+        "queryId": "Krbs6Nak_o7liWQwfV1jOQ",
+        "operationName": "dmUnblockUser",
+        "operationType": "mutation",
         "metadata": {
             "featureSwitches": [],
             "fieldToggles": []
@@ -8525,7 +8609,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "CommunityAnalyticsQuery",
-        "queryId": "bZsQHlMXfn-6-COxJPiDWQ"
+        "queryId": "WjkcJu3u0ICw288PAUaPOQ"
     },
     "PeopleCommunity_Query": {
         "metadata": {},
@@ -9247,6 +9331,18 @@
         "operationName": "JobRecommendationSettingsContainerQuery",
         "queryId": "KyP8Xn6i971KhAlvtt82BA"
     },
+    "JobSearchQueryScreenJobsQuery": {
+        "metadata": {
+            "sliceInfoPath": [
+                "job_search",
+                "slice_info"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "JobSearchQueryScreenJobsQuery",
+        "queryId": "JyATh-zc07YHeyDDl3rDgg"
+    },
     "useRefreshJobRecommendationsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9260,18 +9356,6 @@
         "text": null,
         "operationName": "JobScreenQuery",
         "queryId": "lkS1Zj_iyLY_hmJCQIqqJg"
-    },
-    "JobSearchQueryScreenJobsQuery": {
-        "metadata": {
-            "sliceInfoPath": [
-                "job_search",
-                "slice_info"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "JobSearchQueryScreenJobsQuery",
-        "queryId": "JyATh-zc07YHeyDDl3rDgg"
     },
     "useSetupOrgMutation": {
         "metadata": {},
@@ -9893,14 +9977,14 @@
         "operationKind": "mutation",
         "text": null,
         "operationName": "CreateInsightInputQuery",
-        "queryId": "oKZ7joWc-rKapCC1xAJFXg"
+        "queryId": "EWYTDHmJ-dxddcbDywGrhQ"
     },
     "InsightsListContextQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "InsightsListContextQuery",
-        "queryId": "r3T0ZwKT4KR-Y6lzsuLO8A"
+        "queryId": "wEO7pdJTiLlv-mykAzPHuA"
     },
     "useUserClaimsQuery": {
         "metadata": {},
@@ -9914,7 +9998,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePostCountQuery",
-        "queryId": "x1h45DzULWzptcoHcFBfHA"
+        "queryId": "bcYnBtV-7Mr_vbWIY4utWA"
     },
     "PostListQuery": {
         "metadata": {},
@@ -9928,14 +10012,14 @@
         "operationKind": "query",
         "text": null,
         "operationName": "InsightProviderGetQuery",
-        "queryId": "AJebrA37UGlqMZPjWS7nSg"
+        "queryId": "jR9OeieCNClxHf0tN9hvZA"
     },
     "InsightProviderUpdateMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "InsightProviderUpdateMutation",
-        "queryId": "kzmTVWGUbSjXLfqEcC2VVA"
+        "queryId": "rPEPKWpsbAqQCh0c67otcQ"
     },
     "FollowHostButtonQuery": {
         "metadata": {},

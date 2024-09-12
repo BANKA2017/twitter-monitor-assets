@@ -948,11 +948,11 @@
                 "label": "restful:broadcast"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 403,
+                "message": "Forbidden",
                 "rate_limit": "_",
                 "rate_limit_reset": "_",
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.twitter.com/1.1/live_video_stream/status/28_1645992664519655424?client=web&use_syndication_guest_id=false&cookie_set_host=twitter.com",
                 "method": "GET",
                 "label": "restful:live_stream"
