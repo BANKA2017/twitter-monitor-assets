@@ -836,7 +836,7 @@
     "responsive_web_verified_organizations_insights_enabled": true,
     "responsive_web_verified_organizations_invoice_enabled": false,
     "responsive_web_verified_organizations_invoice_update_enabled": true,
-    "responsive_web_verified_organizations_new_support_entry_enabled": false,
+    "responsive_web_verified_organizations_new_support_entry_enabled": true,
     "responsive_web_verified_organizations_paid_to_invoice_enabled": false,
     "responsive_web_verified_organizations_people_search_enabled": false,
     "responsive_web_verified_organizations_people_search_onboarding_enabled": false,
@@ -866,6 +866,7 @@
     "rweb_client_transaction_id_enabled": true,
     "rweb_conf_enabled": true,
     "rweb_conf_less_video_enabled": true,
+    "rweb_conf_only_enabled": false,
     "rweb_conf_rnnoise_enabled": true,
     "rweb_creator_analytics_enabled": true,
     "rweb_dummy_audio_enabled": true,
@@ -1366,5 +1367,6 @@
     "xprofile_editing_enabled": true,
     "xprofile_emojis_enabled": true,
     "xprofile_work_history_consumption_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_conf_grid_enabled": true
 }
