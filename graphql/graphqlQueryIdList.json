@@ -5568,6 +5568,16 @@
         "operationName": "TranslationFeedbackProvideFeedbackMutation",
         "queryId": "5sPWsMj6Tl23V6v_0CEUsQ"
     },
+    "DeleteGrokMessage": {
+        "queryId": "kaH0vdJmbuocpRAeWpRC7A",
+        "operationName": "DeleteGrokMessage",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "TargetingKeywordsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -5756,7 +5766,7 @@
         }
     },
     "GrokConversationItemsByRestId": {
-        "queryId": "sH3hGZ-Kr7Cr22GpTrfjbg",
+        "queryId": "5WCPrcgGhqBZ4ktGZ0todw",
         "operationName": "GrokConversationItemsByRestId",
         "operationType": "query",
         "metadata": {
@@ -9894,6 +9904,13 @@
         "text": null,
         "operationName": "AiTrendsSearchQuery",
         "queryId": "Hov00l5SN17KXDJvkOG5wA"
+    },
+    "useMatchedPostMetricsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useMatchedPostMetricsQuery",
+        "queryId": "Tl-VrlKaCEGQW_d7X2EXCg"
     },
     "CreateInsightVOQueryLimitsQuery": {
         "metadata": {},
