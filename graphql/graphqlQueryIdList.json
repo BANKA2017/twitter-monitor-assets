@@ -9000,6 +9000,13 @@
         },
         "features": {}
     },
+    "useMonetizationCreatorSettingsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useMonetizationCreatorSettingsQuery",
+        "queryId": "TBgTiXEk8M-Oxi7dtlQESQ"
+    },
     "ManageAffiliateBadgesQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9160,6 +9167,13 @@
         "operationName": "MonetizationAwardsRevenueQuery",
         "queryId": "kXcc0Edof6svF-lk2byuyg"
     },
+    "useVerifiedProgramsEligibilityQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useVerifiedProgramsEligibilityQuery",
+        "queryId": "SQkrzbueypUf6oyEdj_Zzg"
+    },
     "PreRollAdsApplicationMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9194,13 +9208,6 @@
         "features": {
             "responsive_web_ad_revenue_sharing_total_earnings_enabled": false
         }
-    },
-    "AdRevShareEligibilityScreenQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AdRevShareEligibilityScreenQuery",
-        "queryId": "8hG0WXQLjE4baibOhn-nWw"
     },
     "PreRollAdsEligibilityScreenQuery": {
         "metadata": {},
