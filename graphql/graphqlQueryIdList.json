@@ -5353,6 +5353,16 @@
         },
         "features": {}
     },
+    "SearchGrokConversations": {
+        "queryId": "Sr2QEitvnemma5D2NJlA2Q",
+        "operationName": "SearchGrokConversations",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "BoostAudienceEstimate": {
         "queryId": "hiAXpFX4zFb6vOvGctGYyQ",
         "operationName": "BoostAudienceEstimate",
@@ -8731,6 +8741,20 @@
         "operationName": "TweetBoostButtonQuery",
         "queryId": "XoEFZTEMy3rLs1n0Gw_ziQ"
     },
+    "useUserCellDataQuery": {
+        "metadata": {
+            "featureSwitches": [
+                "responsive_web_graphql_timeline_navigation_enabled"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useUserCellDataQuery",
+        "queryId": "HmyX6T5KhY6ZTdhgZvylWg",
+        "features": {
+            "responsive_web_graphql_timeline_navigation_enabled": true
+        }
+    },
     "useMemberMenuMutation_cancel_invite_Mutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9759,7 +9783,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useMatchedPostMetricsQuery",
-        "queryId": "Tl-VrlKaCEGQW_d7X2EXCg"
+        "queryId": "dRcx9P_of0hYEToWkwphRg"
     },
     "CreateInsightVOQueryLimitsQuery": {
         "metadata": {},
