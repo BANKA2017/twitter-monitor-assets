@@ -442,8 +442,10 @@
     "insights_ai_trends_limit": 5,
     "insights_ai_trends_score_threshold": 0.6,
     "insights_chart_filter_enabled": true,
+    "insights_impressions_chart_enabled": false,
     "insights_impressions_enabled": false,
     "insights_multiple_rules_enabled": true,
+    "insights_preview_splash_metrics_enabled": false,
     "insights_previews_enabled": true,
     "insights_unique_users_enabled": false,
     "krs_registration_enabled": false,
@@ -676,6 +678,7 @@
     "responsive_web_grok_file_compression_enabled": true,
     "responsive_web_grok_file_max_size": 5242880,
     "responsive_web_grok_file_upload_enabled": false,
+    "responsive_web_grok_history_search_enabled": true,
     "responsive_web_grok_image_prompts_enabled": true,
     "responsive_web_grok_in_app_learn_more": "https://x.com/xai/status/1823597788573098215",
     "responsive_web_grok_opt_out_enabled": true,
@@ -1094,6 +1097,7 @@
     "tv_app_casting_log_focused_element_every_10s": false,
     "tv_app_casting_set_focus_after_15s": false,
     "tv_app_qrcode_login_enabled": true,
+    "tv_app_samsung_continue_watching_enabled": false,
     "tv_app_samsung_exit_configuration": "EXIT",
     "tweet_awards_web_coin_purchase_enabled": false,
     "tweet_awards_web_coin_purchase_sandbox_enabled": false,
@@ -1344,7 +1348,5 @@
     "xprofile_editing_enabled": true,
     "xprofile_emojis_enabled": true,
     "xprofile_work_history_consumption_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "responsive_web_grok_history_search_enabled": true,
-    "tv_app_samsung_continue_watching_enabled": false
+    "xprofile_work_history_enabled": true
 }
