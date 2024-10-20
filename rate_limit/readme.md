@@ -9,7 +9,7 @@
 
 |                               |            old web |            new web |  tweetdeck preview |            android |       real account |             cookie|
 | :-- | --: | --: | --: | --: | --: | --: |
-| graphql:userinfo_screen_name    |             95 ✅ |             95 ✅ |             95 ✅ |             95 ❌ |             95 ✅ |             95 ✅ |
+| graphql:userinfo_screen_name    |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |
 | graphql:userinfo_uid            |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:tweets_web              |             50 ✅ |             50 ✅ |            800 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:tweets_with_replies_web |             50 ❌ |             50 ❌ |            300 ❌ |             50 ❌ |             50 ✅ |             50 ✅ |
@@ -40,7 +40,7 @@
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |            180 ❌ |            180 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |            180 ✅ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| restful:broadcast               |              _ ✅ |              _ ✅ |              _ ❌ |              _ ✅ |              _ ✅ |              _ ✅ |
+| restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:typeahead               |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ✅ |              _ ✅ |
 | restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |          20000 ✅ |
