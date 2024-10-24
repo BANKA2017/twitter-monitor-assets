@@ -445,7 +445,7 @@
     "insights_impressions_chart_enabled": false,
     "insights_impressions_enabled": false,
     "insights_multiple_rules_enabled": true,
-    "insights_premium_initial_days_back": 3,
+    "insights_premium_initial_days_back": 7,
     "insights_preview_splash_metrics_enabled": false,
     "insights_previews_enabled": true,
     "insights_unique_users_enabled": true,
@@ -1350,5 +1350,6 @@
     "xprofile_editing_enabled": true,
     "xprofile_emojis_enabled": true,
     "xprofile_work_history_consumption_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_multistream_enabled": false
 }
