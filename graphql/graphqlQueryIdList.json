@@ -7578,6 +7578,13 @@
         },
         "features": {}
     },
+    "useFetchAnalyticsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchAnalyticsQuery",
+        "queryId": "5JkoDLRvQrXv2QV4U5gKFg"
+    },
     "overviewDataPostQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9270,6 +9277,13 @@
         "operationName": "useTierSwitchStatusQuery",
         "queryId": "lOs9yTCxHWkJ8NtulXBbxQ"
     },
+    "WallOfLoveCardQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "WallOfLoveCardQuery",
+        "queryId": "2aB4uyBoEAWmYs5-C6YPJg"
+    },
     "useCreateApplicationMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9326,13 +9340,6 @@
         "operationName": "JobsSettingsScreenSettingsQuery",
         "queryId": "AbmKTQNHfpTuZ-tJCyPV9g"
     },
-    "useTierSwitchCommitMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useTierSwitchCommitMutation",
-        "queryId": "2j5givRt4DeMHFE3MPs9_A"
-    },
     "useStripeCheckoutMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9354,12 +9361,26 @@
         "operationName": "usePricesQuery",
         "queryId": "steV6JkzqH8GwBz6Ba4Utg"
     },
+    "useTierSwitchCommitMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useTierSwitchCommitMutation",
+        "queryId": "2j5givRt4DeMHFE3MPs9_A"
+    },
     "useCreateInvitationMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useCreateInvitationMutation",
         "queryId": "1SlsDAsmE-7LDHGQf9KTcA"
+    },
+    "BenefitsBadgeCardQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "BenefitsBadgeCardQuery",
+        "queryId": "lNwxGASFmYAdqVb6bgpuTA"
     },
     "AffiliatesScreenAffiliatesQuery": {
         "metadata": {
@@ -9880,12 +9901,12 @@
         "operationName": "PremiumGiftingQuery",
         "queryId": "1l69l_17caIoKHypMFrLlg"
     },
-    "useFetchAnalyticsQuery": {
+    "ProfileSpotlightsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "useFetchAnalyticsQuery",
-        "queryId": "5JkoDLRvQrXv2QV4U5gKFg"
+        "operationName": "ProfileSpotlightsQuery",
+        "queryId": "-0XdHI-mrHWBQd8-oLo1aA"
     },
     "PeopleSearchListQuery": {
         "metadata": {},
