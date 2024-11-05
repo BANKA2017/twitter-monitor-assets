@@ -9,7 +9,7 @@
 
 |                               |            old web |            new web |  tweetdeck preview |            android |       real account |             cookie|
 | :-- | --: | --: | --: | --: | --: | --: |
-| graphql:userinfo_screen_name    |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |
+| graphql:userinfo_screen_name    |             95 ✅ |             95 ❌ |             95 ✅ |             95 ✅ |             95 ✅ |             95 ✅ |
 | graphql:userinfo_uid            |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:tweets_web              |             50 ✅ |             50 ✅ |            800 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:tweets_with_replies_web |             50 ❌ |             50 ❌ |            300 ❌ |             50 ❌ |             50 ✅ |             50 ✅ |
