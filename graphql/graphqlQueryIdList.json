@@ -3875,7 +3875,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "fetchDownloadSettingAllowedQuery",
-        "queryId": "ZUvMlezijpatabA-IJ6Ugg"
+        "queryId": "P4Y9VY-Vn1cJuBnjOVZ4xA"
     },
     "CommunitiesMembershipsSlice": {
         "queryId": "fWWB3bfbw93aXmnQRP55xg",
@@ -8312,7 +8312,7 @@
         "features": {}
     },
     "BirdwatchFetchOneNote": {
-        "queryId": "pVu8XEj_SvdpYp4S0sobsw",
+        "queryId": "TCCuBAotz4ejz0_9iGjm6w",
         "operationName": "BirdwatchFetchOneNote",
         "operationType": "query",
         "metadata": {
@@ -9302,6 +9302,13 @@
         "operationName": "PeopleSearchListQuery",
         "queryId": "oKGys7yWCJaC1sH2WEynFg"
     },
+    "QueryInputMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "QueryInputMutation",
+        "queryId": "B4lyhwSVWvpY9TXuelOSaw"
+    },
     "DeleteInsightButtonMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9316,6 +9323,13 @@
         "operationName": "AiTrendsSearchQuery",
         "queryId": "Hov00l5SN17KXDJvkOG5wA"
     },
+    "InsightsConfigQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "InsightsConfigQuery",
+        "queryId": "oL67FTYM5oBxI-TZbeb2-Q"
+    },
     "useMatchedPostMetricsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9329,13 +9343,6 @@
         "text": null,
         "operationName": "CreateInsightVOQueryLimitsQuery",
         "queryId": "2BoRo72lal9p0m_AvnM-6Q"
-    },
-    "useUserClaimsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useUserClaimsQuery",
-        "queryId": "5iEUNKRzCRIpQuybnrHNiw"
     },
     "InsightProviderGetQuery": {
         "metadata": {},
