@@ -8521,27 +8521,6 @@
             "verified_phone_label_enabled": false
         }
     },
-    "MemberRequests_Query": {
-        "metadata": {
-            "sliceInfoPath": [
-                "communityResults",
-                "result",
-                "join_requests_result",
-                "pending_join_requests_slice",
-                "slice_info"
-            ],
-            "featureSwitches": [
-                "responsive_web_graphql_timeline_navigation_enabled"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "MemberRequests_Query",
-        "queryId": "kIQdO8Uewz0TcYGNDV-xlw",
-        "features": {
-            "responsive_web_graphql_timeline_navigation_enabled": true
-        }
-    },
     "membersSliceTimeline_Query": {
         "metadata": {
             "sliceInfoPath": [
@@ -8573,6 +8552,27 @@
         "text": null,
         "operationName": "TopicTimelineQuery",
         "queryId": "JJ3lqlR83aU1c9ti1teXaA"
+    },
+    "MemberRequests_Query": {
+        "metadata": {
+            "sliceInfoPath": [
+                "communityResults",
+                "result",
+                "join_requests_result",
+                "pending_join_requests_slice",
+                "slice_info"
+            ],
+            "featureSwitches": [
+                "responsive_web_graphql_timeline_navigation_enabled"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "MemberRequests_Query",
+        "queryId": "kIQdO8Uewz0TcYGNDV-xlw",
+        "features": {
+            "responsive_web_graphql_timeline_navigation_enabled": true
+        }
     },
     "CommunityQuery": {
         "metadata": {
