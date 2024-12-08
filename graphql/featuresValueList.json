@@ -330,7 +330,7 @@
     "creator_subscriptions_eligibility_impressions": 5000000,
     "creator_subscriptions_eligibility_verified_followers": 2000,
     "creator_subscriptions_email_share_enabled": true,
-    "creator_subscriptions_new_eligibility_requirements_enabled": false,
+    "creator_subscriptions_new_eligibility_requirements_enabled": true,
     "creator_subscriptions_quote_tweet_preview_enabled": false,
     "creator_subscriptions_subscribe_action_tweet_menu_enabled": true,
     "creator_subscriptions_subscribe_button_tweet_detail_enabled": true,
@@ -722,6 +722,8 @@
     "responsive_web_grok_pdf_upload_enabled": true,
     "responsive_web_grok_post_image_understanding_enabled": false,
     "responsive_web_grok_post_understanding_button_enabled": false,
+    "responsive_web_grok_post_understanding_button_fetch_trends_enabled": false,
+    "responsive_web_grok_post_understanding_button_trends_only": false,
     "responsive_web_grok_prompt_edit_enabled": true,
     "responsive_web_grok_robot_icon": false,
     "responsive_web_grok_rtl_detection": true,
@@ -1418,7 +1420,9 @@
     "xprofile_consumption_enabled": true,
     "xprofile_editing_enabled": true,
     "xprofile_emojis_enabled": true,
+    "xprofile_profile_button_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": false,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_grok_analyze_button_fetch_trends_enabled": true
 }
