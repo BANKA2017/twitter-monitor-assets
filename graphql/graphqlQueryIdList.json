@@ -6013,7 +6013,7 @@
         "features": {}
     },
     "GrokShare": {
-        "queryId": "KVw2cDu2p70o2sV3sblPEA",
+        "queryId": "MFFuhNbepTFZFTLuTwAZAw",
         "operationName": "GrokShare",
         "operationType": "query",
         "metadata": {
@@ -8027,13 +8027,6 @@
             "fieldToggles": []
         },
         "features": {}
-    },
-    "IntercomStarterQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "IntercomStarterQuery",
-        "queryId": "RiB07no7KYovpEZOy3JQpQ"
     },
     "usePaymentsAccountStatusQuery": {
         "metadata": {},
@@ -10075,12 +10068,12 @@
         "operationName": "ShareJobQuery",
         "queryId": "WJzdyXabqnLlXPJFh_IfNw"
     },
-    "usePaymentsMonitoringMutation": {
+    "usePaymentsSessionMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "usePaymentsMonitoringMutation",
-        "queryId": "CJby5OHrOK2OtedQeDX9Qw"
+        "operationName": "usePaymentsSessionMutation",
+        "queryId": "Lx5mkf16d5E52deNAOedvg"
     },
     "PeopleSearchListQuery": {
         "metadata": {},
@@ -10816,6 +10809,13 @@
         "text": null,
         "operationName": "AccountParodyUserMutation",
         "queryId": "kj62sruSf1ykiTcMrpDNSA"
+    },
+    "IntercomStarterQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "IntercomStarterQuery",
+        "queryId": "RiB07no7KYovpEZOy3JQpQ"
     },
     "HighlightTweetSheetQuery": {
         "metadata": {},
