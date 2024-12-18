@@ -641,7 +641,7 @@
     "responsive_web_creator_preferences_previews_enabled_setting": true,
     "responsive_web_dcm_2_enabled": true,
     "responsive_web_deamplification_replies_dropdown_selector_enabled": false,
-    "responsive_web_delete_tweet_stats_enabled": false,
+    "responsive_web_delete_tweet_stats_enabled": true,
     "responsive_web_device_follow_without_user_follow_enabled": false,
     "responsive_web_disconnect_third_party_sso_enabled": true,
     "responsive_web_dm_label_enabled": false,
@@ -717,12 +717,16 @@
     "responsive_web_grok_general_availability": false,
     "responsive_web_grok_history_search_enabled": true,
     "responsive_web_grok_image_prompts_enabled": true,
+    "responsive_web_grok_img_composer": false,
     "responsive_web_grok_imggen_count": 4,
     "responsive_web_grok_in_app_learn_more": "https://x.com/xai/status/1823597788573098215",
     "responsive_web_grok_multimedia_results": false,
     "responsive_web_grok_opt_out_enabled": true,
     "responsive_web_grok_pdf_upload_enabled": true,
     "responsive_web_grok_post_image_understanding_enabled": false,
+    "responsive_web_grok_profile_summary_enabled": false,
+    "responsive_web_grok_profile_summary_min_followers": 10000,
+    "responsive_web_grok_profile_summary_min_posts": 50,
     "responsive_web_grok_prompt_edit_enabled": true,
     "responsive_web_grok_robot_icon": false,
     "responsive_web_grok_rtl_detection": true,
@@ -1428,6 +1432,5 @@
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
-    "responsive_web_grok_profile_summary_min_followers": 10000,
-    "responsive_web_grok_profile_summary_min_posts": 50
+    "rweb_sourcemap_migration": false
 }
