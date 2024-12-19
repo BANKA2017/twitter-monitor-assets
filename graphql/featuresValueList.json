@@ -630,6 +630,7 @@
     "responsive_web_collection_ads_enabled": true,
     "responsive_web_commerce_shop_spotlight_enabled": true,
     "responsive_web_communities_slices_enabled": true,
+    "responsive_web_communityboost_form_enabled": false,
     "responsive_web_composer_autosave_debounce_ms": 2000,
     "responsive_web_composer_autosave_enabled": false,
     "responsive_web_composer_configurable_video_player_enabled": false,
@@ -717,7 +718,7 @@
     "responsive_web_grok_general_availability": false,
     "responsive_web_grok_history_search_enabled": true,
     "responsive_web_grok_image_prompts_enabled": true,
-    "responsive_web_grok_img_composer": false,
+    "responsive_web_grok_img_composer": true,
     "responsive_web_grok_imggen_count": 4,
     "responsive_web_grok_in_app_learn_more": "https://x.com/xai/status/1823597788573098215",
     "responsive_web_grok_multimedia_results": false,
@@ -725,7 +726,7 @@
     "responsive_web_grok_pdf_upload_enabled": true,
     "responsive_web_grok_post_image_understanding_enabled": false,
     "responsive_web_grok_profile_summary_enabled": false,
-    "responsive_web_grok_profile_summary_min_followers": 10000,
+    "responsive_web_grok_profile_summary_min_followers": 1,
     "responsive_web_grok_profile_summary_min_posts": 50,
     "responsive_web_grok_prompt_edit_enabled": true,
     "responsive_web_grok_robot_icon": false,
@@ -932,6 +933,7 @@
     "rweb_scheduled_spaces_enabled": true,
     "rweb_search_media_enabled": true,
     "rweb_sidebar_lower_whats_happening_enabled": false,
+    "rweb_sourcemap_migration": false,
     "rweb_spaces_invite_search_enabled": true,
     "rweb_spaces_next_codec_enabled": true,
     "rweb_ssp_ads_enabled": false,
@@ -1431,6 +1433,5 @@
     "xprofile_profile_button_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "rweb_sourcemap_migration": false
+    "xprofile_work_history_enabled": true
 }
