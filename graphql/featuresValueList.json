@@ -778,7 +778,7 @@
     "responsive_web_lbm_v2_replies_enabled": false,
     "responsive_web_list_tweet_integration_enabled": false,
     "responsive_web_live_commerce_enabled": true,
-    "responsive_web_live_screen_enabled": false,
+    "responsive_web_live_screen_enabled": true,
     "responsive_web_locale_context_direction_enabled": true,
     "responsive_web_location_spotlight_display_map": true,
     "responsive_web_location_spotlight_v1_config": true,
@@ -1173,6 +1173,7 @@
     "subscriptions_upsells_radar_video_url_desktop": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_radar_video_url_mobile": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_reply_boost_enabled": false,
+    "subscriptions_upsells_reply_boost_popup_enabled": false,
     "subscriptions_upsells_reply_boost_variant": "",
     "subscriptions_upsells_right_sidebar_variant": "",
     "subscriptions_upsells_vo_nav_decoration_enabled": false,
@@ -1460,5 +1461,7 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "subscriptions_upsells_radar_sidebar_enabled": false,
+    "subscriptions_upsells_radar_sidebar_variant": ""
 }
