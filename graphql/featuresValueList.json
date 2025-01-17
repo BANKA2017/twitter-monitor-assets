@@ -786,7 +786,7 @@
     "responsive_web_logged_out_notifications_enabled": true,
     "responsive_web_logged_out_notifications_fatigue_days_count": 7,
     "responsive_web_logged_out_notifications_including_home": false,
-    "responsive_web_logged_out_read_replies_pivot_enabled": true,
+    "responsive_web_logged_out_read_replies_pivot_enabled": false,
     "responsive_web_login_input_type_email_enabled": false,
     "responsive_web_login_signup_sheet_app_install_cta_enabled": true,
     "responsive_web_media_upload_limit_2g": 250,
@@ -834,7 +834,7 @@
     "responsive_web_repeat_profile_visits_notifications_enabled": false,
     "responsive_web_reply_storm_enabled": false,
     "responsive_web_report_page_not_found": false,
-    "responsive_web_scheduling_threads_enabled": false,
+    "responsive_web_scheduling_threads_enabled": true,
     "responsive_web_scroller_top_positioning_enabled": false,
     "responsive_web_seasonal_custom_logo": "IconTwitter",
     "responsive_web_send_cookies_metadata_enabled": true,
@@ -1170,6 +1170,8 @@
     "subscriptions_upsells_premium_home_nav": "premium_upsell_upgrade",
     "subscriptions_upsells_profile_card_enabled": false,
     "subscriptions_upsells_profile_card_variant": "anniversary",
+    "subscriptions_upsells_radar_sidebar_enabled": false,
+    "subscriptions_upsells_radar_sidebar_variant": "",
     "subscriptions_upsells_radar_video_url_desktop": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_radar_video_url_mobile": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_reply_boost_enabled": false,
@@ -1462,6 +1464,5 @@
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
-    "subscriptions_upsells_radar_sidebar_enabled": false,
-    "subscriptions_upsells_radar_sidebar_variant": ""
+    "responsive_web_grok_image_annotation_enabled": false
 }
