@@ -423,7 +423,7 @@
     "highlights_tweets_action_menu_upsell_enabled": true,
     "highlights_tweets_tab_ui_enabled": true,
     "highlights_tweets_tab_upsell_enabled": true,
-    "highlights_tweets_upsell_on_pin_action_enabled": true,
+    "highlights_tweets_upsell_on_pin_action_enabled": false,
     "home_timeline_compact_app_bar": true,
     "home_timeline_like_reactivity_enabled": true,
     "home_timeline_like_reactivity_fatigue": 10,
@@ -706,6 +706,7 @@
     "responsive_web_graphql_feedback": true,
     "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
     "responsive_web_graphql_timeline_navigation_enabled": true,
+    "responsive_web_grok_analyze_animation": false,
     "responsive_web_grok_analyze_button_fetch_trends_enabled": false,
     "responsive_web_grok_analyze_focal_post_enabled": true,
     "responsive_web_grok_analyze_post_followups_enabled": false,
@@ -716,6 +717,7 @@
     "responsive_web_grok_continue_in_grok_enabled": true,
     "responsive_web_grok_delete_conversations_enabled": true,
     "responsive_web_grok_dev_universal_search_id_enabled": false,
+    "responsive_web_grok_feed": false,
     "responsive_web_grok_feedback_label_dropdown": true,
     "responsive_web_grok_file_compression_enabled": true,
     "responsive_web_grok_file_max_size": 20971520,
@@ -1184,7 +1186,7 @@
     "subscriptions_upsells_reply_boost_popup_enabled": false,
     "subscriptions_upsells_reply_boost_variant": "",
     "subscriptions_upsells_right_sidebar_variant": "",
-    "subscriptions_upsells_vo_nav_decoration_enabled": false,
+    "subscriptions_upsells_vo_nav_decoration_enabled": true,
     "subscriptions_verification_info_is_identity_verified_enabled": true,
     "subscriptions_verification_info_verified_since_enabled": true,
     "super_follow_android_web_subscription_enabled": true,
@@ -1469,5 +1471,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_live_dock_enabled": true
 }
