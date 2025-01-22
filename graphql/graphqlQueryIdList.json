@@ -8832,6 +8832,18 @@
         "operationName": "usePaymentsBalanceQuery",
         "queryId": "VLC5YNBevsKTDAHRVmHxQA"
     },
+    "useInterestActionsQuery": {
+        "metadata": {
+            "sliceInfoPath": [
+                "get_payments_customer_actions",
+                "slice_info"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useInterestActionsQuery",
+        "queryId": "2M3rrFGDK59FhkDpvbG6kA"
+    },
     "usePaymentsTransactionsListQuery": {
         "metadata": {
             "sliceInfoPath": [
@@ -10886,19 +10898,19 @@
         "operationName": "grokTokFeedQuery",
         "queryId": "Xm45rqEIHhgc6J7MnTMDbw"
     },
-    "textPromptsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "textPromptsQuery",
-        "queryId": "XYzED3n5LtrNZJA9XsmzrA"
-    },
     "feedbackMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "feedbackMutation",
         "queryId": "zv33bjbLTa35aipqMBnLgw"
+    },
+    "textPromptsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "textPromptsQuery",
+        "queryId": "XYzED3n5LtrNZJA9XsmzrA"
     },
     "SentimentActionButtonMutation": {
         "metadata": {},
