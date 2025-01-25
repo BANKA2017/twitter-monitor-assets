@@ -7077,6 +7077,16 @@
         },
         "features": {}
     },
+    "GrokUserEventsLog": {
+        "queryId": "AB0damyVo0wBhhebQIwtsg",
+        "operationName": "GrokUserEventsLog",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "CreateGrokConversation": {
         "queryId": "vvC5uy7pWWHXS2aDi1FZeA",
         "operationName": "CreateGrokConversation",
@@ -8718,7 +8728,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useAdAcountsConfigQuery",
-        "queryId": "p8YkNp6s8yIMr6cLtazmbA"
+        "queryId": "rxKNli6Mo8BIxeTn3LhlVQ"
     },
     "TweetRelatedVideos": {
         "queryId": "9XFtfMDTJoOXwpAhgVsZ9w",
@@ -10912,12 +10922,29 @@
         "operationName": "grokTokFeedQuery",
         "queryId": "Xm45rqEIHhgc6J7MnTMDbw"
     },
+    "GetGrokCustomizationSettingMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "GetGrokCustomizationSettingMutation",
+        "queryId": "G9u4mrv5jrU5UvFexfnEhw"
+    },
     "textPromptsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "textPromptsQuery",
         "queryId": "XYzED3n5LtrNZJA9XsmzrA"
+    },
+    "UniversalSearchFeedbackMutation": {
+        "queryId": "qaIzg304L134B5-NI43j2A",
+        "operationName": "UniversalSearchFeedbackMutation",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
     },
     "feedbackMutation": {
         "metadata": {},
