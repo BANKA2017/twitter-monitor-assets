@@ -10922,6 +10922,13 @@
         "operationName": "grokTokFeedQuery",
         "queryId": "Xm45rqEIHhgc6J7MnTMDbw"
     },
+    "feedbackMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "feedbackMutation",
+        "queryId": "zv33bjbLTa35aipqMBnLgw"
+    },
     "GetGrokCustomizationSettingMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -10935,23 +10942,6 @@
         "text": null,
         "operationName": "textPromptsQuery",
         "queryId": "XYzED3n5LtrNZJA9XsmzrA"
-    },
-    "UniversalSearchFeedbackMutation": {
-        "queryId": "qaIzg304L134B5-NI43j2A",
-        "operationName": "UniversalSearchFeedbackMutation",
-        "operationType": "mutation",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "feedbackMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "feedbackMutation",
-        "queryId": "zv33bjbLTa35aipqMBnLgw"
     },
     "SentimentActionButtonMutation": {
         "metadata": {},
@@ -11021,19 +11011,19 @@
         "operationName": "JobRecommendationSettingsContainerQuery",
         "queryId": "KyP8Xn6i971KhAlvtt82BA"
     },
-    "ShareJobQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ShareJobQuery",
-        "queryId": "WJzdyXabqnLlXPJFh_IfNw"
-    },
     "useSetupOrgMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useSetupOrgMutation",
         "queryId": "oLe4Lwz_ozrlSO5yPyzFLg"
+    },
+    "ShareJobQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ShareJobQuery",
+        "queryId": "WJzdyXabqnLlXPJFh_IfNw"
     },
     "usePaymentsSessionMutation": {
         "metadata": {},
