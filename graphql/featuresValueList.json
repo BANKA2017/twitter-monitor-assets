@@ -717,7 +717,7 @@
     "responsive_web_grok_analyze_focal_post_enabled": true,
     "responsive_web_grok_analyze_post_followups_enabled": false,
     "responsive_web_grok_animated_text_enabled": true,
-    "responsive_web_grok_api_enable_grok_host": false,
+    "responsive_web_grok_api_enable_grok_host": true,
     "responsive_web_grok_backend_prompts_enabled": true,
     "responsive_web_grok_chat_drawer_enabled": false,
     "responsive_web_grok_continue_in_grok_enabled": true,
@@ -776,6 +776,7 @@
     "responsive_web_grok_text_upload_enabled": true,
     "responsive_web_grok_trends_design_enabled": false,
     "responsive_web_grok_tweet_translation": false,
+    "responsive_web_grok_tweet_translation_limit": 280,
     "responsive_web_grok_use_new_layout": true,
     "responsive_web_grok_user_active_seconds_enable": true,
     "responsive_web_grok_user_seconds_debug": false,
@@ -1130,7 +1131,7 @@
     "subscriptions_block_ad_upsell_enabled": true,
     "subscriptions_blue_premium_labeling_enabled": true,
     "subscriptions_blue_verified_edit_profile_error_message_enabled": true,
-    "subscriptions_branding_checkmark_logo_enabled": false,
+    "subscriptions_branding_checkmark_logo_enabled": true,
     "subscriptions_enabled": true,
     "subscriptions_feature_1002": true,
     "subscriptions_feature_1003": true,
@@ -1180,6 +1181,7 @@
     "subscriptions_mute_ad_upsell_enabled": true,
     "subscriptions_premium_experiment_nav_text": false,
     "subscriptions_premium_hub_insights_block_enabled": true,
+    "subscriptions_premium_module_enabled": false,
     "subscriptions_premium_tiers_default_interval": "Year",
     "subscriptions_premium_tiers_default_product": "BlueVerified",
     "subscriptions_premium_tiers_encrypted_dms_gating_update_enabled": true,
@@ -1337,11 +1339,6 @@
         "vote_on_poll",
         "highlight"
     ],
-    "tweet_limited_actions_config_community_tweet_member": [
-        "embed",
-        "pin_to_profile",
-        "highlight"
-    ],
     "tweet_limited_actions_config_community_tweet_member_removed": [
         "add_to_bookmarks",
         "add_to_moment",
@@ -1365,31 +1362,16 @@
         "highlight"
     ],
     "tweet_limited_actions_config_community_tweet_non_member": [
-        "embed",
-        "pin_to_profile",
         "react",
-        "reply",
-        "reply_down_vote",
-        "vote_on_poll",
-        "highlight"
+        "reply_down_vote"
     ],
     "tweet_limited_actions_config_community_tweet_non_member_closed_community": [
-        "embed",
-        "pin_to_profile",
         "react",
-        "reply",
-        "reply_down_vote",
-        "vote_on_poll",
-        "highlight"
+        "reply_down_vote"
     ],
     "tweet_limited_actions_config_community_tweet_non_member_public_community": [
-        "embed",
-        "pin_to_profile",
         "react",
-        "reply",
-        "reply_down_vote",
-        "vote_on_poll",
-        "highlight"
+        "reply_down_vote"
     ],
     "tweet_limited_actions_config_disable_state_media_autoplay": [
         "autoplay"
