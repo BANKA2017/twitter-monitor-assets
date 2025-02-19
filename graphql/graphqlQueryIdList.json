@@ -3737,7 +3737,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useFetchProductSubscriptionsQuery",
-        "queryId": "X-DQ0wtoVnlx831YGWyT3Q"
+        "queryId": "R1LBdHrOVbQdW4BWqV0kxQ"
     },
     "timelinesFeedback": {
         "queryId": "vfVbgvTPTQ-dF_PQ5lD1WQ",
@@ -8390,6 +8390,16 @@
         "operationName": "TargetingKeywordsQuery",
         "queryId": "8Sm_SjESFOaQfO9tUJHB2A"
     },
+    "GrokPinnedConversations": {
+        "queryId": "BHKxYTkc5SCupV7oqJBr0g",
+        "operationName": "GrokPinnedConversations",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "EditBookmarkFolder": {
         "queryId": "a6kPp1cS1Dgbsjhapz1PNw",
         "operationName": "EditBookmarkFolder",
@@ -8403,6 +8413,16 @@
     "CreateQuickPromotion": {
         "queryId": "oDSoVgHhJxnd5IkckgPZdg",
         "operationName": "CreateQuickPromotion",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "GrokUnpinConversation": {
+        "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+        "operationName": "GrokUnpinConversation",
         "operationType": "mutation",
         "metadata": {
             "featureSwitches": [],
@@ -8533,7 +8553,7 @@
         }
     },
     "GrokHome": {
-        "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+        "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
         "operationName": "GrokHome",
         "operationType": "query",
         "metadata": {
@@ -8543,7 +8563,7 @@
         "features": {}
     },
     "GrokConversationItemsByRestId": {
-        "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+        "queryId": "kPyBiZHkstmcLppqofgMtw",
         "operationName": "GrokConversationItemsByRestId",
         "operationType": "query",
         "metadata": {
@@ -8793,7 +8813,7 @@
         "features": {}
     },
     "GrokShare": {
-        "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+        "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
         "operationName": "GrokShare",
         "operationType": "query",
         "metadata": {
@@ -8873,7 +8893,7 @@
         }
     },
     "GrokHistory": {
-        "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+        "queryId": "9Hyh5D4-WXLnExZkONSkZg",
         "operationName": "GrokHistory",
         "operationType": "query",
         "metadata": {
@@ -8956,6 +8976,16 @@
         "queryId": "1LYVUabJBYkPlUAWRabB3g",
         "operationName": "AudienceEstimate",
         "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "GrokPinConversation": {
+        "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+        "operationName": "GrokPinConversation",
+        "operationType": "mutation",
         "metadata": {
             "featureSwitches": [],
             "fieldToggles": []
@@ -9287,13 +9317,6 @@
         "operationName": "useFetchAnalyticsQuery",
         "queryId": "5JkoDLRvQrXv2QV4U5gKFg"
     },
-    "ContentPageUserTweetsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ContentPageUserTweetsQuery",
-        "queryId": "2z-5qhfdF2xqP65x-BmFGw"
-    },
     "AudiencePageGetHeatmapDataQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9308,19 +9331,26 @@
         "operationName": "MediaMetricsQuery",
         "queryId": "lXDcxsObECtfl-LimDIJTA"
     },
-    "VideoListWidgetQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "VideoListWidgetQuery",
-        "queryId": "TQ4wkspv-8YJf3Mz4Qkq4g"
-    },
     "AccountOverviewQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "AccountOverviewQuery",
         "queryId": "LwtiA7urqM6eDeBheAFi5w"
+    },
+    "VideoListProviderQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "VideoListProviderQuery",
+        "queryId": "D4vlD-uYMPPyrmCV-0fKGg"
+    },
+    "ContentPageUserTweetsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ContentPageUserTweetsQuery",
+        "queryId": "2z-5qhfdF2xqP65x-BmFGw"
     },
     "AudiencePageGetCountryCodeQuery": {
         "metadata": {},
@@ -10882,6 +10912,20 @@
         },
         "features": {}
     },
+    "useSubscriptionProductDetailsQuery": {
+        "metadata": {
+            "featureSwitches": [
+                "subscriptions_marketing_page_fetch_promotions"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useSubscriptionProductDetailsQuery",
+        "queryId": "KwN8fu5uL5DRfyaKW_fh1w",
+        "features": {
+            "subscriptions_marketing_page_fetch_promotions": true
+        }
+    },
     "MonetizationIDVScreenQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -10923,6 +10967,13 @@
         "text": null,
         "operationName": "MonetizationSettingsQuery",
         "queryId": "669l97INfasuMJpzgAZckA"
+    },
+    "useRedeemOfferMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useRedeemOfferMutation",
+        "queryId": "Kx3Kby4pi2amR8SfB8QV2A"
     },
     "RepliesGetUserToxicReplyFilterSettingQuery": {
         "metadata": {},
@@ -11133,13 +11184,6 @@
         "operationName": "AddParticipantsMutation",
         "queryId": "oBwyQ0_xVbAQ8FAyG0pCRA"
     },
-    "ConversationItem_RenameConversationMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "ConversationItem_RenameConversationMutation",
-        "queryId": "bGjN_WgGMm3ugR5LI9MyAA"
-    },
     "grokTokFeedQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11147,12 +11191,12 @@
         "operationName": "grokTokFeedQuery",
         "queryId": "Xm45rqEIHhgc6J7MnTMDbw"
     },
-    "feedbackMutation": {
+    "personalityHooksAllPersonalitiesQuery": {
         "metadata": {},
-        "operationKind": "mutation",
+        "operationKind": "query",
         "text": null,
-        "operationName": "feedbackMutation",
-        "queryId": "zv33bjbLTa35aipqMBnLgw"
+        "operationName": "personalityHooksAllPersonalitiesQuery",
+        "queryId": "iEFgQyDFWkjbSNxOZoVWIg"
     },
     "textPromptsQuery": {
         "metadata": {},
@@ -11167,6 +11211,20 @@
         "text": null,
         "operationName": "GetGrokCustomizationSettingMutation",
         "queryId": "G9u4mrv5jrU5UvFexfnEhw"
+    },
+    "feedbackMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "feedbackMutation",
+        "queryId": "zv33bjbLTa35aipqMBnLgw"
+    },
+    "ConversationItem_RenameConversationMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "ConversationItem_RenameConversationMutation",
+        "queryId": "bGjN_WgGMm3ugR5LI9MyAA"
     },
     "SentimentActionButtonMutation": {
         "metadata": {},
