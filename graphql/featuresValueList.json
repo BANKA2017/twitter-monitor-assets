@@ -762,6 +762,7 @@
     "responsive_web_grok_profile_summary_enabled": true,
     "responsive_web_grok_profile_summary_min_followers": 50,
     "responsive_web_grok_profile_summary_min_posts": 15,
+    "responsive_web_grok_promo_banner": false,
     "responsive_web_grok_prompt_edit_enabled": true,
     "responsive_web_grok_regen_configs": true,
     "responsive_web_grok_robot_icon": false,
@@ -1472,7 +1473,7 @@
     "view_counts_everywhere_api_enabled": true,
     "view_counts_public_visibility_enabled": true,
     "vo_upsell_enabled": false,
-    "vo_upsell_new_business_query_enabled": false,
+    "vo_upsell_new_business_query_enabled": true,
     "vo_upsell_profile_button_enabled": false,
     "vo_upsell_profile_page_enabled": false,
     "vod_attribution_tweet_detail_pivot_enabled": true,
@@ -1504,6 +1505,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "responsive_web_grok_promo_banner": false
+    "xprofile_work_history_enabled": true
 }
