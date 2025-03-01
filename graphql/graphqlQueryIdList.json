@@ -3823,7 +3823,7 @@
         "operationName": "useFetchProductSubscriptionsQuery",
         "queryId": "9d_SpI8AiW84rkd9OxvTDw",
         "features": {
-            "subscriptions_management_fetch_next_billing_time": false
+            "subscriptions_management_fetch_next_billing_time": true
         }
     },
     "timelinesFeedback": {
@@ -8036,13 +8036,6 @@
         "operationName": "useCreateStripePortalUrlMutation",
         "queryId": "vymd-xe7b364mogIF1CoQQ"
     },
-    "useAdAcountsConfigQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useAdAcountsConfigQuery",
-        "queryId": "rxKNli6Mo8BIxeTn3LhlVQ"
-    },
     "ImmersiveMedia": {
         "queryId": "fyHsmoqIwkwb15BZd3mgAQ",
         "operationName": "ImmersiveMedia",
@@ -8379,6 +8372,13 @@
             "responsive_web_grok_image_annotation_enabled": true,
             "responsive_web_enhance_cards_enabled": false
         }
+    },
+    "useAdAcountsConfigQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useAdAcountsConfigQuery",
+        "queryId": "rxKNli6Mo8BIxeTn3LhlVQ"
     },
     "TweetRelatedVideos": {
         "queryId": "mBda1HcNvxrtqNYdvogGwA",
@@ -9432,6 +9432,13 @@
         "operationName": "MediaMetricsQuery",
         "queryId": "LaHoDtfRkDrJJH9xwJB0tQ"
     },
+    "ContentPageUserTweetsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ContentPageUserTweetsQuery",
+        "queryId": "2z-5qhfdF2xqP65x-BmFGw"
+    },
     "AccountOverviewQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9446,6 +9453,13 @@
         "operationName": "VideoListProviderQuery",
         "queryId": "a3C2rAJacyyy6YEzl_uRkw"
     },
+    "VideoDetailsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "VideoDetailsQuery",
+        "queryId": "2Dd85Ojr-8JG933x4zVVGw"
+    },
     "AudiencePageGetCountryCodeQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9459,13 +9473,6 @@
         "text": null,
         "operationName": "AudiencePageGetCreatorAnalyticsDailyQuery",
         "queryId": "hVLF49G7rHX0S6kR-psEkA"
-    },
-    "ContentPageUserTweetsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ContentPageUserTweetsQuery",
-        "queryId": "2z-5qhfdF2xqP65x-BmFGw"
     },
     "overviewDataPostQuery": {
         "metadata": {},
@@ -11434,6 +11441,13 @@
         "operationName": "useCreatePipelineMutation",
         "queryId": "H1zsGhLzYKBhnYSluxMeQA"
     },
+    "AddPipelineButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "AddPipelineButtonMutation",
+        "queryId": "FbjYAC-17h5OC-ylJhsXjA"
+    },
     "MessageButtonQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11448,12 +11462,12 @@
         "operationName": "PeopleSearchListV2Query",
         "queryId": "AuKePnI8dSTXZXdtPyAT7Q"
     },
-    "ListItem_DelegateAccountQuery": {
+    "AddPipelineButtonQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "ListItem_DelegateAccountQuery",
-        "queryId": "bGjZWq2mG_T013Chjv8_6Q"
+        "operationName": "AddPipelineButtonQuery",
+        "queryId": "I5k0BOen7FNUT8K1jmXoqg"
     },
     "QueryInputMutation": {
         "metadata": {},
