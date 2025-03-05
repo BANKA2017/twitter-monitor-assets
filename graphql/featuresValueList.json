@@ -730,7 +730,7 @@
     "responsive_web_grok_dev_universal_search_id_enabled": false,
     "responsive_web_grok_edit_user_images": true,
     "responsive_web_grok_enable_chat_style_ui": true,
-    "responsive_web_grok_enable_file_attachment_with_deepsearch": false,
+    "responsive_web_grok_enable_file_attachment_with_deepsearch": true,
     "responsive_web_grok_enable_file_attachment_with_think": true,
     "responsive_web_grok_enable_model_tool_toggle": false,
     "responsive_web_grok_expanded_input": true,
@@ -981,7 +981,7 @@
     "rweb_analytics_video_detail_enabled": false,
     "rweb_analytics_video_detail_revenue_enabled": false,
     "rweb_analytics_video_list_v2_enabled": true,
-    "rweb_analytics_video_overview_revenue_enabled": true,
+    "rweb_analytics_video_overview_revenue_enabled": false,
     "rweb_analytics_video_xweb_enabled": true,
     "rweb_cache_spacebar_enabled": true,
     "rweb_client_transaction_id_enabled": true,
@@ -1518,5 +1518,7 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_conf_multi_video_enabled": true,
+    "rweb_video_screen_enabled": false
 }
