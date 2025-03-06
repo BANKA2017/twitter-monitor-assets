@@ -981,10 +981,11 @@
     "rweb_analytics_video_detail_enabled": false,
     "rweb_analytics_video_detail_revenue_enabled": false,
     "rweb_analytics_video_list_v2_enabled": true,
-    "rweb_analytics_video_overview_revenue_enabled": false,
+    "rweb_analytics_video_overview_revenue_enabled": true,
     "rweb_analytics_video_xweb_enabled": true,
     "rweb_cache_spacebar_enabled": true,
     "rweb_client_transaction_id_enabled": true,
+    "rweb_conf_multi_video_enabled": true,
     "rweb_conf_only_enabled": false,
     "rweb_conf_rnnoise_enabled": true,
     "rweb_creator_analytics_enabled": true,
@@ -1023,6 +1024,7 @@
     "rweb_updated_broadcast_screen": false,
     "rweb_video_logged_in_analytics_enabled": true,
     "rweb_video_pip_enabled": true,
+    "rweb_video_screen_enabled": false,
     "rweb_video_tagging_enabled": false,
     "rweb_video_timestamps_enabled": true,
     "sc_mock_data_enabled": false,
@@ -1518,7 +1520,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "rweb_conf_multi_video_enabled": true,
-    "rweb_video_screen_enabled": false
+    "xprofile_work_history_enabled": true
 }
