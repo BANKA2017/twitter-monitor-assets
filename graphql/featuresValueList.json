@@ -746,7 +746,7 @@
     "responsive_web_grok_fun_mode_disabled": true,
     "responsive_web_grok_general_availability": false,
     "responsive_web_grok_history_search_enabled": true,
-    "responsive_web_grok_image_annotation_enabled": false,
+    "responsive_web_grok_image_annotation_enabled": true,
     "responsive_web_grok_image_edit": true,
     "responsive_web_grok_image_prompts_enabled": true,
     "responsive_web_grok_img_composer": true,
@@ -1199,7 +1199,7 @@
     "subscriptions_long_video_upload": true,
     "subscriptions_management_fetch_next_billing_time": true,
     "subscriptions_management_renew_module_api_enabled": true,
-    "subscriptions_management_renew_module_enabled": false,
+    "subscriptions_management_renew_module_enabled": true,
     "subscriptions_marketing_page_discounts_enabled": true,
     "subscriptions_marketing_page_fetch_promotions": true,
     "subscriptions_marketing_page_free_trial_enabled": true,
@@ -1520,5 +1520,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_grok_img_gen_followup_attachments": false
 }
