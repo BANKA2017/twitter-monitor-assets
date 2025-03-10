@@ -4941,6 +4941,13 @@
         },
         "features": {}
     },
+    "ConferenceChatMessageItemQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ConferenceChatMessageItemQuery",
+        "queryId": "9dDHwpQSi-_wuKFAVF2WsA"
+    },
     "fetchDownloadSettingAllowedQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9919,6 +9926,40 @@
         },
         "features": {}
     },
+    "BirdwatchFetchOneNote": {
+        "queryId": "rgzb2J1hLTWhfHWG15S0NQ",
+        "operationName": "BirdwatchFetchOneNote",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [
+                "responsive_web_birdwatch_media_notes_enabled",
+                "responsive_web_birdwatch_url_notes_enabled",
+                "responsive_web_birdwatch_translation_enabled",
+                "responsive_web_birdwatch_fast_notes_badge_enabled",
+                "responsive_web_graphql_timeline_navigation_enabled",
+                "profile_label_improvements_pcf_label_in_post_enabled",
+                "rweb_tipjar_consumption_enabled",
+                "responsive_web_graphql_exclude_directive_enabled",
+                "verified_phone_label_enabled",
+                "responsive_web_graphql_skip_user_profile_image_extensions_enabled"
+            ],
+            "fieldToggles": [
+                "withAuxiliaryUserLabels"
+            ]
+        },
+        "features": {
+            "responsive_web_birdwatch_media_notes_enabled": true,
+            "responsive_web_birdwatch_url_notes_enabled": false,
+            "responsive_web_birdwatch_translation_enabled": true,
+            "responsive_web_birdwatch_fast_notes_badge_enabled": false,
+            "responsive_web_graphql_timeline_navigation_enabled": true,
+            "profile_label_improvements_pcf_label_in_post_enabled": true,
+            "rweb_tipjar_consumption_enabled": true,
+            "responsive_web_graphql_exclude_directive_enabled": true,
+            "verified_phone_label_enabled": false,
+            "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false
+        }
+    },
     "BirdwatchFetchCanTweetBeMediaNote": {
         "queryId": "0EW8KDGMK0g3EfCF0iAhsg",
         "operationName": "BirdwatchFetchCanTweetBeMediaNote",
@@ -10052,40 +10093,6 @@
             "fieldToggles": []
         },
         "features": {}
-    },
-    "BirdwatchFetchOneNote": {
-        "queryId": "rgzb2J1hLTWhfHWG15S0NQ",
-        "operationName": "BirdwatchFetchOneNote",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [
-                "responsive_web_birdwatch_media_notes_enabled",
-                "responsive_web_birdwatch_url_notes_enabled",
-                "responsive_web_birdwatch_translation_enabled",
-                "responsive_web_birdwatch_fast_notes_badge_enabled",
-                "responsive_web_graphql_timeline_navigation_enabled",
-                "profile_label_improvements_pcf_label_in_post_enabled",
-                "rweb_tipjar_consumption_enabled",
-                "responsive_web_graphql_exclude_directive_enabled",
-                "verified_phone_label_enabled",
-                "responsive_web_graphql_skip_user_profile_image_extensions_enabled"
-            ],
-            "fieldToggles": [
-                "withAuxiliaryUserLabels"
-            ]
-        },
-        "features": {
-            "responsive_web_birdwatch_media_notes_enabled": true,
-            "responsive_web_birdwatch_url_notes_enabled": false,
-            "responsive_web_birdwatch_translation_enabled": true,
-            "responsive_web_birdwatch_fast_notes_badge_enabled": false,
-            "responsive_web_graphql_timeline_navigation_enabled": true,
-            "profile_label_improvements_pcf_label_in_post_enabled": true,
-            "rweb_tipjar_consumption_enabled": true,
-            "responsive_web_graphql_exclude_directive_enabled": true,
-            "verified_phone_label_enabled": false,
-            "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false
-        }
     },
     "BirdwatchFetchNoteTranslation": {
         "queryId": "5d1xLeZG-XIT6PbtF7rh9w",
@@ -11310,6 +11317,13 @@
         "operationName": "grokTokFeedQuery",
         "queryId": "Xm45rqEIHhgc6J7MnTMDbw"
     },
+    "feedbackMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "feedbackMutation",
+        "queryId": "zv33bjbLTa35aipqMBnLgw"
+    },
     "personalityHooksAllPersonalitiesQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11337,13 +11351,6 @@
         "text": null,
         "operationName": "ConversationItem_RenameConversationMutation",
         "queryId": "bGjN_WgGMm3ugR5LI9MyAA"
-    },
-    "feedbackMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "feedbackMutation",
-        "queryId": "zv33bjbLTa35aipqMBnLgw"
     },
     "SentimentActionButtonMutation": {
         "metadata": {},
@@ -11413,19 +11420,19 @@
         "operationName": "JobRecommendationSettingsContainerQuery",
         "queryId": "KyP8Xn6i971KhAlvtt82BA"
     },
-    "ShareJobQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ShareJobQuery",
-        "queryId": "WJzdyXabqnLlXPJFh_IfNw"
-    },
     "useSetupOrgMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useSetupOrgMutation",
         "queryId": "oLe4Lwz_ozrlSO5yPyzFLg"
+    },
+    "ShareJobQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ShareJobQuery",
+        "queryId": "WJzdyXabqnLlXPJFh_IfNw"
     },
     "PeopleSearchListQuery": {
         "metadata": {},
