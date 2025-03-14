@@ -11200,6 +11200,20 @@
         },
         "features": {}
     },
+    "useSubscriptionProductDetailsQuery": {
+        "metadata": {
+            "featureSwitches": [
+                "subscriptions_marketing_page_fetch_promotions"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useSubscriptionProductDetailsQuery",
+        "queryId": "KwN8fu5uL5DRfyaKW_fh1w",
+        "features": {
+            "subscriptions_marketing_page_fetch_promotions": true
+        }
+    },
     "MonetizationIDVScreenQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11220,20 +11234,6 @@
         "text": null,
         "operationName": "AdsCategoriesMutation",
         "queryId": "eRWyTnzFgPgv9D4W8ujf6A"
-    },
-    "useSubscriptionProductDetailsQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "subscriptions_marketing_page_fetch_promotions"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useSubscriptionProductDetailsQuery",
-        "queryId": "KwN8fu5uL5DRfyaKW_fh1w",
-        "features": {
-            "subscriptions_marketing_page_fetch_promotions": true
-        }
     },
     "UserPreferencesQuery": {
         "metadata": {},
