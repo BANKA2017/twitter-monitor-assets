@@ -498,6 +498,7 @@
     "machine_translation_holdback_logged_in": false,
     "machine_translation_holdback_logged_out": false,
     "march_madness_brackets_enabled": true,
+    "march_madness_brackets_enabled_login_banner": false,
     "media_async_upload_amplify_duration_threshold": 600,
     "media_async_upload_longer_dm_video_max_video_duration": 600,
     "media_async_upload_longer_video_max_video_duration": 21660,
@@ -968,7 +969,7 @@
     "responsive_web_vo_basic_application_enabled": true,
     "responsive_web_x_translation_enabled": false,
     "rweb_2_column_htl_prototype_virtual_scroller_enabled": false,
-    "rweb_analytics_audience_xweb_enabled": false,
+    "rweb_analytics_audience_xweb_enabled": true,
     "rweb_analytics_country_device_breakdown_enabled": true,
     "rweb_analytics_create_reply_enabled": true,
     "rweb_analytics_device_breakdown_enabled": true,
@@ -987,7 +988,7 @@
     "rweb_analytics_video_detail_enabled": false,
     "rweb_analytics_video_detail_revenue_enabled": false,
     "rweb_analytics_video_list_v2_enabled": true,
-    "rweb_analytics_video_overview_csv_export": false,
+    "rweb_analytics_video_overview_csv_export": true,
     "rweb_analytics_video_overview_revenue_enabled": true,
     "rweb_analytics_video_xweb_enabled": true,
     "rweb_analytics_xweb_content_page": false,
@@ -1539,6 +1540,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "march_madness_brackets_enabled_login_banner": false
+    "xprofile_work_history_enabled": true
 }
