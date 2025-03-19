@@ -498,7 +498,7 @@
     "machine_translation_holdback_logged_in": false,
     "machine_translation_holdback_logged_out": false,
     "march_madness_brackets_enabled": true,
-    "march_madness_brackets_enabled_logout_popup": false,
+    "march_madness_brackets_enabled_logout_popup": true,
     "media_async_upload_amplify_duration_threshold": 600,
     "media_async_upload_longer_dm_video_max_video_duration": 600,
     "media_async_upload_longer_video_max_video_duration": 21660,
@@ -734,6 +734,7 @@
     "responsive_web_grok_edit_user_images": false,
     "responsive_web_grok_enable_add_response_keepalive": false,
     "responsive_web_grok_enable_chat_style_ui": true,
+    "responsive_web_grok_enable_deepersearch": false,
     "responsive_web_grok_enable_deepsearch_notifications": true,
     "responsive_web_grok_enable_file_attachment_with_deepsearch": true,
     "responsive_web_grok_enable_file_attachment_with_think": true,
@@ -951,6 +952,7 @@
     "responsive_web_verified_organizations_affiliate_fetch_limit": 3000,
     "responsive_web_verified_organizations_free_to_invoice_enabled": false,
     "responsive_web_verified_organizations_free_upgrade_promo_enabled": true,
+    "responsive_web_verified_organizations_idv_enabled": false,
     "responsive_web_verified_organizations_insights_enabled": true,
     "responsive_web_verified_organizations_intercom_enabled": true,
     "responsive_web_verified_organizations_invoice_enabled": false,
@@ -1540,5 +1542,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_grok_atgrok_sample_rate": 0.2
 }
