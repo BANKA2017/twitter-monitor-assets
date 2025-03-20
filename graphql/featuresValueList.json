@@ -545,6 +545,7 @@
     ],
     "payments_account_details_enabled": false,
     "payments_cards_as_payment_method_enabled": false,
+    "payments_enabled": false,
     "payments_forward_with_enabled": false,
     "payments_interest_enabled": false,
     "payments_pin_enabled": false,
@@ -726,6 +727,7 @@
     "responsive_web_grok_analyze_post_followups_enabled": false,
     "responsive_web_grok_animated_text_enabled": true,
     "responsive_web_grok_api_enable_grok_host": true,
+    "responsive_web_grok_atgrok_sample_rate": 0.2,
     "responsive_web_grok_backend_prompts_enabled": true,
     "responsive_web_grok_chat_drawer_enabled": false,
     "responsive_web_grok_continue_in_grok_enabled": true,
@@ -734,12 +736,12 @@
     "responsive_web_grok_edit_user_images": false,
     "responsive_web_grok_enable_add_response_keepalive": false,
     "responsive_web_grok_enable_chat_style_ui": true,
-    "responsive_web_grok_enable_deepersearch": false,
+    "responsive_web_grok_enable_deepersearch": true,
     "responsive_web_grok_enable_deepsearch_notifications": true,
     "responsive_web_grok_enable_file_attachment_with_deepsearch": true,
     "responsive_web_grok_enable_file_attachment_with_think": true,
-    "responsive_web_grok_enable_input_advanced_settings": false,
-    "responsive_web_grok_enable_model_tool_toggle": false,
+    "responsive_web_grok_enable_input_advanced_settings": true,
+    "responsive_web_grok_enable_model_tool_toggle": true,
     "responsive_web_grok_expanded_input": true,
     "responsive_web_grok_feed": false,
     "responsive_web_grok_feedback_label_dropdown": true,
@@ -1543,5 +1545,5 @@
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
-    "responsive_web_grok_atgrok_sample_rate": 0.2
+    "march_madness_brackets_enabled_loggedin_sidebar_popup": true
 }
