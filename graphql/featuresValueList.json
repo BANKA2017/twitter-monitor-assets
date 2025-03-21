@@ -451,7 +451,7 @@
     "insights_impressions_chart_enabled": false,
     "insights_impressions_enabled": false,
     "insights_multiple_rules_enabled": true,
-    "insights_paginated_metrics_backend_enabled": false,
+    "insights_paginated_metrics_backend_enabled": true,
     "insights_premium_initial_days_back": 7,
     "insights_preview_splash_metrics_enabled": false,
     "insights_previews_enabled": true,
@@ -498,7 +498,8 @@
     "machine_translation_holdback_logged_in": false,
     "machine_translation_holdback_logged_out": false,
     "march_madness_brackets_enabled": true,
-    "march_madness_brackets_enabled_logout_popup": true,
+    "march_madness_brackets_enabled_loggedin_sidebar_popup": false,
+    "march_madness_brackets_enabled_logout_popup": false,
     "media_async_upload_amplify_duration_threshold": 600,
     "media_async_upload_longer_dm_video_max_video_duration": 600,
     "media_async_upload_longer_video_max_video_duration": 21660,
@@ -544,6 +545,7 @@
         "ja"
     ],
     "payments_account_details_enabled": false,
+    "payments_card_spend_enabled": false,
     "payments_cards_as_payment_method_enabled": false,
     "payments_enabled": false,
     "payments_forward_with_enabled": false,
@@ -882,7 +884,7 @@
     "responsive_web_profile_spotlight_v0_display": true,
     "responsive_web_qp_full_popup_enabled": false,
     "responsive_web_qp_keyword_targeting_enabled": false,
-    "responsive_web_qp_skip_objective_enabled": false,
+    "responsive_web_qp_skip_objective_enabled": true,
     "responsive_web_qp_two_screens_enabled": false,
     "responsive_web_redux_use_fragment_enabled": false,
     "responsive_web_repeat_profile_visits_notifications_device_follow_only_version_enabled": false,
@@ -1269,6 +1271,7 @@
     "subscriptions_upsells_reply_boost_popup_enabled": true,
     "subscriptions_upsells_reply_boost_variant": "",
     "subscriptions_upsells_right_sidebar_variant": "",
+    "subscriptions_upsells_rweb_analytics_fallback_destination": "",
     "subscriptions_upsells_settings_analytics_upsell_enabled": false,
     "subscriptions_upsells_verified_profile_sidebar_enabled": false,
     "subscriptions_upsells_verified_profile_sidebar_variant": "",
@@ -1544,6 +1547,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "march_madness_brackets_enabled_loggedin_sidebar_popup": true
+    "xprofile_work_history_enabled": true
 }
