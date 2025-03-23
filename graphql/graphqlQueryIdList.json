@@ -2741,7 +2741,7 @@
         }
     },
     "Viewer": {
-        "queryId": "WBT8ommFCSHiy3z2_4k1Vg",
+        "queryId": "xYMAeZB2yAlr5BPY_ihHeg",
         "operationName": "Viewer",
         "operationType": "query",
         "metadata": {
@@ -11991,12 +11991,19 @@
         "operationName": "InviteMenu_accept_Mutation",
         "queryId": "DpdMDix7rAjl6SVAs3SNSQ"
     },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
+    "IDVerificationQuery": {
+        "metadata": {
+            "featureSwitches": [
+                "identity_verification_hide_verified_label_settings_enabled"
+            ]
+        },
+        "operationKind": "query",
         "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
+        "operationName": "IDVerificationQuery",
+        "queryId": "3Wx7dsynDTSI0LO52L8L8A",
+        "features": {
+            "identity_verification_hide_verified_label_settings_enabled": true
+        }
     },
     "useIDVerificationProcessVendorQuery": {
         "metadata": {},
@@ -12011,6 +12018,13 @@
         "text": null,
         "operationName": "useIDVerificationSessionUrlMutation",
         "queryId": "EBjxezEpy-W30060X7_v6g"
+    },
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
@@ -12654,13 +12668,6 @@
         "operationName": "personalityHooksAllPersonalitiesQuery",
         "queryId": "a5moJWybwfm8-u5Tx05vIw"
     },
-    "SentimentActionButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "SentimentActionButtonMutation",
-        "queryId": "1smesvHITcf79zPEvtAqOA"
-    },
     "SentimentActionsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12674,6 +12681,13 @@
         "text": null,
         "operationName": "JobListItemContentUserQuery",
         "queryId": "RxOP--hDqELH_fWn5VylUA"
+    },
+    "SentimentActionButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "SentimentActionButtonMutation",
+        "queryId": "1smesvHITcf79zPEvtAqOA"
     },
     "JobSearchQueryScreenJobsQuery": {
         "metadata": {
