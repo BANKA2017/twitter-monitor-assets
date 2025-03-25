@@ -11991,19 +11991,12 @@
         "operationName": "InviteMenu_accept_Mutation",
         "queryId": "DpdMDix7rAjl6SVAs3SNSQ"
     },
-    "IDVerificationQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "identity_verification_hide_verified_label_settings_enabled"
-            ]
-        },
-        "operationKind": "query",
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
         "text": null,
-        "operationName": "IDVerificationQuery",
-        "queryId": "3Wx7dsynDTSI0LO52L8L8A",
-        "features": {
-            "identity_verification_hide_verified_label_settings_enabled": true
-        }
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "useIDVerificationProcessVendorQuery": {
         "metadata": {},
@@ -12018,13 +12011,6 @@
         "text": null,
         "operationName": "useIDVerificationSessionUrlMutation",
         "queryId": "EBjxezEpy-W30060X7_v6g"
-    },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
@@ -12668,6 +12654,13 @@
         "operationName": "personalityHooksAllPersonalitiesQuery",
         "queryId": "a5moJWybwfm8-u5Tx05vIw"
     },
+    "SentimentActionButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "SentimentActionButtonMutation",
+        "queryId": "1smesvHITcf79zPEvtAqOA"
+    },
     "SentimentActionsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12681,13 +12674,6 @@
         "text": null,
         "operationName": "JobListItemContentUserQuery",
         "queryId": "RxOP--hDqELH_fWn5VylUA"
-    },
-    "SentimentActionButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "SentimentActionButtonMutation",
-        "queryId": "1smesvHITcf79zPEvtAqOA"
     },
     "JobSearchQueryScreenJobsQuery": {
         "metadata": {
