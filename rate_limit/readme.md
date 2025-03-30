@@ -11,7 +11,7 @@
 | :-- | --: | --: | --: | --: | --: | --: |
 | graphql:userinfo_screen_name    |            150 ✅ |            150 ❌ |            150 ✅ |            150 ✅ |            150 ✅ |            150 ✅ |
 | graphql:userinfo_uid            |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
-| graphql:tweets_web              |             50 ✅ |             50 ✅ |            800 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
+| graphql:tweets_web              |             50 ✅ |             50 ❌ |            800 ✅ |             50 ✅ |             50 ✅ |             50 ❌ |
 | graphql:tweets_with_replies_web |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:tweets_v2               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:tweets_with_replies_v2  |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
