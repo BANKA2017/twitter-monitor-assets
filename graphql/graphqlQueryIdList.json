@@ -1223,7 +1223,7 @@
         "operationName": "useSubscriptionProductDetailsQuery",
         "queryId": "zFAp2U15vXUDcpq1vEJAWw",
         "features": {
-            "subscriptions_marketing_page_fetch_promotions": true
+            "subscriptions_marketing_page_fetch_promotions": false
         }
     },
     "ConversationControlDelete": {
@@ -6963,7 +6963,7 @@
             "fieldToggles": []
         },
         "features": {
-            "subscriptions_marketing_page_fetch_promotions": true
+            "subscriptions_marketing_page_fetch_promotions": false
         }
     },
     "NotABotCheckoutUrlWithEligibility": {

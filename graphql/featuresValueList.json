@@ -1174,7 +1174,7 @@
     "subscriptions_block_ad_upsell_enabled": true,
     "subscriptions_blue_premium_labeling_enabled": true,
     "subscriptions_blue_verified_edit_profile_error_message_enabled": true,
-    "subscriptions_branding_checkmark_logo_enabled": true,
+    "subscriptions_branding_checkmark_logo_enabled": false,
     "subscriptions_enabled": true,
     "subscriptions_feature_1002": true,
     "subscriptions_feature_1003": true,
@@ -1222,7 +1222,7 @@
     "subscriptions_management_renew_module_enabled": true,
     "subscriptions_management_tier_switch_improvements_enabled": true,
     "subscriptions_marketing_page_discounts_enabled": true,
-    "subscriptions_marketing_page_fetch_promotions": true,
+    "subscriptions_marketing_page_fetch_promotions": false,
     "subscriptions_marketing_page_free_trial_enabled": true,
     "subscriptions_marketing_page_include_tax_enabled": true,
     "subscriptions_marketing_page_new_grok_content_enabled": true,
@@ -1257,7 +1257,7 @@
     "subscriptions_upsells_get_verified_profile_card": true,
     "subscriptions_upsells_get_verified_profile_card_variant": "variant_a",
     "subscriptions_upsells_get_verified_profile_rotation_enabled": true,
-    "subscriptions_upsells_home_nav_migration_enabled": false,
+    "subscriptions_upsells_home_nav_migration_enabled": true,
     "subscriptions_upsells_longform_sidebar_variant": "",
     "subscriptions_upsells_monetization_redesign_enabled": true,
     "subscriptions_upsells_post_composer_variant": "",
@@ -1550,5 +1550,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_verified_organizations_handle_form_enabled": false
 }
