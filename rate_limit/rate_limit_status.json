@@ -401,11 +401,11 @@
                 "label": "restful:userinfo_screen_name"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 404,
+                "message": "Not Found",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.twitter.com/graphql/Qw77dDjp9xCpUY-AXwt-yQ/UserByRestId?variables=%7B%22withSuperFollowsUserFields%22%3Atrue%2C%22withSafetyModeUserFields%22%3Atrue%2C%22userId%22%3A%22783214%22%7D&features=%7B%22hidden_profile_subscriptions_enabled%22%3Atrue%2C%22rweb_tipjar_consumption_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Atrue%2C%22verified_phone_label_enabled%22%3Afalse%2C%22highlights_tweets_tab_ui_enabled%22%3Atrue%2C%22responsive_web_twitter_article_notes_tab_enabled%22%3Atrue%2C%22subscriptions_feature_can_gift_premium%22%3Atrue%2C%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%7D",
                 "method": "GET",
                 "label": "graphql:userinfo_uid"
