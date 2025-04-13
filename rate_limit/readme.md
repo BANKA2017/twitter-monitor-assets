@@ -10,7 +10,7 @@
 |                               |            old web |            new web |  tweetdeck preview |            android |       real account |             cookie|
 | :-- | --: | --: | --: | --: | --: | --: |
 | graphql:userinfo_screen_name    |            150 ✅ |            150 ❌ |            150 ✅ |            150 ✅ |            150 ✅ |            150 ✅ |
-| graphql:userinfo_uid            |            500 ✅ |            500 ❌ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
+| graphql:userinfo_uid            |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:tweets_web              |             50 ✅ |             50 ✅ |            800 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:tweets_with_replies_web |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:tweets_v2               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
@@ -20,7 +20,7 @@
 | graphql:tweet_result_by_id      |             50 ✅ |             50 ✅ |            300 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:search_client           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ❌ |
 | graphql:audiospace              |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:translate_tweet         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
@@ -46,7 +46,7 @@
 | restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |          20000 ✅ |
 | restful:translate_bio           |            187 ❌ |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |            187 ✅ |
 | restful:translate_tweet         |            187 ❌ |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |            187 ✅ |
-| restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ✅ |            180 ❌ |           1800 ❌ |           1800 ❌ |
+| restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |           1800 ❌ |           1800 ❌ |
 | restful:following               |            187 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |
 | restful:followers               |             15 ✅ |             15 ✅ |             15 ✅ |             15 ✅ |            180 ✅ |            180 ✅ |
 | restful:likes                   |            187 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |             75 ❌ |             75 ❌ |
