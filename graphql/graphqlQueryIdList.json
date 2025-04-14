@@ -11523,6 +11523,32 @@
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
     },
+    "ArticleEntityUpdateTitle": {
+        "queryId": "hLdaxD2VAGr1ZD1DBcCbAQ",
+        "operationName": "ArticleEntityUpdateTitle",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [
+                "profile_label_improvements_pcf_label_in_post_enabled",
+                "rweb_tipjar_consumption_enabled",
+                "responsive_web_graphql_exclude_directive_enabled",
+                "verified_phone_label_enabled",
+                "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+                "responsive_web_graphql_timeline_navigation_enabled"
+            ],
+            "fieldToggles": [
+                "withAuxiliaryUserLabels"
+            ]
+        },
+        "features": {
+            "profile_label_improvements_pcf_label_in_post_enabled": true,
+            "rweb_tipjar_consumption_enabled": true,
+            "responsive_web_graphql_exclude_directive_enabled": true,
+            "verified_phone_label_enabled": false,
+            "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
+            "responsive_web_graphql_timeline_navigation_enabled": true
+        }
+    },
     "ArticleEntityPublish": {
         "queryId": "zpvGdNIL6a-30pXfhaOwcw",
         "operationName": "ArticleEntityPublish",
@@ -11578,32 +11604,6 @@
     "ArticleEntityUpdateCoverMedia": {
         "queryId": "k5OkshNfYnZqVWN_odTMrA",
         "operationName": "ArticleEntityUpdateCoverMedia",
-        "operationType": "mutation",
-        "metadata": {
-            "featureSwitches": [
-                "profile_label_improvements_pcf_label_in_post_enabled",
-                "rweb_tipjar_consumption_enabled",
-                "responsive_web_graphql_exclude_directive_enabled",
-                "verified_phone_label_enabled",
-                "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-                "responsive_web_graphql_timeline_navigation_enabled"
-            ],
-            "fieldToggles": [
-                "withAuxiliaryUserLabels"
-            ]
-        },
-        "features": {
-            "profile_label_improvements_pcf_label_in_post_enabled": true,
-            "rweb_tipjar_consumption_enabled": true,
-            "responsive_web_graphql_exclude_directive_enabled": true,
-            "verified_phone_label_enabled": false,
-            "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
-            "responsive_web_graphql_timeline_navigation_enabled": true
-        }
-    },
-    "ArticleEntityUpdateTitle": {
-        "queryId": "hLdaxD2VAGr1ZD1DBcCbAQ",
-        "operationName": "ArticleEntityUpdateTitle",
         "operationType": "mutation",
         "metadata": {
             "featureSwitches": [
@@ -12485,6 +12485,13 @@
         "operationName": "personalityHooksAllPersonalitiesQuery",
         "queryId": "a5moJWybwfm8-u5Tx05vIw"
     },
+    "SentimentActionButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "SentimentActionButtonMutation",
+        "queryId": "1smesvHITcf79zPEvtAqOA"
+    },
     "SentimentActionsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12498,13 +12505,6 @@
         "text": null,
         "operationName": "JobListItemContentUserQuery",
         "queryId": "RxOP--hDqELH_fWn5VylUA"
-    },
-    "SentimentActionButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "SentimentActionButtonMutation",
-        "queryId": "1smesvHITcf79zPEvtAqOA"
     },
     "JobSearchQueryScreenJobsQuery": {
         "metadata": {
