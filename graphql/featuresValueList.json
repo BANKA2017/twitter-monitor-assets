@@ -497,7 +497,7 @@
     "media_async_upload_longer_dm_video_max_video_duration": 600,
     "media_async_upload_longer_video_max_video_duration": 21660,
     "media_async_upload_longer_video_max_video_size": 8388608,
-    "media_async_upload_longer_video_resolution_selector": true,
+    "media_async_upload_longer_video_resolution_selector": false,
     "media_async_upload_max_avatar_gif_size": 5,
     "media_async_upload_max_gif_size": 15,
     "media_async_upload_max_image_size": 5,
@@ -879,7 +879,7 @@
     "responsive_web_profile_search_signup_guard": false,
     "responsive_web_profile_spotlight_v0_config": true,
     "responsive_web_profile_spotlight_v0_display": true,
-    "responsive_web_qp_full_popup_enabled": true,
+    "responsive_web_qp_full_popup_enabled": false,
     "responsive_web_qp_keyword_targeting_enabled": false,
     "responsive_web_qp_new_payment_enabled": false,
     "responsive_web_qp_skip_objective_enabled": true,
@@ -1525,7 +1525,7 @@
     "web_video_hls_variant_version": "1",
     "web_video_hlsjs_version": "1.5.0",
     "web_video_playback_rate_enabled": true,
-    "web_video_player_size_cap_disabled": true,
+    "web_video_player_size_cap_disabled": false,
     "web_video_prefetch_playlist_autoplay_disabled": false,
     "web_video_safari_hlsjs_enabled": true,
     "web_video_transcribed_captions_enabled": true,
@@ -1538,5 +1538,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_media_multi_requests_enabled": false
 }
