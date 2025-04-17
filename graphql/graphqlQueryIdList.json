@@ -8701,16 +8701,6 @@
         },
         "features": {}
     },
-    "CreateQuickPromotion": {
-        "queryId": "oDSoVgHhJxnd5IkckgPZdg",
-        "operationName": "CreateQuickPromotion",
-        "operationType": "mutation",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
     "GrokUnpinConversation": {
         "queryId": "-5e798p4EVbuhGGFFuw3Tg",
         "operationName": "GrokUnpinConversation",
@@ -8730,13 +8720,6 @@
             "fieldToggles": []
         },
         "features": {}
-    },
-    "TargetingKeywordsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "TargetingKeywordsQuery",
-        "queryId": "8Sm_SjESFOaQfO9tUJHB2A"
     },
     "SearchGrokConversations": {
         "queryId": "Sr2QEitvnemma5D2NJlA2Q",
@@ -8758,16 +8741,6 @@
     "articleNudgeDomains": {
         "queryId": "88Bu08U2ddaVVjKmmXjVYg",
         "operationName": "articleNudgeDomains",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "AdAccounts": {
-        "queryId": "a8KxGfFQAmm3WxqemuqSRA",
-        "operationName": "AdAccounts",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [],
@@ -8947,16 +8920,6 @@
             "responsive_web_enhance_cards_enabled": false
         }
     },
-    "DeletePaymentMethod": {
-        "queryId": "VaaLGwK5KNLoc7wsOmp4uw",
-        "operationName": "DeletePaymentMethod",
-        "operationType": "mutation",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
     "BookmarksAllDelete": {
         "queryId": "skiACZKC1GDYli-M8RzEPQ",
         "operationName": "BookmarksAllDelete",
@@ -9069,16 +9032,6 @@
         },
         "features": {}
     },
-    "Budgets": {
-        "queryId": "mbK3oSQotwcJXyQIBE3uYw",
-        "operationName": "Budgets",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
     "DeleteGrokMessage": {
         "queryId": "kaH0vdJmbuocpRAeWpRC7A",
         "operationName": "DeleteGrokMessage",
@@ -9092,16 +9045,6 @@
     "GrokMediaHistory": {
         "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
         "operationName": "GrokMediaHistory",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "QuickPromoteEligibility": {
-        "queryId": "LtpCXh66W-uXh7u7XSRA8Q",
-        "operationName": "QuickPromoteEligibility",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [],
@@ -9209,36 +9152,6 @@
         },
         "features": {}
     },
-    "EnrollCoupon": {
-        "queryId": "SOyGmNGaEXcvk15s5bqDrA",
-        "operationName": "EnrollCoupon",
-        "operationType": "mutation",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "PaymentMethods": {
-        "queryId": "mPF_G9okpbZuLcD6mN8K9g",
-        "operationName": "PaymentMethods",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "BoostAudienceEstimate": {
-        "queryId": "hiAXpFX4zFb6vOvGctGYyQ",
-        "operationName": "BoostAudienceEstimate",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
     "createBookmarkFolder": {
         "queryId": "6Xxqpq8TM_CREYiuof_h5w",
         "operationName": "createBookmarkFolder",
@@ -9269,39 +9182,9 @@
         },
         "features": {}
     },
-    "Coupons": {
-        "queryId": "R1h43jnAl2bsDoUkgZb7NQ",
-        "operationName": "Coupons",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "AudienceEstimate": {
-        "queryId": "1LYVUabJBYkPlUAWRabB3g",
-        "operationName": "AudienceEstimate",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
     "GrokPinConversation": {
         "queryId": "_6czUDKiWzcvBUKMoDZ19w",
         "operationName": "GrokPinConversation",
-        "operationType": "mutation",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "SetDefault": {
-        "queryId": "QEMLEzEMzoPNbeauKCCLbg",
-        "operationName": "SetDefault",
         "operationType": "mutation",
         "metadata": {
             "featureSwitches": [],
@@ -11689,6 +11572,123 @@
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
     },
+    "CreateQuickPromotion": {
+        "queryId": "oDSoVgHhJxnd5IkckgPZdg",
+        "operationName": "CreateQuickPromotion",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "AdAccounts": {
+        "queryId": "a8KxGfFQAmm3WxqemuqSRA",
+        "operationName": "AdAccounts",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "DeletePaymentMethod": {
+        "queryId": "VaaLGwK5KNLoc7wsOmp4uw",
+        "operationName": "DeletePaymentMethod",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "Budgets": {
+        "queryId": "mbK3oSQotwcJXyQIBE3uYw",
+        "operationName": "Budgets",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "QuickPromoteEligibility": {
+        "queryId": "LtpCXh66W-uXh7u7XSRA8Q",
+        "operationName": "QuickPromoteEligibility",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "EnrollCoupon": {
+        "queryId": "SOyGmNGaEXcvk15s5bqDrA",
+        "operationName": "EnrollCoupon",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "PaymentMethods": {
+        "queryId": "mPF_G9okpbZuLcD6mN8K9g",
+        "operationName": "PaymentMethods",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "BoostAudienceEstimate": {
+        "queryId": "hiAXpFX4zFb6vOvGctGYyQ",
+        "operationName": "BoostAudienceEstimate",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "Coupons": {
+        "queryId": "R1h43jnAl2bsDoUkgZb7NQ",
+        "operationName": "Coupons",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "AudienceEstimate": {
+        "queryId": "1LYVUabJBYkPlUAWRabB3g",
+        "operationName": "AudienceEstimate",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "SetDefault": {
+        "queryId": "QEMLEzEMzoPNbeauKCCLbg",
+        "operationName": "SetDefault",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "TargetingKeywordsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "TargetingKeywordsQuery",
+        "queryId": "8Sm_SjESFOaQfO9tUJHB2A"
+    },
     "TweetBoostButtonQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12595,12 +12595,12 @@
         "operationName": "useSetupOrgMutation",
         "queryId": "oLe4Lwz_ozrlSO5yPyzFLg"
     },
-    "useInteractMutation": {
+    "useSuperUpsellTrackingMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "useInteractMutation",
-        "queryId": "JTtmZmDSz9bDxjwqh4wDFA"
+        "operationName": "useSuperUpsellTrackingMutation",
+        "queryId": "l9d9OtMg46Lt3efR1aqgEg"
     },
     "usePaymentsBalanceQuery": {
         "metadata": {},
@@ -12745,13 +12745,6 @@
         "operationName": "useLinkFinancialInstitutionMutation",
         "queryId": "i8S6lhGfbh_bx-tikiykSw"
     },
-    "useIssueCardMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useIssueCardMutation",
-        "queryId": "kQPS09thAUrVg0a5SZweFg"
-    },
     "useLinkTokenExchangeMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12807,6 +12800,13 @@
         "text": null,
         "operationName": "usePaymentsMethodUpdateMutation",
         "queryId": "k-QBnpPpCHmJ1gzwaaTRMw"
+    },
+    "usePhysicalCardDetailsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePhysicalCardDetailsQuery",
+        "queryId": "biZPiI0hHL4s98hMW6sk_w"
     },
     "usePaymentsDocumentsQuery": {
         "metadata": {},
