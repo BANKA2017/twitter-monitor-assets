@@ -37,7 +37,7 @@
 | :-- | --: | --: | --: | --: | --: | --: |
 | restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |            900 ❌ |
 | restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |            900 ❌ |
-| restful:tweets                  |            300 ❌ |            300 ❌ |            300 ✅ |            300 ❌ |            180 ❌ |            180 ❌ |
+| restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |            180 ❌ |            180 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |            180 ✅ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
