@@ -84,8 +84,8 @@
                 "label": "graphql:tweets_with_replies_v2"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 300,
                 "rate_limit_reset": 900,
                 "status": "❌",
