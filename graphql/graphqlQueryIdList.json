@@ -12136,6 +12136,13 @@
         "operationName": "DMLabelsListToggleLabelMutation",
         "queryId": "BkE8C-TCIBC6p6zLq1J9sA"
     },
+    "useNewsArticleQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useNewsArticleQuery",
+        "queryId": "OGuIchikkLkacWpMvS1Wpg"
+    },
     "ConversationItem_RenameConversationMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12284,20 +12291,6 @@
         "operationName": "JobScreenQuery",
         "queryId": "lkS1Zj_iyLY_hmJCQIqqJg"
     },
-    "useRefreshJobRecommendationsMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useRefreshJobRecommendationsMutation",
-        "queryId": "NjDhjn_53KnOmYAcoyxqew"
-    },
-    "usePutMatchingProfileMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePutMatchingProfileMutation",
-        "queryId": "2jaLJJQhearTWZhqu89gBQ"
-    },
     "JobBookmarksListContainerQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12325,6 +12318,20 @@
         "text": null,
         "operationName": "JobRecommendationsListContainerQuery",
         "queryId": "anMTtT1I7crxLEDvedjdjg"
+    },
+    "useRefreshJobRecommendationsMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useRefreshJobRecommendationsMutation",
+        "queryId": "NjDhjn_53KnOmYAcoyxqew"
+    },
+    "usePutMatchingProfileMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePutMatchingProfileMutation",
+        "queryId": "2jaLJJQhearTWZhqu89gBQ"
     },
     "ShareJobQuery": {
         "metadata": {},
@@ -12602,6 +12609,13 @@
         "operationName": "usePaymentsMethodUpdateMutation",
         "queryId": "k-QBnpPpCHmJ1gzwaaTRMw"
     },
+    "useReplaceCardMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useReplaceCardMutation",
+        "queryId": "NeuJuxXh56PtYJJSnV4BWw"
+    },
     "usePhysicalCardDetailsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12678,20 +12692,6 @@
         "text": null,
         "operationName": "usePaymentsConfigQuery",
         "queryId": "Xh0CemHkb-C4m_IIgMjxHw"
-    },
-    "useHomeNewsArticlesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useHomeNewsArticlesQuery",
-        "queryId": "gTItUBXHQzDYz5zGcfHOSw"
-    },
-    "useNewsArticleQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useNewsArticleQuery",
-        "queryId": "OGuIchikkLkacWpMvS1Wpg"
     },
     "PremiumHubQuery": {
         "metadata": {},
@@ -13786,6 +13786,13 @@
         "text": null,
         "operationName": "AccountParodyScreenImplV2ParodyLabelMutation",
         "queryId": "73OvlPaHKjWcU21X1w9SKA"
+    },
+    "useHomeNewsArticlesQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useHomeNewsArticlesQuery",
+        "queryId": "gTItUBXHQzDYz5zGcfHOSw"
     },
     "IntercomStarterQuery": {
         "metadata": {},
