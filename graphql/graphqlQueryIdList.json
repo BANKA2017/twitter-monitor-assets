@@ -11546,12 +11546,19 @@
         "operationName": "InviteMenu_accept_Mutation",
         "queryId": "DpdMDix7rAjl6SVAs3SNSQ"
     },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
+    "IDVerificationQuery": {
+        "metadata": {
+            "featureSwitches": [
+                "identity_verification_hide_verified_label_settings_enabled"
+            ]
+        },
+        "operationKind": "query",
         "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
+        "operationName": "IDVerificationQuery",
+        "queryId": "3Wx7dsynDTSI0LO52L8L8A",
+        "features": {
+            "identity_verification_hide_verified_label_settings_enabled": true
+        }
     },
     "useIDVerificationProcessVendorQuery": {
         "metadata": {},
@@ -11566,6 +11573,13 @@
         "text": null,
         "operationName": "useIDVerificationSessionUrlMutation",
         "queryId": "EBjxezEpy-W30060X7_v6g"
+    },
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
@@ -11768,12 +11782,26 @@
         "operationName": "useUpdateRichtextBlockMutation",
         "queryId": "oDmWQK_udVhiqH89Lbd5LA"
     },
+    "ConsentScreen_xprofileMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "ConsentScreen_xprofileMutation",
+        "queryId": "4RvEtxr03YPi6jxZZ_PkoQ"
+    },
     "useFetchProfileBlocks_profileExistsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "useFetchProfileBlocks_profileExistsQuery",
         "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
+    },
+    "useFetchProfileBlocks_settingsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_settingsQuery",
+        "queryId": "vRz7Yom7hObecKwzBRUBiQ"
     },
     "useCreateRichtextBlockMutation": {
         "metadata": {},
@@ -11782,33 +11810,19 @@
         "operationName": "useCreateRichtextBlockMutation",
         "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
+    "useFetchProfileBlocks_profileQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_profileQuery",
+        "queryId": "Azv1m7WiLnbn36nNCk7l0Q"
+    },
     "useDeleteProfileBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useDeleteProfileBlockMutation",
         "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
-    },
-    "ConsentScreen_xprofileMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "ConsentScreen_xprofileMutation",
-        "queryId": "4RvEtxr03YPi6jxZZ_PkoQ"
-    },
-    "LocationSelectorQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "LocationSelectorQuery",
-        "queryId": "hbib0bN-dlHHvUhiy3YVyg"
-    },
-    "CompanyProfileFormCreateMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "CompanyProfileFormCreateMutation",
-        "queryId": "2_4isUYG9NJ4muYorNDMrg"
     },
     "VisibilityDropdown_updateSectionVisibilityMutation": {
         "metadata": {},
@@ -11817,12 +11831,12 @@
         "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
         "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
     },
-    "CompanyProfileSelectorCreateMutation": {
+    "LocationSelectorQuery": {
         "metadata": {},
-        "operationKind": "mutation",
+        "operationKind": "query",
         "text": null,
-        "operationName": "CompanyProfileSelectorCreateMutation",
-        "queryId": "EkqtXww_c-xjb6sWf0APmg"
+        "operationName": "LocationSelectorQuery",
+        "queryId": "hbib0bN-dlHHvUhiy3YVyg"
     },
     "useCreateWorkExperienceItemMutation": {
         "metadata": {},
@@ -11831,12 +11845,12 @@
         "operationName": "useCreateWorkExperienceItemMutation",
         "queryId": "stFQBhDvJtDCK778IAmGmQ"
     },
-    "CompanyProfileSelectorQuery": {
+    "CompanyProfileSelectorCreateMutation": {
         "metadata": {},
-        "operationKind": "query",
+        "operationKind": "mutation",
         "text": null,
-        "operationName": "CompanyProfileSelectorQuery",
-        "queryId": "m7SaYT5uYsHuOiRCJj8kTw"
+        "operationName": "CompanyProfileSelectorCreateMutation",
+        "queryId": "EkqtXww_c-xjb6sWf0APmg"
     },
     "useUpdateWorkExperienceItemMutation": {
         "metadata": {},
@@ -12237,13 +12251,6 @@
         "operationName": "personalityHooksAllPersonalitiesQuery",
         "queryId": "a5moJWybwfm8-u5Tx05vIw"
     },
-    "SentimentActionButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "SentimentActionButtonMutation",
-        "queryId": "1smesvHITcf79zPEvtAqOA"
-    },
     "SentimentActionsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12257,6 +12264,13 @@
         "text": null,
         "operationName": "JobListItemContentUserQuery",
         "queryId": "RxOP--hDqELH_fWn5VylUA"
+    },
+    "SentimentActionButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "SentimentActionButtonMutation",
+        "queryId": "1smesvHITcf79zPEvtAqOA"
     },
     "JobSearchQueryScreenJobsQuery": {
         "metadata": {
@@ -12427,14 +12441,14 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useActionableItemsQuery",
-        "queryId": "NmeR2VRcmJrsDmUySN5N8g"
+        "queryId": "av6L4O_Rane45GvRntf45w"
     },
     "useActiveAuthPaymentsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "useActiveAuthPaymentsQuery",
-        "queryId": "e2nbgKG9JYlMb4HhDwvC6Q"
+        "queryId": "a1MT5mSn5zr5d0XODBJusQ"
     },
     "useCancelTransferRequestMutation": {
         "metadata": {},
@@ -12553,7 +12567,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsTransactionQuery",
-        "queryId": "YLfSrFccHmIZe0c5GtnRCg"
+        "queryId": "OPou15Nk9TAQLPuzbWBmOw"
     },
     "usePaymentsInvitationDetailsQuery": {
         "metadata": {},
@@ -12593,7 +12607,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsTransactionsListQuery",
-        "queryId": "lCxev-x8dheycw3F4gxCSQ"
+        "queryId": "0NCZUbsENorfjF27VI4Z6w"
     },
     "usePaymentsNameQuery": {
         "metadata": {},
