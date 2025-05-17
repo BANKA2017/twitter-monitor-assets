@@ -646,6 +646,7 @@
     "responsive_web_commerce_shop_spotlight_enabled": true,
     "responsive_web_communities_slices_enabled": true,
     "responsive_web_communityboost_form_enabled": false,
+    "responsive_web_communityboost_mixed_pivot_enabled": false,
     "responsive_web_compact_media_max_height": 0,
     "responsive_web_compact_media_max_height_enabled_for_all": false,
     "responsive_web_composer_autosave_debounce_ms": 2000,
@@ -841,7 +842,7 @@
     "responsive_web_location_spotlight_v1_config": true,
     "responsive_web_location_spotlight_v1_display": true,
     "responsive_web_logged_out_blue_brand_button_enabled": false,
-    "responsive_web_logged_out_grok_button_enabled": false,
+    "responsive_web_logged_out_grok_button_enabled": true,
     "responsive_web_logged_out_notifications_enabled": true,
     "responsive_web_logged_out_notifications_fatigue_days_count": 7,
     "responsive_web_logged_out_notifications_including_home": false,
@@ -1012,7 +1013,7 @@
     "rweb_home_mixer_enable_social_context_filter_social_contexts": true,
     "rweb_home_nav_single_direction_scroll_enabled": false,
     "rweb_home_refetch_on_refocus_min_delay_seconds": 60,
-    "rweb_home_uas_enabled": false,
+    "rweb_home_uas_enabled": true,
     "rweb_jetfuel_sdkv2_with_x_web": false,
     "rweb_live_broadcast_rewind_enabled": true,
     "rweb_live_dock_enabled": true,
@@ -1569,5 +1570,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_xp_forwarded_for_enabled": false
 }
