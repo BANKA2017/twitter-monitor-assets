@@ -842,7 +842,7 @@
     "responsive_web_location_spotlight_v1_config": true,
     "responsive_web_location_spotlight_v1_display": true,
     "responsive_web_logged_out_blue_brand_button_enabled": false,
-    "responsive_web_logged_out_grok_button_enabled": false,
+    "responsive_web_logged_out_grok_button_enabled": true,
     "responsive_web_logged_out_notifications_enabled": true,
     "responsive_web_logged_out_notifications_fatigue_days_count": 7,
     "responsive_web_logged_out_notifications_including_home": false,
@@ -1055,6 +1055,7 @@
     "rweb_xchat_enabled": false,
     "rweb_xchat_messages_sidebar_enabled": false,
     "rweb_xchat_old_dms_inbox_item": false,
+    "rweb_xp_forwarded_for_enabled": false,
     "sc_mock_data_enabled": false,
     "sc_r4_enabled": false,
     "scribe_api_error_sample_size": 0,
@@ -1570,6 +1571,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "rweb_xp_forwarded_for_enabled": false
+    "xprofile_work_history_enabled": true
 }
