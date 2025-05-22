@@ -43,7 +43,7 @@
 | restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:typeahead               |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ✅ |              _ ✅ |
-| restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ✅ |          20000 ❌ |          20000 ✅ |          20000 ✅ |
+| restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |          20000 ✅ |
 | restful:translate_bio           |            187 ❌ |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |            187 ✅ |
 | restful:translate_tweet         |            187 ❌ |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |            187 ✅ |
 | restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |           1800 ❌ |           1800 ❌ |
