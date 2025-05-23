@@ -550,6 +550,7 @@
     "payments_pin_login_enabled": false,
     "payments_qr_onboarding_enabled": false,
     "payments_settings_documents_enabled": false,
+    "payments_tasks_carousel_enabled": false,
     "payments_transfer_methods_enabled": false,
     "premium_content_api_read_enabled": false,
     "premium_webview_paywall_force_premium_tier_enabled": false,
@@ -1572,5 +1573,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_xchat_logs": false
 }
