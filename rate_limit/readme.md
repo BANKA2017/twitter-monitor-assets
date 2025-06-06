@@ -25,7 +25,7 @@
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:translate_tweet         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:list_info               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
-| graphql:list_member             |            500 ❌ |            500 ❌ |            500 ✅ |            500 ❌ |            500 ✅ |            500 ✅ |
+| graphql:list_member             |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:list_timeline           |            500 ❌ |            500 ❌ |           1000 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:community_info          |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:community_search        |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
@@ -50,7 +50,7 @@
 | restful:following               |            187 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |
 | restful:followers               |             15 ✅ |             15 ✅ |             15 ✅ |             15 ✅ |            180 ✅ |            180 ✅ |
 | restful:likes                   |            187 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |             75 ❌ |             75 ❌ |
-| restful:onbroading              |              _ ❌ |              _ ❌ |              _ ❌ |            187 ✅ |            187 ✅ |            187 ✅ |
+| restful:onbroading              |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |
 
 ><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate_limit_checker>
 
