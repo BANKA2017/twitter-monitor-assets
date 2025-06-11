@@ -9782,11 +9782,12 @@
         "features": {}
     },
     "BirdwatchFetchNotes": {
-        "queryId": "vIBm6T1i0NvurrRbaArLbg",
+        "queryId": "hnZ4PYzrmZM5ygoZbJftZg",
         "operationName": "BirdwatchFetchNotes",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [
+                "responsive_web_birdwatch_enforce_author_user_quotas",
                 "responsive_web_birdwatch_media_notes_enabled",
                 "responsive_web_birdwatch_url_notes_enabled",
                 "responsive_web_birdwatch_translation_enabled",
@@ -9802,6 +9803,7 @@
             ]
         },
         "features": {
+            "responsive_web_birdwatch_enforce_author_user_quotas": false,
             "responsive_web_birdwatch_media_notes_enabled": true,
             "responsive_web_birdwatch_url_notes_enabled": false,
             "responsive_web_birdwatch_translation_enabled": true,
@@ -11610,6 +11612,20 @@
         },
         "features": {}
     },
+    "AdsCategoriesMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "AdsCategoriesMutation",
+        "queryId": "eRWyTnzFgPgv9D4W8ujf6A"
+    },
+    "AdsCategoriesQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AdsCategoriesQuery",
+        "queryId": "FO_KX1o77E3vYL14rATn9Q"
+    },
     "XaiDataSharingSettingsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -11673,13 +11689,6 @@
         "operationName": "useTierSwitchStatusQuery",
         "queryId": "kp2IvQH0Jim11U50WNO2PA"
     },
-    "AdsCategoriesMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "AdsCategoriesMutation",
-        "queryId": "eRWyTnzFgPgv9D4W8ujf6A"
-    },
     "useMonetizationCreatorSettingsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11736,13 +11745,6 @@
         "operationName": "ProfileCustomizationScreenQuery",
         "queryId": "nREVX5vQMgYq_cSDnMMc9Q"
     },
-    "AdsCategoriesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AdsCategoriesQuery",
-        "queryId": "FO_KX1o77E3vYL14rATn9Q"
-    },
     "MonetizationIDVScreenQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11798,13 +11800,6 @@
         "operationName": "BlueVerifiedProfileEditCalloutQuery",
         "queryId": "myAwUDICwB5gFdJhNB7xsg"
     },
-    "useUpdateRichtextBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useUpdateRichtextBlockMutation",
-        "queryId": "oDmWQK_udVhiqH89Lbd5LA"
-    },
     "useFetchProfileBlocks_profileExistsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11812,19 +11807,26 @@
         "operationName": "useFetchProfileBlocks_profileExistsQuery",
         "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
     },
-    "useCreateRichtextBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useCreateRichtextBlockMutation",
-        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
-    },
     "useDeleteProfileBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useDeleteProfileBlockMutation",
         "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
+    },
+    "useUpdateRichtextBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useUpdateRichtextBlockMutation",
+        "queryId": "oDmWQK_udVhiqH89Lbd5LA"
+    },
+    "useCreateRichtextBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useCreateRichtextBlockMutation",
+        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
     "ConsentScreen_xprofileMutation": {
         "metadata": {},
@@ -12328,20 +12330,6 @@
         "operationName": "JobScreenQuery",
         "queryId": "8uZH_OBKTFNIMzTJaV5lbQ"
     },
-    "useRefreshJobRecommendationsMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useRefreshJobRecommendationsMutation",
-        "queryId": "NjDhjn_53KnOmYAcoyxqew"
-    },
-    "usePutMatchingProfileMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePutMatchingProfileMutation",
-        "queryId": "2jaLJJQhearTWZhqu89gBQ"
-    },
     "JobBookmarksListContainerQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12370,6 +12358,20 @@
         "operationName": "JobRecommendationsListContainerQuery",
         "queryId": "sNlxXap-Zl7CMjuH9hVjdw"
     },
+    "useRefreshJobRecommendationsMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useRefreshJobRecommendationsMutation",
+        "queryId": "NjDhjn_53KnOmYAcoyxqew"
+    },
+    "usePutMatchingProfileMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePutMatchingProfileMutation",
+        "queryId": "2jaLJJQhearTWZhqu89gBQ"
+    },
     "useSetupOrgMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12383,6 +12385,34 @@
         "text": null,
         "operationName": "ShareJobQuery",
         "queryId": "wock5PZeo4Cq6PXg4GpqDQ"
+    },
+    "usePaymentsSessionMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePaymentsSessionMutation",
+        "queryId": "jrS6luzi2VuDNWvsG4ZSZA"
+    },
+    "usePaymentsAccountStatusQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaymentsAccountStatusQuery",
+        "queryId": "8qNB72LDdA7MIPa-TSs5nw"
+    },
+    "usePaymentsConfigQuery": {
+        "metadata": {
+            "featureSwitches": [
+                "payments_transfer_methods_enabled"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaymentsConfigQuery",
+        "queryId": "Fu7zu8Ae1f6C--2m6Ho4fQ",
+        "features": {
+            "payments_transfer_methods_enabled": false
+        }
     },
     "ScreenNamePaneQuery": {
         "metadata": {},
@@ -12473,6 +12503,20 @@
         "operationName": "useActionableItemsQuery",
         "queryId": "qPC1JVZ6NY8QuS12-1xFxA"
     },
+    "useFundedPaymentTransferMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useFundedPaymentTransferMutation",
+        "queryId": "PgrTwIXGthUqNdTfzgFAYg"
+    },
+    "useEphemeralKeyMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useEphemeralKeyMutation",
+        "queryId": "3KlOMPaK8cIhXYM41ieZcQ"
+    },
     "useCalculateTransactionFeesMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12536,6 +12580,13 @@
         "operationName": "useClaimTransferMutation",
         "queryId": "ZpeSramVN80ij7CD8OXxPQ"
     },
+    "usePaymentsAccountEligibilityStatusMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePaymentsAccountEligibilityStatusMutation",
+        "queryId": "t5RacliZlaQuWbVox6wp_Q"
+    },
     "useLinkFinancialInstitutionMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12557,41 +12608,6 @@
         "operationName": "usePaymentRequestTransferMutation",
         "queryId": "6WX0ffFrJN3R3CzVjlutrg"
     },
-    "usePaymentDepositMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePaymentDepositMutation",
-        "queryId": "FwEhmEjZDOCyRg9d6rAOMw"
-    },
-    "useEphemeralKeyMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useEphemeralKeyMutation",
-        "queryId": "3KlOMPaK8cIhXYM41ieZcQ"
-    },
-    "useLinkUpdateCompleteMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useLinkUpdateCompleteMutation",
-        "queryId": "LNbwQMIN-XfxOsZciyUWMQ"
-    },
-    "useLinkBankCardMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useLinkBankCardMutation",
-        "queryId": "HcWAknxhir7sDB6j9CxFYw"
-    },
-    "usePaymentsAccountEligibilityStatusMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePaymentsAccountEligibilityStatusMutation",
-        "queryId": "t5RacliZlaQuWbVox6wp_Q"
-    },
     "usePaymentsBalanceQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12606,19 +12622,19 @@
         "operationName": "usePaymentsInvitationDetailsQuery",
         "queryId": "hF5qR7ovBbqQTtTYecIDTA"
     },
-    "usePaymentsAccountStatusQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "usePaymentsAccountStatusQuery",
-        "queryId": "8qNB72LDdA7MIPa-TSs5nw"
-    },
     "usePaymentTransferOutMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "usePaymentTransferOutMutation",
         "queryId": "xcPLCXa5SJWUw1zwMxBgAA"
+    },
+    "usePaymentDepositMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePaymentDepositMutation",
+        "queryId": "FwEhmEjZDOCyRg9d6rAOMw"
     },
     "usePaymentsNameQuery": {
         "metadata": {},
@@ -12640,6 +12656,13 @@
         "text": null,
         "operationName": "usePaymentsDocumentsQuery",
         "queryId": "d1lCDErUPOoSgdGUBecQhA"
+    },
+    "useLinkUpdateCompleteMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useLinkUpdateCompleteMutation",
+        "queryId": "LNbwQMIN-XfxOsZciyUWMQ"
     },
     "usePaymentsMethodsQuery": {
         "metadata": {
@@ -12669,19 +12692,12 @@
         "operationName": "usePaymentsLimitsQuery",
         "queryId": "nhPl70quXGJBEu5qarYY-w"
     },
-    "usePaymentsConfigQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "payments_transfer_methods_enabled"
-            ]
-        },
-        "operationKind": "query",
+    "useLinkBankCardMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
         "text": null,
-        "operationName": "usePaymentsConfigQuery",
-        "queryId": "Fu7zu8Ae1f6C--2m6Ho4fQ",
-        "features": {
-            "payments_transfer_methods_enabled": false
-        }
+        "operationName": "useLinkBankCardMutation",
+        "queryId": "HcWAknxhir7sDB6j9CxFYw"
     },
     "usePaymentsRegionQuery": {
         "metadata": {},
@@ -12729,13 +12745,6 @@
         "text": null,
         "operationName": "usePhysicalCardDetailsQuery",
         "queryId": "zBHh1GXQTtIlXgoMbV9yoA"
-    },
-    "usePaymentsSessionMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePaymentsSessionMutation",
-        "queryId": "jrS6luzi2VuDNWvsG4ZSZA"
     },
     "useUpdatePaymentsPreferencesMutation": {
         "metadata": {},
