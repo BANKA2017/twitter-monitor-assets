@@ -8714,6 +8714,13 @@
         },
         "features": {}
     },
+    "GrokAutoTranslationToggleQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "GrokAutoTranslationToggleQuery",
+        "queryId": "J0iibs_CtTMRvj1R7Iykmg"
+    },
     "CreateGrokConversation": {
         "queryId": "vvC5uy7pWWHXS2aDi1FZeA",
         "operationName": "CreateGrokConversation",
@@ -8743,6 +8750,13 @@
             "fieldToggles": []
         },
         "features": {}
+    },
+    "GrokAutoTranslationToggleMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "GrokAutoTranslationToggleMutation",
+        "queryId": "3f9Qr6WPCh76-ip7h2r-tA"
     },
     "GrokPinConversation": {
         "queryId": "_6czUDKiWzcvBUKMoDZ19w",
