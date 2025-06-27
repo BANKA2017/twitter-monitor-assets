@@ -511,7 +511,7 @@
     "ocf_2fa_enrollment_bouncer_enabled": true,
     "ocf_2fa_enrollment_enabled": true,
     "ocf_2fa_unenrollment_enabled": true,
-    "onboarding_project_uls_enabled": false,
+    "onboarding_project_uls_enabled": true,
     "optimized_sru_parameters_client_side_timeout_ms": 600000,
     "optimized_sru_parameters_enabled": 1,
     "optimized_sru_parameters_ideal_upload_time_ms": 80000,
@@ -782,7 +782,7 @@
     "responsive_web_grok_personality": true,
     "responsive_web_grok_personality_button_enabled": false,
     "responsive_web_grok_places_card_enabled": false,
-    "responsive_web_grok_poll_translation_enabled": false,
+    "responsive_web_grok_poll_translation_enabled": true,
     "responsive_web_grok_post_composer": true,
     "responsive_web_grok_post_image_understanding_enabled": false,
     "responsive_web_grok_post_inline_translation_is_enabled": true,
@@ -856,7 +856,7 @@
     "responsive_web_logged_out_notifications_fatigue_days_count": 7,
     "responsive_web_logged_out_notifications_including_home": false,
     "responsive_web_logged_out_read_replies_pivot_enabled": true,
-    "responsive_web_logged_out_redesign_enabled": true,
+    "responsive_web_logged_out_redesign_enabled": false,
     "responsive_web_login_input_type_email_enabled": false,
     "responsive_web_login_signup_sheet_app_install_cta_enabled": true,
     "responsive_web_media_download_video_share_menu_enabled": true,
@@ -1587,5 +1587,7 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_grok_download_favicons": false,
+    "responsive_web_grok_use_collapsed_preview": false
 }
