@@ -11883,6 +11883,20 @@
         "operationName": "InviteMenu_accept_Mutation",
         "queryId": "DpdMDix7rAjl6SVAs3SNSQ"
     },
+    "CreateCall_Mutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "CreateCall_Mutation",
+        "queryId": "Rk0Zap7qHdmr5ePVos54OQ"
+    },
+    "JoinCall_Mutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "JoinCall_Mutation",
+        "queryId": "CtVIdFDpmR54Pfqu2bEdcA"
+    },
     "useCreateStripePortalUrlMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -11952,6 +11966,20 @@
         },
         "features": {}
     },
+    "AdsCategoriesMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "AdsCategoriesMutation",
+        "queryId": "eRWyTnzFgPgv9D4W8ujf6A"
+    },
+    "AdsCategoriesQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AdsCategoriesQuery",
+        "queryId": "FO_KX1o77E3vYL14rATn9Q"
+    },
     "XaiDataSharingSettingsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12015,13 +12043,6 @@
         "operationName": "useTierSwitchStatusQuery",
         "queryId": "kp2IvQH0Jim11U50WNO2PA"
     },
-    "AdsCategoriesMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "AdsCategoriesMutation",
-        "queryId": "eRWyTnzFgPgv9D4W8ujf6A"
-    },
     "useMonetizationCreatorSettingsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12078,13 +12099,6 @@
         "operationName": "ProfileCustomizationScreenQuery",
         "queryId": "nREVX5vQMgYq_cSDnMMc9Q"
     },
-    "AdsCategoriesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AdsCategoriesQuery",
-        "queryId": "FO_KX1o77E3vYL14rATn9Q"
-    },
     "MonetizationIDVScreenQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12140,20 +12154,6 @@
         "operationName": "BlueVerifiedProfileEditCalloutQuery",
         "queryId": "myAwUDICwB5gFdJhNB7xsg"
     },
-    "useFetchProfileBlocks_profileExistsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileBlocks_profileExistsQuery",
-        "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
-    },
-    "useDeleteProfileBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useDeleteProfileBlockMutation",
-        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
-    },
     "useUpdateRichtextBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12161,12 +12161,26 @@
         "operationName": "useUpdateRichtextBlockMutation",
         "queryId": "oDmWQK_udVhiqH89Lbd5LA"
     },
+    "useFetchProfileBlocks_profileExistsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_profileExistsQuery",
+        "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
+    },
     "useCreateRichtextBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useCreateRichtextBlockMutation",
         "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
+    },
+    "useDeleteProfileBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useDeleteProfileBlockMutation",
+        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
     },
     "ConsentScreen_xprofileMutation": {
         "metadata": {},
