@@ -214,11 +214,11 @@
                 "label": "restful:typeahead"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 34,
+                "message": "Sorry, that page does not exist",
                 "rate_limit": 20000,
                 "rate_limit_reset": 900,
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.x.com/2/guide.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&include_ext_has_nft_avatar=1&include_ext_is_blue_verified=1&include_ext_verified_type=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_ext_limited_action_results=false&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_ext_collab_control=true&include_ext_views=true&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&include_ext_sensitive_media_warning=true&include_ext_trusted_friends_metadata=true&send_error_codes=true&simple_quoted_tweet=true&count=20&candidate_source=trends&include_page_configuration=false&entity_tokens=false&ext=mediaStats%2ChighlightedLabel%2ChasNftAvatar%2CvoiceInfo%2Cenrichments%2CsuperFollowMetadata%2CunmentionInfo%2CeditControl%2Ccollab_control%2Cvibe",
                 "method": "GET",
                 "label": "restful:trends"
@@ -294,8 +294,8 @@
                 "label": "graphql:list_timeline"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 180,
                 "rate_limit_reset": 900,
                 "status": "❌",
@@ -828,11 +828,11 @@
                 "label": "graphql:tweets_v2"
             },
             {
-                "code": 404,
-                "message": "Not Found",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/graphql/Y86LQY7KMvxn5tu3hFTyPg/UserWithProfileTweetsAndRepliesQueryV2?variables=%7B%22includeTweetImpression%22%3Atrue%2C%22includeHasBirdwatchNotes%22%3Afalse%2C%22includeEditPerspective%22%3Afalse%2C%22includeEditControl%22%3Atrue%2C%22count%22%3A40%2C%22rest_id%22%3A%22783214%22%2C%22includeTweetVisibilityNudge%22%3Atrue%2C%22autoplay_enabled%22%3Atrue%7D&features=%7B%22longform_notetweets_inline_media_enabled%22%3Atrue%2C%22super_follow_badge_privacy_enabled%22%3Atrue%2C%22longform_notetweets_rich_text_read_enabled%22%3Atrue%2C%22super_follow_user_api_enabled%22%3Atrue%2C%22unified_cards_ad_metadata_container_dynamic_card_content_query_enabled%22%3Atrue%2C%22super_follow_tweet_api_enabled%22%3Atrue%2C%22articles_api_enabled%22%3Afalse%2C%22android_graphql_skip_api_media_color_palette%22%3Atrue%2C%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Atrue%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22subscriptions_verification_info_enabled%22%3Atrue%2C%22blue_business_profile_image_shape_enabled%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Atrue%2C%22immersive_video_status_linkable_timestamps%22%3Afalse%2C%22super_follow_exclusive_tweet_notifications_enabled%22%3Atrue%7D",
                 "method": "GET",
                 "label": "graphql:tweets_with_replies_v2"
