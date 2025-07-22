@@ -854,12 +854,12 @@
     "responsive_web_location_spotlight_v1_config": true,
     "responsive_web_location_spotlight_v1_display": true,
     "responsive_web_logged_out_blue_brand_button_enabled": false,
-    "responsive_web_logged_out_grok_button_enabled": false,
+    "responsive_web_logged_out_grok_button_enabled": true,
     "responsive_web_logged_out_notifications_enabled": true,
     "responsive_web_logged_out_notifications_fatigue_days_count": 7,
     "responsive_web_logged_out_notifications_including_home": false,
     "responsive_web_logged_out_read_replies_pivot_enabled": true,
-    "responsive_web_logged_out_redesign_enabled": false,
+    "responsive_web_logged_out_redesign_enabled": true,
     "responsive_web_login_input_type_email_enabled": false,
     "responsive_web_login_signup_sheet_app_install_cta_enabled": true,
     "responsive_web_media_download_video_share_menu_enabled": true,
@@ -1315,7 +1315,7 @@
     "subscriptions_upsells_radar_video_url_desktop": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_radar_video_url_mobile": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_reply_boost_enabled": false,
-    "subscriptions_upsells_reply_boost_popup_enabled": true,
+    "subscriptions_upsells_reply_boost_popup_enabled": false,
     "subscriptions_upsells_reply_boost_variant": "",
     "subscriptions_upsells_right_sidebar_variant": "",
     "subscriptions_upsells_rweb_analytics_fallback_destination": "",
@@ -1611,5 +1611,7 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "subscriptions_marketing_page_feature_highlights_enabled": false,
+    "subscriptions_marketing_page_social_proof_enabled": false
 }
