@@ -29,14 +29,14 @@
 | graphql:list_timeline           |            500 ❌ |            500 ❌ |           1000 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:community_info          |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:community_search        |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
-| graphql:community_timeline      |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
+| graphql:community_timeline      |            500 ❌ |            500 ❌ |            500 ✅ |            500 ❌ |            500 ✅ |            500 ✅ |
 
 ## Restful
 
 |                               |            old web |            new web |  tweetdeck preview |            android |       real account |             cookie|
 | :-- | --: | --: | --: | --: | --: | --: |
 | restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |            900 ❌ |
-| restful:userinfo_uid            |            180 ✅ |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |            900 ❌ |
+| restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |            900 ❌ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |            180 ❌ |            180 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |            180 ✅ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
@@ -50,7 +50,7 @@
 | restful:following               |            187 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |            180 ✅ |
 | restful:followers               |             15 ✅ |             15 ✅ |             15 ✅ |             15 ✅ |            180 ✅ |            180 ✅ |
 | restful:likes                   |            187 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |             75 ❌ |             75 ❌ |
-| restful:onbroading              |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |
+| restful:onbroading              |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |              _ ❌ |
 
 ><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate_limit_checker>
 

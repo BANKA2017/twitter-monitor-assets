@@ -894,7 +894,7 @@
         }
     },
     "Viewer": {
-        "queryId": "6BNhGDqdyGEkh0lHAVE6yA",
+        "queryId": "Lrmldc6p2fuP6dJe-cBckw",
         "operationName": "Viewer",
         "operationType": "query",
         "metadata": {
@@ -4222,7 +4222,7 @@
         }
     },
     "Upsells": {
-        "queryId": "E6GxHsmKmTU0KXi2yXPCtA",
+        "queryId": "Tx48nkiGFomEXIPc-fJ7GA",
         "operationName": "Upsells",
         "operationType": "query",
         "metadata": {
@@ -12166,6 +12166,20 @@
         },
         "features": {}
     },
+    "AdsCategoriesMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "AdsCategoriesMutation",
+        "queryId": "eRWyTnzFgPgv9D4W8ujf6A"
+    },
+    "AdsCategoriesQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AdsCategoriesQuery",
+        "queryId": "FO_KX1o77E3vYL14rATn9Q"
+    },
     "XaiDataSharingSettingsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12229,13 +12243,6 @@
         "operationName": "useTierSwitchStatusQuery",
         "queryId": "kp2IvQH0Jim11U50WNO2PA"
     },
-    "AdsCategoriesMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "AdsCategoriesMutation",
-        "queryId": "eRWyTnzFgPgv9D4W8ujf6A"
-    },
     "useMonetizationCreatorSettingsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12291,13 +12298,6 @@
         "text": null,
         "operationName": "ProfileCustomizationScreenQuery",
         "queryId": "nREVX5vQMgYq_cSDnMMc9Q"
-    },
-    "AdsCategoriesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AdsCategoriesQuery",
-        "queryId": "FO_KX1o77E3vYL14rATn9Q"
     },
     "MonetizationIDVScreenQuery": {
         "metadata": {},
@@ -12727,7 +12727,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useNewsArticleQuery",
-        "queryId": "OGuIchikkLkacWpMvS1Wpg"
+        "queryId": "KVlJUSCh1B-KfOe1HxZ9kA"
     },
     "GetGrokCustomizationSettingMutation": {
         "metadata": {},
@@ -13222,7 +13222,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsInvitationDetailsQuery",
-        "queryId": "hF5qR7ovBbqQTtTYecIDTA"
+        "queryId": "PeUPpVT28sls8BiBHilA1Q"
     },
     "usePaymentsPreferencesQuery": {
         "metadata": {},
@@ -14420,19 +14420,19 @@
         "operationName": "PremiumGiftingQuery",
         "queryId": "8gw7w5GeHXOi_bVT4aNh6Q"
     },
-    "ProfileSpotlightsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ProfileSpotlightsQuery",
-        "queryId": "1sAf0uU4-B2ZLJGUX5O7LQ"
-    },
     "isEligibleForVoButtonUpsellQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "isEligibleForVoButtonUpsellQuery",
         "queryId": "BuWF9hiwmUyFdGo3J4DqbA"
+    },
+    "ProfileSpotlightsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ProfileSpotlightsQuery",
+        "queryId": "1sAf0uU4-B2ZLJGUX5O7LQ"
     },
     "useTotalAdCampaignsForUserQuery": {
         "metadata": {},
