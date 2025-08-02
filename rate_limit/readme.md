@@ -15,7 +15,7 @@
 | graphql:tweets_with_replies_web |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ❌ |
 | graphql:tweets_v2               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:tweets_with_replies_v2  |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ❌ |
-| graphql:conversation            |            150 ✅ |            150 ❌ |            150 ❌ |            150 ❌ |            150 ✅ |            150 ✅ |
+| graphql:conversation            |            150 ❌ |            150 ❌ |            150 ❌ |            150 ❌ |            150 ✅ |            150 ✅ |
 | graphql:conversation_v2         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ❌ |
 | graphql:tweet_result_by_id      |             50 ✅ |             50 ✅ |            300 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
@@ -28,7 +28,7 @@
 | graphql:list_member             |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:list_timeline           |            500 ❌ |            500 ❌ |           1000 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:community_info          |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
-| graphql:community_search        |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
+| graphql:community_search        |            500 ❌ |            500 ❌ |            500 ✅ |            500 ❌ |            500 ✅ |            500 ✅ |
 | graphql:community_timeline      |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
 
 ## Restful
