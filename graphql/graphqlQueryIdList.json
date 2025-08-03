@@ -8751,7 +8751,7 @@
         "features": {}
     },
     "GrokHome": {
-        "queryId": "UNlXYbDzNnQypScuc0OMoQ",
+        "queryId": "ZYQK0wvMfoTAwGTKIu71zQ",
         "operationName": "GrokHome",
         "operationType": "query",
         "metadata": {
@@ -12345,20 +12345,6 @@
         "operationName": "BlueVerifiedProfileEditCalloutQuery",
         "queryId": "myAwUDICwB5gFdJhNB7xsg"
     },
-    "useFetchProfileBlocks_profileExistsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileBlocks_profileExistsQuery",
-        "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
-    },
-    "useDeleteProfileBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useDeleteProfileBlockMutation",
-        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
-    },
     "useUpdateRichtextBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12366,12 +12352,26 @@
         "operationName": "useUpdateRichtextBlockMutation",
         "queryId": "oDmWQK_udVhiqH89Lbd5LA"
     },
+    "useFetchProfileBlocks_profileExistsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_profileExistsQuery",
+        "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
+    },
     "useCreateRichtextBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useCreateRichtextBlockMutation",
         "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
+    },
+    "useDeleteProfileBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useDeleteProfileBlockMutation",
+        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
     },
     "ConsentScreen_xprofileMutation": {
         "metadata": {},
