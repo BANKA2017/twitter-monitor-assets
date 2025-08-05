@@ -20,7 +20,7 @@
 | graphql:tweet_result_by_id      |             50 ✅ |             50 ✅ |            300 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:search_client           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:edit_history            |            500 ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |            500 ❌ |
 | graphql:audiospace              |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:translate_tweet         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
