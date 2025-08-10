@@ -12609,19 +12609,26 @@
         "operationName": "useCreateStripePortalUrlMutation",
         "queryId": "vymd-xe7b364mogIF1CoQQ"
     },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
-    },
     "PasskeyManagement_Query": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "PasskeyManagement_Query",
         "queryId": "8fWHnipHAqfhgFo-rAXk5w"
+    },
+    "IDVerificationQuery": {
+        "metadata": {
+            "featureSwitches": [
+                "identity_verification_hide_verified_label_settings_enabled"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "IDVerificationQuery",
+        "queryId": "3Wx7dsynDTSI0LO52L8L8A",
+        "features": {
+            "identity_verification_hide_verified_label_settings_enabled": true
+        }
     },
     "useIDVerificationProcessVendorQuery": {
         "metadata": {},
@@ -12636,6 +12643,13 @@
         "text": null,
         "operationName": "useIDVerificationSessionUrlMutation",
         "queryId": "EBjxezEpy-W30060X7_v6g"
+    },
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
@@ -13314,18 +13328,6 @@
         "operationName": "JobListItemContentUserQuery",
         "queryId": "RxOP--hDqELH_fWn5VylUA"
     },
-    "JobSearchQueryScreenJobsQuery": {
-        "metadata": {
-            "sliceInfoPath": [
-                "job_search",
-                "slice_info"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "JobSearchQueryScreenJobsQuery",
-        "queryId": "w6VgeLQLBKmi9brKZz_QNA"
-    },
     "JobRecommendationSettingsContainerQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -13347,6 +13349,32 @@
         "operationName": "JobScreenQuery",
         "queryId": "8uZH_OBKTFNIMzTJaV5lbQ"
     },
+    "JobBookmarksListContainerQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "JobBookmarksListContainerQuery",
+        "queryId": "HeGR5lrUJh1N7bMsMlHQHg"
+    },
+    "JobRecommendationsListContainerQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "JobRecommendationsListContainerQuery",
+        "queryId": "sNlxXap-Zl7CMjuH9hVjdw"
+    },
+    "JobSearchQueryScreenJobsQuery": {
+        "metadata": {
+            "sliceInfoPath": [
+                "job_search",
+                "slice_info"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "JobSearchQueryScreenJobsQuery",
+        "queryId": "w6VgeLQLBKmi9brKZz_QNA"
+    },
     "useRefreshJobRecommendationsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -13361,13 +13389,6 @@
         "operationName": "usePutMatchingProfileMutation",
         "queryId": "2jaLJJQhearTWZhqu89gBQ"
     },
-    "JobBookmarksListContainerQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "JobBookmarksListContainerQuery",
-        "queryId": "HeGR5lrUJh1N7bMsMlHQHg"
-    },
     "RecommendationCtaCreateMatchingCriteriaMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -13381,13 +13402,6 @@
         "text": null,
         "operationName": "RecommendationCtaQuery",
         "queryId": "uAE1GtTGpXxwXOE_sM7HmA"
-    },
-    "JobRecommendationsListContainerQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "JobRecommendationsListContainerQuery",
-        "queryId": "sNlxXap-Zl7CMjuH9hVjdw"
     },
     "useSetupOrgMutation": {
         "metadata": {},
@@ -14973,20 +14987,6 @@
         "text": null,
         "operationName": "FollowHostButtonQuery",
         "queryId": "bpY370mwoHjimSkkcTSk4A"
-    },
-    "AccountParodyUserMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "AccountParodyUserMutation",
-        "queryId": "bKOVxrOlLbA5udkJci7wcg"
-    },
-    "AccountParodyScreenImplV2ParodyLabelSettingQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AccountParodyScreenImplV2ParodyLabelSettingQuery",
-        "queryId": "v5QRfeK5uuWULVGXyMLwyA"
     },
     "AccountParodyScreenImplV2ParodyLabelMutation": {
         "metadata": {},
