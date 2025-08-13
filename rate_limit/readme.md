@@ -20,7 +20,7 @@
 | graphql:tweet_result_by_id      |             50 ✅ |             50 ✅ |            300 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:search_client           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ✅ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:audiospace              |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:translate_tweet         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |            500 ✅ |            500 ✅ |
@@ -38,12 +38,12 @@
 | restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |            900 ❌ |
 | restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            900 ✅ |            900 ❌ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |            180 ❌ |            180 ❌ |
-| restful:conversation            |            180 ❌ |            180 ✅ |            180 ❌ |            180 ❌ |            180 ✅ |            180 ✅ |
+| restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |            180 ✅ |            180 ✅ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:typeahead               |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |              _ ✅ |              _ ✅ |
-| restful:trends                  |          20000 ❌ |          20000 ✅ |          20000 ❌ |          20000 ❌ |          20000 ✅ |          20000 ✅ |
+| restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ✅ |          20000 ✅ |
 | restful:translate_bio           |            187 ❌ |            187 ❌ |            187 ❌ |            187 ❌ |              _ ❌ |            187 ✅ |
 | restful:translate_tweet         |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |              _ ❌ |            187 ✅ |
 | restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |           1800 ❌ |           1800 ❌ |
