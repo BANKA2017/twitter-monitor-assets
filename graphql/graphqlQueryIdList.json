@@ -11418,6 +11418,16 @@
         },
         "features": {}
     },
+    "CommunityBoostFetchPublicData": {
+        "queryId": "mtel1c9ozKWaWr9-D2wMwg",
+        "operationName": "CommunityBoostFetchPublicData",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "CommunityBoostDeleteRating": {
         "queryId": "Az1pj83H-fBSENAeV-lNMA",
         "operationName": "CommunityBoostDeleteRating",
@@ -12602,26 +12612,19 @@
         "operationName": "useCreateStripePortalUrlMutation",
         "queryId": "vymd-xe7b364mogIF1CoQQ"
     },
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
+    },
     "PasskeyManagement_Query": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "PasskeyManagement_Query",
         "queryId": "8fWHnipHAqfhgFo-rAXk5w"
-    },
-    "IDVerificationQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "identity_verification_hide_verified_label_settings_enabled"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "IDVerificationQuery",
-        "queryId": "3Wx7dsynDTSI0LO52L8L8A",
-        "features": {
-            "identity_verification_hide_verified_label_settings_enabled": true
-        }
     },
     "useIDVerificationProcessVendorQuery": {
         "metadata": {},
@@ -12636,13 +12639,6 @@
         "text": null,
         "operationName": "useIDVerificationSessionUrlMutation",
         "queryId": "EBjxezEpy-W30060X7_v6g"
-    },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
@@ -12852,20 +12848,6 @@
         "operationName": "BlueVerifiedProfileEditCalloutQuery",
         "queryId": "myAwUDICwB5gFdJhNB7xsg"
     },
-    "useFetchProfileBlocks_profileExistsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileBlocks_profileExistsQuery",
-        "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
-    },
-    "useDeleteProfileBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useDeleteProfileBlockMutation",
-        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
-    },
     "useUpdateRichtextBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12873,12 +12855,26 @@
         "operationName": "useUpdateRichtextBlockMutation",
         "queryId": "oDmWQK_udVhiqH89Lbd5LA"
     },
+    "useFetchProfileBlocks_profileExistsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_profileExistsQuery",
+        "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
+    },
     "useCreateRichtextBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useCreateRichtextBlockMutation",
         "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
+    },
+    "useDeleteProfileBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useDeleteProfileBlockMutation",
+        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
     },
     "ConsentScreen_xprofileMutation": {
         "metadata": {},
@@ -14953,19 +14949,19 @@
         "operationName": "PremiumGiftingQuery",
         "queryId": "8gw7w5GeHXOi_bVT4aNh6Q"
     },
-    "ProfileSpotlightsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ProfileSpotlightsQuery",
-        "queryId": "1sAf0uU4-B2ZLJGUX5O7LQ"
-    },
     "isEligibleForVoButtonUpsellQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "isEligibleForVoButtonUpsellQuery",
         "queryId": "BuWF9hiwmUyFdGo3J4DqbA"
+    },
+    "ProfileSpotlightsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ProfileSpotlightsQuery",
+        "queryId": "1sAf0uU4-B2ZLJGUX5O7LQ"
     },
     "useTotalAdCampaignsForUserQuery": {
         "metadata": {},
