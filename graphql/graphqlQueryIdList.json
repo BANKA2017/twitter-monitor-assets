@@ -4313,6 +4313,13 @@
             "subscriptions_management_fetch_next_billing_time": true
         }
     },
+    "useSaveWatchInfo_SaveWatchInfoMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useSaveWatchInfo_SaveWatchInfoMutation",
+        "queryId": "bcGPFidA5Dph3K8N3kbBfA"
+    },
     "BookmarkSearchTimeline": {
         "queryId": "30IPQk8RN3ikZwjBT-yM9Q",
         "operationName": "BookmarkSearchTimeline",
@@ -4442,13 +4449,6 @@
             "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
-    },
-    "useSaveWatchInfo_SaveWatchInfoMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useSaveWatchInfo_SaveWatchInfoMutation",
-        "queryId": "bcGPFidA5Dph3K8N3kbBfA"
     },
     "DataSaverMode": {
         "queryId": "xF6sXnKJfS2AOylzxRjf6A",
@@ -12855,12 +12855,26 @@
         "operationName": "useUpdateRichtextBlockMutation",
         "queryId": "oDmWQK_udVhiqH89Lbd5LA"
     },
+    "ConsentScreen_xprofileMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "ConsentScreen_xprofileMutation",
+        "queryId": "4RvEtxr03YPi6jxZZ_PkoQ"
+    },
     "useFetchProfileBlocks_profileExistsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "useFetchProfileBlocks_profileExistsQuery",
         "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
+    },
+    "useFetchProfileBlocks_settingsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_settingsQuery",
+        "queryId": "vRz7Yom7hObecKwzBRUBiQ"
     },
     "useCreateRichtextBlockMutation": {
         "metadata": {},
@@ -12869,33 +12883,19 @@
         "operationName": "useCreateRichtextBlockMutation",
         "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
+    "useFetchProfileBlocks_profileQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_profileQuery",
+        "queryId": "Azv1m7WiLnbn36nNCk7l0Q"
+    },
     "useDeleteProfileBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useDeleteProfileBlockMutation",
         "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
-    },
-    "ConsentScreen_xprofileMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "ConsentScreen_xprofileMutation",
-        "queryId": "4RvEtxr03YPi6jxZZ_PkoQ"
-    },
-    "LocationSelectorQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "LocationSelectorQuery",
-        "queryId": "hbib0bN-dlHHvUhiy3YVyg"
-    },
-    "CompanyProfileFormCreateMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "CompanyProfileFormCreateMutation",
-        "queryId": "2_4isUYG9NJ4muYorNDMrg"
     },
     "VisibilityDropdown_updateSectionVisibilityMutation": {
         "metadata": {},
@@ -12904,12 +12904,12 @@
         "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
         "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
     },
-    "CompanyProfileSelectorCreateMutation": {
+    "LocationSelectorQuery": {
         "metadata": {},
-        "operationKind": "mutation",
+        "operationKind": "query",
         "text": null,
-        "operationName": "CompanyProfileSelectorCreateMutation",
-        "queryId": "EkqtXww_c-xjb6sWf0APmg"
+        "operationName": "LocationSelectorQuery",
+        "queryId": "hbib0bN-dlHHvUhiy3YVyg"
     },
     "useCreateWorkExperienceItemMutation": {
         "metadata": {},
@@ -12918,12 +12918,12 @@
         "operationName": "useCreateWorkExperienceItemMutation",
         "queryId": "stFQBhDvJtDCK778IAmGmQ"
     },
-    "CompanyProfileSelectorQuery": {
+    "CompanyProfileSelectorCreateMutation": {
         "metadata": {},
-        "operationKind": "query",
+        "operationKind": "mutation",
         "text": null,
-        "operationName": "CompanyProfileSelectorQuery",
-        "queryId": "m7SaYT5uYsHuOiRCJj8kTw"
+        "operationName": "CompanyProfileSelectorCreateMutation",
+        "queryId": "EkqtXww_c-xjb6sWf0APmg"
     },
     "useUpdateWorkExperienceItemMutation": {
         "metadata": {},
