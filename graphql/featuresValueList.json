@@ -865,7 +865,7 @@
     "responsive_web_location_spotlight_v1_config": true,
     "responsive_web_location_spotlight_v1_display": true,
     "responsive_web_logged_out_ios_redesign_enabled": true,
-    "responsive_web_logged_out_ios_webview_redirect_enabled": true,
+    "responsive_web_logged_out_ios_webview_redirect_enabled": false,
     "responsive_web_logged_out_notifications_enabled": true,
     "responsive_web_logged_out_notifications_fatigue_days_count": 7,
     "responsive_web_logged_out_notifications_including_home": false,
@@ -1639,5 +1639,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_grok_use_imagine_in_image_gen": false
 }

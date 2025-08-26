@@ -10758,13 +10758,6 @@
         "operationName": "PostAnalyticsPageQuery",
         "queryId": "gjOAWp4J6myFMAeY8GPEjA"
     },
-    "ArticleRedirectScreenQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "ArticleRedirectScreenQuery",
-        "queryId": "zrSRXJmE1vj37AUmkh2oGg"
-    },
     "ArticleTweetsTimeline": {
         "queryId": "wfNv3MR4dtkD0WRGXNVueA",
         "operationName": "ArticleTweetsTimeline",
@@ -10852,6 +10845,13 @@
             "responsive_web_grok_community_note_auto_translation_is_enabled": false,
             "responsive_web_enhance_cards_enabled": false
         }
+    },
+    "ArticleRedirectScreenQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "ArticleRedirectScreenQuery",
+        "queryId": "zrSRXJmE1vj37AUmkh2oGg"
     },
     "ArticleTimeline": {
         "queryId": "FJyOeVNNCmgjHyEM_CScFw",
