@@ -12152,26 +12152,19 @@
         "operationName": "useCreateStripePortalUrlMutation",
         "queryId": "vymd-xe7b364mogIF1CoQQ"
     },
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
+    },
     "PasskeyManagement_Query": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "PasskeyManagement_Query",
         "queryId": "8fWHnipHAqfhgFo-rAXk5w"
-    },
-    "IDVerificationQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "identity_verification_hide_verified_label_settings_enabled"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "IDVerificationQuery",
-        "queryId": "3Wx7dsynDTSI0LO52L8L8A",
-        "features": {
-            "identity_verification_hide_verified_label_settings_enabled": true
-        }
     },
     "useIDVerificationProcessVendorQuery": {
         "metadata": {},
@@ -12186,13 +12179,6 @@
         "text": null,
         "operationName": "useIDVerificationSessionUrlMutation",
         "queryId": "EBjxezEpy-W30060X7_v6g"
-    },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
@@ -12409,26 +12395,12 @@
         "operationName": "useUpdateRichtextBlockMutation",
         "queryId": "oDmWQK_udVhiqH89Lbd5LA"
     },
-    "ConsentScreen_xprofileMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "ConsentScreen_xprofileMutation",
-        "queryId": "4RvEtxr03YPi6jxZZ_PkoQ"
-    },
     "useFetchProfileBlocks_profileExistsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "useFetchProfileBlocks_profileExistsQuery",
         "queryId": "Z2BA99jFw6TxaJM5v7Irmg"
-    },
-    "useFetchProfileBlocks_settingsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileBlocks_settingsQuery",
-        "queryId": "vRz7Yom7hObecKwzBRUBiQ"
     },
     "useCreateRichtextBlockMutation": {
         "metadata": {},
@@ -12437,13 +12409,6 @@
         "operationName": "useCreateRichtextBlockMutation",
         "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
-    "useFetchProfileBlocks_profileQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileBlocks_profileQuery",
-        "queryId": "Azv1m7WiLnbn36nNCk7l0Q"
-    },
     "useDeleteProfileBlockMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -12451,12 +12416,12 @@
         "operationName": "useDeleteProfileBlockMutation",
         "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
     },
-    "VisibilityDropdown_updateSectionVisibilityMutation": {
+    "ConsentScreen_xprofileMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
-        "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
+        "operationName": "ConsentScreen_xprofileMutation",
+        "queryId": "4RvEtxr03YPi6jxZZ_PkoQ"
     },
     "LocationSelectorQuery": {
         "metadata": {},
@@ -12465,12 +12430,19 @@
         "operationName": "LocationSelectorQuery",
         "queryId": "hbib0bN-dlHHvUhiy3YVyg"
     },
-    "useCreateWorkExperienceItemMutation": {
+    "CompanyProfileFormCreateMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "useCreateWorkExperienceItemMutation",
-        "queryId": "stFQBhDvJtDCK778IAmGmQ"
+        "operationName": "CompanyProfileFormCreateMutation",
+        "queryId": "2_4isUYG9NJ4muYorNDMrg"
+    },
+    "VisibilityDropdown_updateSectionVisibilityMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
+        "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
     },
     "CompanyProfileSelectorCreateMutation": {
         "metadata": {},
@@ -12478,6 +12450,20 @@
         "text": null,
         "operationName": "CompanyProfileSelectorCreateMutation",
         "queryId": "EkqtXww_c-xjb6sWf0APmg"
+    },
+    "useCreateWorkExperienceItemMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useCreateWorkExperienceItemMutation",
+        "queryId": "stFQBhDvJtDCK778IAmGmQ"
+    },
+    "CompanyProfileSelectorQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "CompanyProfileSelectorQuery",
+        "queryId": "m7SaYT5uYsHuOiRCJj8kTw"
     },
     "useUpdateWorkExperienceItemMutation": {
         "metadata": {},
@@ -14693,13 +14679,6 @@
         "operationName": "ProfileSpotlightsQuery",
         "queryId": "1sAf0uU4-B2ZLJGUX5O7LQ"
     },
-    "useTotalAdCampaignsForUserQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useTotalAdCampaignsForUserQuery",
-        "queryId": "UFD9D7pipG78WFN0SJviDg"
-    },
     "fetchPostQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -14734,6 +14713,13 @@
         "text": null,
         "operationName": "AccountParodyScreenImplV2ParodyLabelMutation",
         "queryId": "73OvlPaHKjWcU21X1w9SKA"
+    },
+    "useTotalAdCampaignsForUserQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useTotalAdCampaignsForUserQuery",
+        "queryId": "UFD9D7pipG78WFN0SJviDg"
     },
     "IntercomStarterQuery": {
         "metadata": {},
