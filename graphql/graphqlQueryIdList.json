@@ -11857,18 +11857,12 @@
             "sliceInfoPath": [
                 "get_payments_customer_actions",
                 "slice_info"
-            ],
-            "featureSwitches": [
-                "payments_wires_enabled"
             ]
         },
         "operationKind": "query",
         "text": null,
         "operationName": "useActionableItemsQuery",
-        "queryId": "T0ob0nv48edVNw5hLMqNQA",
-        "features": {
-            "payments_wires_enabled": false
-        }
+        "queryId": "rc-PSm8PaaVEn2yY27tpqA"
     },
     "ScreenNamePaneQuery": {
         "metadata": {},
@@ -11912,6 +11906,13 @@
         "operationName": "usePaymentsBalanceQuery",
         "queryId": "jVWKSXmg3ocpQVO4CwvN6w"
     },
+    "usePaymentsTransactionQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaymentsTransactionQuery",
+        "queryId": "RyFdvJTgMYlu_e2ViUZTjg"
+    },
     "useCustomerTasksQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11924,18 +11925,12 @@
             "sliceInfoPath": [
                 "get_transactions",
                 "slice_info"
-            ],
-            "featureSwitches": [
-                "payments_wires_enabled"
             ]
         },
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsTransactionsListQuery",
-        "queryId": "oDY5TPqEMSYG-RCc3VNYyw",
-        "features": {
-            "payments_wires_enabled": false
-        }
+        "queryId": "nCHmMIQgCRu4Gu8azg3vog"
     },
     "usePaymentsPreferencesQuery": {
         "metadata": {},
@@ -11943,20 +11938,6 @@
         "text": null,
         "operationName": "usePaymentsPreferencesQuery",
         "queryId": "Ts3LmJANKa5Wz9rX6PVRNg"
-    },
-    "usePaymentsTransactionQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "payments_wires_enabled"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "usePaymentsTransactionQuery",
-        "queryId": "AWb2PoIQbUabwwB-OJZkHg",
-        "features": {
-            "payments_wires_enabled": false
-        }
     },
     "useLinkBankCardMutation": {
         "metadata": {},
