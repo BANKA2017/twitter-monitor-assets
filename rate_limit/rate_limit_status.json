@@ -621,11 +621,11 @@
                 "label": "graphql:translate_tweet"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 34,
+                "message": "Sorry, that page does not exist",
                 "rate_limit": 187,
                 "rate_limit_reset": 900,
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.x.com/1.1/strato/column/None/profileUserId=1683696495198089217,destinationLanguage=None,translationSource=Some(Google)/translation/service/translateProfile",
                 "method": "GET",
                 "label": "restful:translate_bio"
