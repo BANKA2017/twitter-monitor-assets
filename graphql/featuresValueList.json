@@ -543,6 +543,7 @@
     "payments_crb_iframe_delay_msecs": 1000,
     "payments_enabled": false,
     "payments_forward_with_enabled": false,
+    "payments_half_cover_notices_enabled": false,
     "payments_interest_enabled": false,
     "payments_lock_unlock_individual_cards_enabled": false,
     "payments_passkey_onboarding_enabled": false,
@@ -757,6 +758,7 @@
     "responsive_web_grok_enable_add_response_keepalive": false,
     "responsive_web_grok_enable_android_image_donwload": false,
     "responsive_web_grok_enable_deepersearch": true,
+    "responsive_web_grok_enable_video_gen_on_image_preview": false,
     "responsive_web_grok_fade_in_animation_v2_enabled": true,
     "responsive_web_grok_feed": false,
     "responsive_web_grok_file_max_size": 33554432,
@@ -886,6 +888,7 @@
     "responsive_web_prerolls_fullscreen_disabled_on_ios": false,
     "responsive_web_professional_journeys_holdback_enabled": false,
     "responsive_web_profile_about_enabled": false,
+    "responsive_web_profile_about_pilot": [],
     "responsive_web_profile_redirect_enabled": false,
     "responsive_web_profile_spotlight_v0_config": true,
     "responsive_web_profile_spotlight_v0_display": true,
@@ -1641,6 +1644,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "responsive_web_grok_enable_video_gen_on_image_preview": false
+    "xprofile_work_history_enabled": true
 }
