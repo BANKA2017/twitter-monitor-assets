@@ -1108,11 +1108,11 @@
                 "label": "restful:followers"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 180,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/1.1/favorites/list.json?screen_name=783214&count=20",
                 "method": "GET",
                 "label": "restful:likes"
