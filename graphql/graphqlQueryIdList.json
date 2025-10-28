@@ -11952,7 +11952,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useActionableItemsQuery",
-        "queryId": "Hds6miT2LyQyssem1365gw"
+        "queryId": "fXPVMgXA1YBB7OaL7dt6uw"
     },
     "ScreenNamePaneQuery": {
         "metadata": {},
@@ -12042,6 +12042,18 @@
         "text": null,
         "operationName": "usePaymentsAccountStatusQuery",
         "queryId": "8qNB72LDdA7MIPa-TSs5nw"
+    },
+    "useGrokTransactionSearchHistoryQuery": {
+        "metadata": {
+            "sliceInfoPath": [
+                "get_grok_transaction_search_history",
+                "slice_info"
+            ]
+        },
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useGrokTransactionSearchHistoryQuery",
+        "queryId": "Bu6LV3A_K1HWi0kinDsMKA"
     },
     "usePaymentsRegionQuery": {
         "metadata": {},
