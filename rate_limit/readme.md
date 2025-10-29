@@ -13,7 +13,7 @@
 | graphql:userinfo_uid            |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:tweets_web              |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:tweets_with_replies_web |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
-| graphql:tweets_v2               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:tweets_v2               |            500 ❌ |            500 ✅ |            500 ❌ |            500 ❌ |
 | graphql:tweets_with_replies_v2  |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:conversation            |            150 ❌ |            150 ❌ |            150 ❌ |            150 ❌ |
 | graphql:conversation_v2         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
@@ -35,7 +35,7 @@
 
 |                               |            old web |            new web |  tweetdeck preview |            android|
 | :-- | --: | --: | --: | --: |
-| restful:userinfo_screen_name    |            180 ✅ |            180 ❌ |            180 ❌ |            180 ❌ |
+| restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
