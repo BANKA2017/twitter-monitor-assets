@@ -1512,7 +1512,7 @@
     "xchat_allow_legacy_message_requests": false,
     "xchat_allow_legacy_protocol": true,
     "xchat_catch_coroutine_exceptions": true,
-    "xchat_continue_previous_inbox_pagination": false,
+    "xchat_continue_previous_inbox_pagination": true,
     "xchat_conversation_event_limit": 200,
     "xchat_conversation_message_search_enabled": true,
     "xchat_emit_while_pulling": true,
@@ -1553,5 +1553,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "oauth_trusted_developer_badge_enabled": false
 }
