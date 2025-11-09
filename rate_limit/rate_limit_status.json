@@ -14,10 +14,10 @@
                 "label": "graphql:userinfo_screen_name"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&screen_name=x",
                 "method": "GET",
@@ -34,10 +34,10 @@
                 "label": "graphql:userinfo_uid"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&user_id=783214",
                 "method": "GET",
@@ -314,11 +314,11 @@
                 "label": "graphql:community_info"
             },
             {
-                "code": 404,
-                "message": "Not Found",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/graphql/daVUkhfHn7-Z8llpYVKJSw/CommunitiesSearchQuery?variables=%7B%22query%22%3A%22Cat+Twitter%22%2C%22count%22%3A20%2C%22cursor%22%3Anull%7D",
                 "method": "GET",
                 "label": "graphql:community_search"
@@ -391,10 +391,10 @@
                 "label": "graphql:userinfo_screen_name"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&screen_name=x",
                 "method": "GET",
@@ -411,10 +411,10 @@
                 "label": "graphql:userinfo_uid"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&user_id=783214",
                 "method": "GET",
@@ -768,10 +768,10 @@
                 "label": "graphql:userinfo_screen_name"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&screen_name=x",
                 "method": "GET",
@@ -788,10 +788,10 @@
                 "label": "graphql:userinfo_uid"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&user_id=783214",
                 "method": "GET",
@@ -1145,10 +1145,10 @@
                 "label": "graphql:userinfo_screen_name"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&screen_name=x",
                 "method": "GET",
@@ -1165,10 +1165,10 @@
                 "label": "graphql:userinfo_uid"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
-                "rate_limit": 180,
-                "rate_limit_reset": 900,
+                "code": 403,
+                "message": "Forbidden",
+                "rate_limit": "_",
+                "rate_limit_reset": "_",
                 "status": "❌",
                 "url": "https://api.x.com/1.1/users/show.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&user_id=783214",
                 "method": "GET",
