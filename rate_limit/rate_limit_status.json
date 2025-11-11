@@ -264,11 +264,11 @@
                 "label": "restful:translate_tweet"
             },
             {
-                "code": 404,
-                "message": "Not Found",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/graphql/SdBwRM_2v4lCgVovGIyX0w/ListByRestId?variables=%7B%22listId%22%3A%2253645372%22%7D&features=%7B%22rweb_tipjar_consumption_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Atrue%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%7D",
                 "method": "GET",
                 "label": "graphql:list_info"
