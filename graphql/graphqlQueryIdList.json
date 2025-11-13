@@ -10512,13 +10512,6 @@
         "operationName": "CallPopupQuery",
         "queryId": "GE-Meb1RnOBOw994qABaEQ"
     },
-    "CallVideoQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "CallVideoQuery",
-        "queryId": "BcORGThI8kiqFVysrmlRxg"
-    },
     "PostDetailsProviderFirst48HoursDataQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11043,18 +11036,6 @@
         "operationName": "membersSliceTimeline_Query",
         "queryId": "WSbJGJjZaVasSj9bnqSZSA"
     },
-    "TopicTimelineQuery": {
-        "metadata": {
-            "sliceInfoPath": [
-                "fetch_popular_communities",
-                "slice_info"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "TopicTimelineQuery",
-        "queryId": "Cxnq5D_m4Gzus6zjPptTFQ"
-    },
     "CommunitiesCreateButtonQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11564,20 +11545,6 @@
         "operationName": "DelegateQuery",
         "queryId": "GhQlWgEZ8wKf_JimVEG-Yw"
     },
-    "GroupDetailDelegateQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "responsive_web_graphql_timeline_navigation_enabled"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "GroupDetailDelegateQuery",
-        "queryId": "-fXBUTXBjHNsEynVb_hTKA",
-        "features": {
-            "responsive_web_graphql_timeline_navigation_enabled": true
-        }
-    },
     "IDVerificationUpdateHideLabelMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -11625,13 +11592,6 @@
         "text": null,
         "operationName": "AudienceAndTaggingAllowVideoDownloadsMutation",
         "queryId": "oe9_UzzuQUeSU4qYVtMwQg"
-    },
-    "UnifiedLanguagePivotMenuLanguagesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "UnifiedLanguagePivotMenuLanguagesQuery",
-        "queryId": "8o3965laaTQBsqfrfY8Drw"
     },
     "ProfileCustomizationScreenQuery": {
         "metadata": {},
@@ -11758,13 +11718,6 @@
         "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
         "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
     },
-    "LocationSelectorQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "LocationSelectorQuery",
-        "queryId": "hbib0bN-dlHHvUhiy3YVyg"
-    },
     "useEditSensitiveMediaSettingsMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -11778,13 +11731,6 @@
         "text": null,
         "operationName": "PreviewsEnabledButtonMutation",
         "queryId": "QrvZinvdKXtDKnHMnG4Vmg"
-    },
-    "MonetizationAwardsRevenueQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "MonetizationAwardsRevenueQuery",
-        "queryId": "N4Crb6wD-1e1gUdm9dE5iQ"
     },
     "SuperFollowsSettingsQuery": {
         "metadata": {},
@@ -11841,13 +11787,6 @@
         "text": null,
         "operationName": "AwardsSettingsQuery",
         "queryId": "c_ww6XqjHvIqQAZWzaRR2g"
-    },
-    "buttonsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "buttonsQuery",
-        "queryId": "D4SxzuYOSt2K9Ha5VGq71g"
     },
     "useNewsArticleQuery": {
         "metadata": {},
@@ -12137,13 +12076,6 @@
         "text": null,
         "operationName": "useCustomerTasksDismissMutation",
         "queryId": "r8FYcuK9sxdL6UIiN-k9_w"
-    },
-    "useNordQueryQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useNordQueryQuery",
-        "queryId": "99lrYTKgO8IYX2akQGH9Ew"
     },
     "PremiumHubQuery": {
         "metadata": {},
@@ -12936,13 +12868,6 @@
         "text": null,
         "operationName": "TweetCoinDetailsScreenQuery",
         "queryId": "zj5T1jIDU-PmZIqfqRlgLQ"
-    },
-    "TwitterCoinsManagementCoinPackQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "TwitterCoinsManagementCoinPackQuery",
-        "queryId": "TtPtRW7yaLbnwCFJANYNFQ"
     },
     "TwitterCoinsManagementCoinBalanceQuery": {
         "metadata": {},
