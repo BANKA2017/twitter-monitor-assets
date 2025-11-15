@@ -24,7 +24,7 @@
 | graphql:audiospace              |            500 ✅ |            500 ✅ |            500 ❌ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:translate_tweet         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
-| graphql:list_info               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:list_info               |            500 ✅ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:list_member             |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:list_timeline           |            500 ❌ |            500 ❌ |           1000 ❌ |            500 ❌ |
 | graphql:community_info          |             50 ✅ |             50 ✅ |             50 ❌ |             50 ✅ |
@@ -44,7 +44,7 @@
 | restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:typeahead               |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ❌ |
-| restful:translate_bio           |            187 ❌ |            187 ✅ |            187 ❌ |            187 ❌ |
+| restful:translate_bio           |            187 ❌ |            187 ❌ |            187 ❌ |            187 ❌ |
 | restful:translate_tweet         |            187 ✅ |            187 ✅ |            187 ❌ |            187 ✅ |
 | restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:following               |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
