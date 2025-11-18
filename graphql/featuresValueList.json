@@ -275,6 +275,7 @@
     "blue_business_vo_nav_for_legacy_verified": true,
     "blue_longer_video_enabled": false,
     "branded_features_is_branded_likes_on_tweet_content_enabled": true,
+    "branded_features_search_overlay_animations_enabled": false,
     "branded_like_preview_enabled": false,
     "c9s_auto_collapse_community_detail_header_enabled": true,
     "c9s_community_answer_box_enabled": true,
@@ -1468,7 +1469,7 @@
     "twitter_delegate_subscriber_limit": 25,
     "ucpd_enabled": true,
     "unified_cards_clip_long_media_aspect_ratio": 0.8,
-    "unified_cards_clip_long_media_promoted_content_enabled": false,
+    "unified_cards_clip_long_media_promoted_content_enabled": true,
     "unified_cards_collection_ads_convert_to_image_website_card": false,
     "unified_cards_details_component_title_max_lines": 2,
     "unified_cards_dpa_cta_button_enabled": false,
@@ -1553,5 +1554,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "twitter_jetfuel_use_new_api_url": true
 }
