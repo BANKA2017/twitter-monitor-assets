@@ -3289,7 +3289,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useSubscriptionProductDetailsQuery",
-        "queryId": "zFAp2U15vXUDcpq1vEJAWw",
+        "queryId": "5GiAGdCdbQboL3NAuC2VLw",
         "features": {
             "subscriptions_marketing_page_fetch_promotions": true
         }
@@ -10119,7 +10119,7 @@
         }
     },
     "SubscriptionProductDetails": {
-        "queryId": "yIGOH-WMQSU-AdbfVRZm9A",
+        "queryId": "lOJxkaIJDXqS7_QuU8FtPg",
         "operationName": "SubscriptionProductDetails",
         "operationType": "query",
         "metadata": {
@@ -11808,18 +11808,11 @@
         "queryId": "xdjJneBBqeSfr3ZUD9PziQ"
     },
     "usePaymentsMethodsQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "payments_transfer_methods_enabled"
-            ]
-        },
+        "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsMethodsQuery",
-        "queryId": "VfVuiEWYlFnzWaejItaI1w",
-        "features": {
-            "payments_transfer_methods_enabled": true
-        }
+        "queryId": "dQ5Ltik9UV8LAHXedwpN0w"
     },
     "useCalculateTransactionFeesMutation": {
         "metadata": {},
@@ -11944,18 +11937,11 @@
         "queryId": "JLQgbRez3mplAJjiieVIZA"
     },
     "usePaymentsInitQuery": {
-        "metadata": {
-            "featureSwitches": [
-                "payments_transfer_methods_enabled"
-            ]
-        },
+        "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsInitQuery",
-        "queryId": "DOd6XpMYTLZCV0aT0KMoIw",
-        "features": {
-            "payments_transfer_methods_enabled": true
-        }
+        "queryId": "i006Y9FwZmty2nFytXghgw"
     },
     "useCustomerTasksDismissMutation": {
         "metadata": {},
@@ -12103,7 +12089,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePricesQuery",
-        "queryId": "_1X_iKPfDIUTC6mnDJS5TA"
+        "queryId": "kQF0YUyD1xaiRRI94Kgidw"
     },
     "PremiumContentQuery": {
         "metadata": {},

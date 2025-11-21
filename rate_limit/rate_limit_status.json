@@ -611,11 +611,11 @@
                 "label": "graphql:translate_bio"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 404,
+                "message": "Not Found",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.x.com/graphql/hE1HCUzioO9QSLpvIBvvYA/TranslateTweetQuery?variables=%7B%22includeTweetImpression%22%3Atrue%2C%22includeHasBirdwatchNotes%22%3Afalse%2C%22includeEditPerspective%22%3Afalse%2C%22includeEditControl%22%3Atrue%2C%22tweet_id%22%3A%221623411536243965954%22%7D",
                 "method": "GET",
                 "label": "graphql:translate_tweet"
