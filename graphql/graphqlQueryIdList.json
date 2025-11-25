@@ -951,13 +951,12 @@
         }
     },
     "Viewer": {
-        "queryId": "FEiqNqpOD-9l3ESmUyzxaw",
+        "queryId": "178EtFdhcGqmoyzKL4muaA",
         "operationName": "Viewer",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [
                 "subscriptions_upsells_api_enabled",
-                "payments_access_fetch_enabled",
                 "profile_label_improvements_pcf_label_in_post_enabled",
                 "responsive_web_profile_redirect_enabled",
                 "rweb_tipjar_consumption_enabled",
@@ -974,7 +973,6 @@
         },
         "features": {
             "subscriptions_upsells_api_enabled": true,
-            "payments_access_fetch_enabled": true,
             "profile_label_improvements_pcf_label_in_post_enabled": true,
             "responsive_web_profile_redirect_enabled": false,
             "rweb_tipjar_consumption_enabled": true,
@@ -11812,7 +11810,14 @@
         "operationKind": "query",
         "text": null,
         "operationName": "useActionableItemsQuery",
-        "queryId": "xdjJneBBqeSfr3ZUD9PziQ"
+        "queryId": "7roDnb8ZmtCrgPj5m3ARZA"
+    },
+    "usePaymentsTransactionStatusQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaymentsTransactionStatusQuery",
+        "queryId": "FWgCULR2_MzRc6lCA3MZuA"
     },
     "usePaymentsMethodsQuery": {
         "metadata": {},
@@ -11859,7 +11864,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsTransactionsListQuery",
-        "queryId": "OjElNUzOFbsEwRp-3LdJnQ"
+        "queryId": "XsI3TQCgLTTzJ07afy_Xew"
     },
     "usePaymentsPreferencesQuery": {
         "metadata": {},
@@ -11881,13 +11886,6 @@
         "text": null,
         "operationName": "usePaymentsAccountStatusQuery",
         "queryId": "8qNB72LDdA7MIPa-TSs5nw"
-    },
-    "usePaymentsTransactionStatusQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "usePaymentsTransactionStatusQuery",
-        "queryId": "FWgCULR2_MzRc6lCA3MZuA"
     },
     "useGrokTransactionSearchHistoryQuery": {
         "metadata": {
@@ -12846,7 +12844,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "AboutAccountQuery",
-        "queryId": "XRqGa7EeokUU5kppkh13EA"
+        "queryId": "zs_jFPFT78rBpXv9Z3U2YQ"
     },
     "ProfileSpotlightsQuery": {
         "metadata": {},
