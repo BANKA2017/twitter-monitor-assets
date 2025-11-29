@@ -1335,8 +1335,8 @@
                 "label": "restful:live_stream"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
+                "code": 403,
+                "message": "Forbidden",
                 "rate_limit": "_",
                 "rate_limit_reset": "_",
                 "status": "❌",

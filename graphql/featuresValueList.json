@@ -1179,6 +1179,7 @@
     "subscriptions_offers_churn_prevention_enabled": true,
     "subscriptions_offers_dynamic_upsells_enabled": true,
     "subscriptions_offers_localized_pricing_enabled": false,
+    "subscriptions_offers_premium_nav_indicator_enabled": true,
     "subscriptions_offers_special_perk_enabled": false,
     "subscriptions_offers_user_location_is_usa": true,
     "subscriptions_premium_experiment_nav_text": false,
@@ -1491,6 +1492,7 @@
     ],
     "unified_cards_hide_collection_ad_card_details": true,
     "unified_cards_install_button_redesign_enabled": true,
+    "unified_cards_use_subtitle_as_vanity_fallback_in_collection": false,
     "user_ad_accounts_config_enabled": false,
     "user_display_name_max_limit": 50,
     "verified_phone_label_enabled": false,
@@ -1520,6 +1522,8 @@
     "web_video_safari_hlsjs_enabled": true,
     "web_video_transcribed_captions_enabled": true,
     "x_jetfuel_enable_test_cluster": false,
+    "x_jetfuel_event_screen_migration_enabled": false,
+    "x_jetfuel_event_screen_migration_skip_ids": [],
     "x_jetfuel_use_new_api_url": true,
     "xchat_allow_latest_ckey_failure_for_one_on_one": true,
     "xchat_allow_legacy_group_member_add": true,
@@ -1567,8 +1571,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "unified_cards_use_subtitle_as_vanity_fallback_in_collection": false,
-    "x_jetfuel_event_screen_migration_enabled": false,
-    "x_jetfuel_event_screen_migration_skip_ids": []
+    "xprofile_work_history_enabled": true
 }
