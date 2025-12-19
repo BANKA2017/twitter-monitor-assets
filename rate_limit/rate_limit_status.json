@@ -244,11 +244,11 @@
                 "label": "graphql:translate_tweet"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 187,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/1.1/strato/column/None/profileUserId=1683696495198089217,destinationLanguage=None,translationSource=Some(Google)/translation/service/translateProfile",
                 "method": "GET",
                 "label": "restful:translate_bio"
@@ -691,11 +691,11 @@
                 "label": "graphql:community_info"
             },
             {
-                "code": 404,
-                "message": "Not Found",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/graphql/daVUkhfHn7-Z8llpYVKJSw/CommunitiesSearchQuery?variables=%7B%22query%22%3A%22Cat+Twitter%22%2C%22count%22%3A20%2C%22cursor%22%3Anull%7D",
                 "method": "GET",
                 "label": "graphql:community_search"
@@ -1365,11 +1365,11 @@
                 "label": "graphql:translate_bio"
             },
             {
-                "code": 404,
-                "message": "Not Found",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/graphql/hE1HCUzioO9QSLpvIBvvYA/TranslateTweetQuery?variables=%7B%22includeTweetImpression%22%3Atrue%2C%22includeHasBirdwatchNotes%22%3Afalse%2C%22includeEditPerspective%22%3Afalse%2C%22includeEditControl%22%3Atrue%2C%22tweet_id%22%3A%221623411536243965954%22%7D",
                 "method": "GET",
                 "label": "graphql:translate_tweet"
