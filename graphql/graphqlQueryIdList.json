@@ -11474,13 +11474,6 @@
         "operationName": "LocationDisclaimerQuery",
         "queryId": "ctj9T1nd8yOCBvn11lEHyg"
     },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
-    },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
         "operationName": "ViewerEmailSettings",
@@ -11507,6 +11500,13 @@
         "text": null,
         "operationName": "useIDVerificationProcessVendorQuery",
         "queryId": "_1MJNdYH_NfG1HVMWvOISA"
+    },
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "GrokSettingsScreenQuery": {
         "metadata": {},
