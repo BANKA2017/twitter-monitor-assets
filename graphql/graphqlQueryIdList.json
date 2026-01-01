@@ -1527,6 +1527,13 @@
             "responsive_web_enhance_cards_enabled": false
         }
     },
+    "useSaveWatchInfo_SaveWatchInfoMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useSaveWatchInfo_SaveWatchInfoMutation",
+        "queryId": "bcGPFidA5Dph3K8N3kbBfA"
+    },
     "Viewer": {
         "queryId": "178EtFdhcGqmoyzKL4muaA",
         "operationName": "Viewer",
@@ -1558,13 +1565,6 @@
             "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
-    },
-    "useSaveWatchInfo_SaveWatchInfoMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useSaveWatchInfo_SaveWatchInfoMutation",
-        "queryId": "bcGPFidA5Dph3K8N3kbBfA"
     },
     "ListUnsubscribe": {
         "queryId": "lJyQ2Rp6vk4h5czTYqOeLA",
@@ -10188,6 +10188,13 @@
         },
         "features": {}
     },
+    "AvcallingProviderQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AvcallingProviderQuery",
+        "queryId": "k6F8jRucxm89c-BINVN_QQ"
+    },
     "fetchUsersQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -10202,40 +10209,12 @@
         "operationName": "fetchPostQuery",
         "queryId": "PxDHdZiymPnLejKcDNRlEA"
     },
-    "AvcallingProviderQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AvcallingProviderQuery",
-        "queryId": "k6F8jRucxm89c-BINVN_QQ"
-    },
-    "XChatDmSettingsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "XChatDmSettingsQuery",
-        "queryId": "zzeLdGlB0ZN6hiOYUIpDcQ"
-    },
-    "useSpacesCardQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useSpacesCardQuery",
-        "queryId": "llqJSgcP7M6nrNmCcsWcWg"
-    },
     "GifSearchQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "GifSearchQuery",
         "queryId": "bM7eqnme8wkTcs2jpfLMQw"
-    },
-    "GifCategoriesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "GifCategoriesQuery",
-        "queryId": "qaBq4nnaisCP92hdssG5IQ"
     },
     "AvcallingButtonsQuery": {
         "metadata": {},
@@ -10244,12 +10223,19 @@
         "operationName": "AvcallingButtonsQuery",
         "queryId": "ZCUTxyVu9VOxfMKcfYOWPw"
     },
-    "XChatDmSettingsMutation": {
+    "XChatDmSettingsQuery": {
         "metadata": {},
-        "operationKind": "mutation",
+        "operationKind": "query",
         "text": null,
-        "operationName": "XChatDmSettingsMutation",
-        "queryId": "3Ozcc7Z8IWXDzmWeZCqXDA"
+        "operationName": "XChatDmSettingsQuery",
+        "queryId": "zzeLdGlB0ZN6hiOYUIpDcQ"
+    },
+    "GifCategoriesQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "GifCategoriesQuery",
+        "queryId": "qaBq4nnaisCP92hdssG5IQ"
     },
     "useReadableMessagesSnapshotMutation": {
         "metadata": {},
@@ -10257,6 +10243,20 @@
         "text": null,
         "operationName": "useReadableMessagesSnapshotMutation",
         "queryId": "LV7_cvYXxKEhxRADw0xPbA"
+    },
+    "useSpacesCardQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useSpacesCardQuery",
+        "queryId": "llqJSgcP7M6nrNmCcsWcWg"
+    },
+    "XChatDmSettingsMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "XChatDmSettingsMutation",
+        "queryId": "3Ozcc7Z8IWXDzmWeZCqXDA"
     },
     "CardReminderWrapperMutation": {
         "metadata": {},
@@ -10445,33 +10445,19 @@
         "operationName": "PremiumContentQuery",
         "queryId": "pv5TLI3CMN7BAvQOU5sabw"
     },
-    "PostDetailsProviderMetricsTotalQuery": {
+    "VideoDetailsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "PostDetailsProviderMetricsTotalQuery",
-        "queryId": "Wh3io6RCI71-GSsRKiz-oA"
+        "operationName": "VideoDetailsQuery",
+        "queryId": "KhqMBaG77PNyb4zk99tgvQ"
     },
-    "AudiencePageGetCountryCodeQuery": {
+    "MediaMetricsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "AudiencePageGetCountryCodeQuery",
-        "queryId": "f9trQ4_RXzoqBm8zXLg_zg"
-    },
-    "LiveOverviewProviderQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "LiveOverviewProviderQuery",
-        "queryId": "8M610ROGccfLDUBZT3THVg"
-    },
-    "VideoListProviderQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "VideoListProviderQuery",
-        "queryId": "oRYPt8OYXtJMlbwI6zZ_yQ"
+        "operationName": "MediaMetricsQuery",
+        "queryId": "zVDiSXBPypOnGUkGHSHeew"
     },
     "ContentPostListQuery": {
         "metadata": {},
@@ -10479,6 +10465,55 @@
         "text": null,
         "operationName": "ContentPostListQuery",
         "queryId": "8GMAigEhA0xy4rCM1_p7Fw"
+    },
+    "VideoMediaPostsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "VideoMediaPostsQuery",
+        "queryId": "JVRgy2L7ZBq7RCZytKFyaA"
+    },
+    "PostDetailsProviderQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "PostDetailsProviderQuery",
+        "queryId": "7_5sxzswrD0qxa_1SmZgcQ"
+    },
+    "AccountOverviewQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AccountOverviewQuery",
+        "queryId": "LwtiA7urqM6eDeBheAFi5w"
+    },
+    "AudiencePageGetCreatorAnalyticsDailyQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AudiencePageGetCreatorAnalyticsDailyQuery",
+        "queryId": "hVLF49G7rHX0S6kR-psEkA"
+    },
+    "SpacesDetailsProviderQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "SpacesDetailsProviderQuery",
+        "queryId": "56cXnn5Ii-xJLDORJnlPMw"
+    },
+    "PostDetailsProviderFirst48HoursDataQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "PostDetailsProviderFirst48HoursDataQuery",
+        "queryId": "-h2rBNSpdLAFEA4VY9iSig"
+    },
+    "AudiencePageGetHeatmapDataQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AudiencePageGetHeatmapDataQuery",
+        "queryId": "X9E5LLu_0YAm9HXumNvrkA"
     },
     "useFetchAnalyticsQuery": {
         "metadata": {},
@@ -10494,33 +10529,19 @@
         "operationName": "SpacesOverviewProviderQuery",
         "queryId": "ryIiQPxAZA5IZdWJML7yjw"
     },
-    "SpacesDetailsProviderQuery": {
+    "LiveDetailsTimeSeriesQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "SpacesDetailsProviderQuery",
-        "queryId": "56cXnn5Ii-xJLDORJnlPMw"
+        "operationName": "LiveDetailsTimeSeriesQuery",
+        "queryId": "SycQCVa5ChvJxXhSyEixpA"
     },
-    "VideoMediaPostsQuery": {
+    "LiveOverviewProviderQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "VideoMediaPostsQuery",
-        "queryId": "JVRgy2L7ZBq7RCZytKFyaA"
-    },
-    "VideoDetailsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "VideoDetailsQuery",
-        "queryId": "KhqMBaG77PNyb4zk99tgvQ"
-    },
-    "AudiencePageGetCreatorAnalyticsDailyQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AudiencePageGetCreatorAnalyticsDailyQuery",
-        "queryId": "hVLF49G7rHX0S6kR-psEkA"
+        "operationName": "LiveOverviewProviderQuery",
+        "queryId": "8M610ROGccfLDUBZT3THVg"
     },
     "LiveDetailsQuery": {
         "metadata": {},
@@ -10529,20 +10550,6 @@
         "operationName": "LiveDetailsQuery",
         "queryId": "yR1FW3rqmwFgsdMrJJrL0g"
     },
-    "MediaMetricsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "MediaMetricsQuery",
-        "queryId": "zVDiSXBPypOnGUkGHSHeew"
-    },
-    "LiveDetailsTimeSeriesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "LiveDetailsTimeSeriesQuery",
-        "queryId": "SycQCVa5ChvJxXhSyEixpA"
-    },
     "PostDetailsProviderRealtimeDataQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -10550,12 +10557,12 @@
         "operationName": "PostDetailsProviderRealtimeDataQuery",
         "queryId": "nR3nHSFiMx7ZgHq2isAX0w"
     },
-    "AccountOverviewQuery": {
+    "PostDetailsProviderMetricsTotalQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "AccountOverviewQuery",
-        "queryId": "LwtiA7urqM6eDeBheAFi5w"
+        "operationName": "PostDetailsProviderMetricsTotalQuery",
+        "queryId": "Wh3io6RCI71-GSsRKiz-oA"
     },
     "PostDetailsProviderLast48HoursOrganicDataQuery": {
         "metadata": {},
@@ -10564,19 +10571,19 @@
         "operationName": "PostDetailsProviderLast48HoursOrganicDataQuery",
         "queryId": "nQhZbg0tBqBC3FSqca3tdg"
     },
-    "AudiencePageGetHeatmapDataQuery": {
+    "AudiencePageGetCountryCodeQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "AudiencePageGetHeatmapDataQuery",
-        "queryId": "X9E5LLu_0YAm9HXumNvrkA"
+        "operationName": "AudiencePageGetCountryCodeQuery",
+        "queryId": "f9trQ4_RXzoqBm8zXLg_zg"
     },
-    "PostDetailsProviderFirst48HoursDataQuery": {
+    "VideoListProviderQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "PostDetailsProviderFirst48HoursDataQuery",
-        "queryId": "-h2rBNSpdLAFEA4VY9iSig"
+        "operationName": "VideoListProviderQuery",
+        "queryId": "oRYPt8OYXtJMlbwI6zZ_yQ"
     },
     "PostDetailsProviderAudienceQuery": {
         "metadata": {},
@@ -10584,13 +10591,6 @@
         "text": null,
         "operationName": "PostDetailsProviderAudienceQuery",
         "queryId": "Vq7rpcVS4EwY8Cz_S_KAyQ"
-    },
-    "PostDetailsProviderQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "PostDetailsProviderQuery",
-        "queryId": "7_5sxzswrD0qxa_1SmZgcQ"
     },
     "ArticleTweetsTimeline": {
         "queryId": "OFXdi8OoNlzm0Ga2AzAfgw",
@@ -12076,13 +12076,6 @@
         "operationName": "usePricesQuery",
         "queryId": "k5V9Za96kAQsGXz9J0_1mQ"
     },
-    "VOCardsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "VOCardsQuery",
-        "queryId": "nsVPuj1x3k3I7Bi9LHBScA"
-    },
     "useProductSkuQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12096,6 +12089,13 @@
         "text": null,
         "operationName": "CancelFlowOfferQuery",
         "queryId": "pwzEWbINAiE5QVuUUurJmQ"
+    },
+    "VOCardsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "VOCardsQuery",
+        "queryId": "nsVPuj1x3k3I7Bi9LHBScA"
     },
     "JobsSettingsScreenSettingsQuery": {
         "metadata": {},
@@ -12230,6 +12230,20 @@
         "operationName": "JobRecommendationsModuleQuery",
         "queryId": "jYE2jocgPj0Igd3-dt70Iw"
     },
+    "DeleteInsightButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "DeleteInsightButtonMutation",
+        "queryId": "Ylfgu_WxLasiJaOk2KVWew"
+    },
+    "ToggleAlertNotificationMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "ToggleAlertNotificationMutation",
+        "queryId": "tGwaXd9NIbMv3fcMGRKRFw"
+    },
     "InsightsListContextQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12237,12 +12251,12 @@
         "operationName": "InsightsListContextQuery",
         "queryId": "wDbaSTpre4EH5ED1bDsLTg"
     },
-    "InsightsConfigQuery": {
+    "useMatchedPostMetricsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "InsightsConfigQuery",
-        "queryId": "hdbRC13HoA2I5Vhj3b5nTQ"
+        "operationName": "useMatchedPostMetricsQuery",
+        "queryId": "dRcx9P_of0hYEToWkwphRg"
     },
     "PostListQuery": {
         "metadata": {},
@@ -12265,19 +12279,19 @@
         "operationName": "CreateInsightInputQuery",
         "queryId": "AsXpgHWLsyD3H-L-VY679g"
     },
+    "AiTrendsSearchQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "AiTrendsSearchQuery",
+        "queryId": "iwftVNV6XWcIat1y9m2n8Q"
+    },
     "InsightProviderUpdateMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "InsightProviderUpdateMutation",
         "queryId": "DEkhh6WQKPbu_snkjlAkdw"
-    },
-    "ToggleAlertNotificationMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "ToggleAlertNotificationMutation",
-        "queryId": "tGwaXd9NIbMv3fcMGRKRFw"
     },
     "QueryInputMutation": {
         "metadata": {},
@@ -12293,33 +12307,19 @@
         "operationName": "InsightProviderGetQuery",
         "queryId": "budp7YfzYNiuQbMvVRq3Vg"
     },
-    "AiTrendsSearchQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AiTrendsSearchQuery",
-        "queryId": "iwftVNV6XWcIat1y9m2n8Q"
-    },
-    "useMatchedPostMetricsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useMatchedPostMetricsQuery",
-        "queryId": "dRcx9P_of0hYEToWkwphRg"
-    },
-    "DeleteInsightButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "DeleteInsightButtonMutation",
-        "queryId": "Ylfgu_WxLasiJaOk2KVWew"
-    },
     "usePaginatePostMetricsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "usePaginatePostMetricsQuery",
         "queryId": "WJ_GGwVKhLjsVBHYa4CTWA"
+    },
+    "InsightsConfigQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "InsightsConfigQuery",
+        "queryId": "hdbRC13HoA2I5Vhj3b5nTQ"
     },
     "ReportDetailQuery": {
         "metadata": {},
