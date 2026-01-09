@@ -11,7 +11,7 @@
 | :-- | --: | --: | --: | --: |
 | graphql:userinfo_screen_name    |            150 ✅ |            150 ✅ |            150 ❌ |            150 ✅ |
 | graphql:userinfo_uid            |            500 ✅ |            500 ✅ |            500 ❌ |            500 ✅ |
-| graphql:tweets_web              |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
+| graphql:tweets_web              |             50 ✅ |             50 ✅ |            800 ❌ |             50 ✅ |
 | graphql:tweets_with_replies_web |            500 ✅ |            500 ✅ |            500 ❌ |            500 ✅ |
 | graphql:tweets_v2               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:tweets_with_replies_v2  |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
@@ -35,15 +35,15 @@
 
 |                               |            old web |            new web |  tweetdeck preview |            android|
 | :-- | --: | --: | --: | --: |
-| restful:userinfo_screen_name    |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| restful:userinfo_uid            |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
+| restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
+| restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
-| restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
+| restful:live_stream             |              _ ✅ |              _ ❌ |              _ ✅ |              _ ✅ |
 | restful:typeahead               |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| restful:trends                  |          20000 ✅ |          20000 ❌ |          20000 ❌ |          20000 ❌ |
+| restful:trends                  |          20000 ❌ |          20000 ❌ |          20000 ❌ |          20000 ❌ |
 | restful:translate_bio           |            187 ❌ |            187 ❌ |            187 ❌ |            187 ❌ |
 | restful:translate_tweet         |            187 ✅ |            187 ✅ |            187 ❌ |            187 ✅ |
 | restful:list_timeline           |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
