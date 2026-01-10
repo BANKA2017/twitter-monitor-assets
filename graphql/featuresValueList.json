@@ -832,7 +832,7 @@
     "responsive_web_pinned_replies_enabled": false,
     "responsive_web_placeholder_siwg_button_enabled": false,
     "responsive_web_prerolls_fullscreen_disabled_on_ios": false,
-    "responsive_web_priority_ntab_enabled": false,
+    "responsive_web_priority_ntab_enabled": true,
     "responsive_web_professional_journeys_holdback_enabled": false,
     "responsive_web_profile_about_enabled": true,
     "responsive_web_profile_redirect_enabled": false,
@@ -915,7 +915,7 @@
     "responsive_web_use_app_prompt_enabled": false,
     "responsive_web_user_badge_education_get_verified_button_enabled": true,
     "responsive_web_user_spectral_key_enabled": false,
-    "responsive_web_verified_ntab_hidden": false,
+    "responsive_web_verified_ntab_hidden": true,
     "responsive_web_verified_organizations_affiliate_fetch_limit": 3000,
     "responsive_web_verified_organizations_free_to_invoice_enabled": false,
     "responsive_web_verified_organizations_free_upgrade_promo_enabled": true,
@@ -1229,6 +1229,7 @@
     "subscriptions_premium_tiers_default_interval": "Month",
     "subscriptions_premium_tiers_default_product": "BlueVerified",
     "subscriptions_premium_tiers_hide_basic": false,
+    "subscriptions_premium_tiers_hide_basic_webview_paywall": false,
     "subscriptions_premium_tiers_order_variant": "variant_a",
     "subscriptions_quick_free_trials_low_threshold_screen_enabled": true,
     "subscriptions_quick_free_trials_ui_enabled": true,
@@ -1626,5 +1627,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_priority_ntab_min_followers": 500
 }
