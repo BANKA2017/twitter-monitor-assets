@@ -11880,13 +11880,6 @@
         "operationName": "LocationDisclaimerQuery",
         "queryId": "ctj9T1nd8yOCBvn11lEHyg"
     },
-    "IDVerificationUpdateHideLabelMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "IDVerificationUpdateHideLabelMutation",
-        "queryId": "lqIzyQL1p3XCZg77zekzZA"
-    },
     "ViewerEmailSettings": {
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
         "operationName": "ViewerEmailSettings",
@@ -11913,6 +11906,13 @@
         "text": null,
         "operationName": "useIDVerificationProcessVendorQuery",
         "queryId": "_1MJNdYH_NfG1HVMWvOISA"
+    },
+    "IDVerificationUpdateHideLabelMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "IDVerificationUpdateHideLabelMutation",
+        "queryId": "lqIzyQL1p3XCZg77zekzZA"
     },
     "GrokSettingsScreenQuery": {
         "metadata": {},
@@ -12302,7 +12302,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsMethodsQuery",
-        "queryId": "dQ5Ltik9UV8LAHXedwpN0w"
+        "queryId": "B6sdGGTCuoo5xn_R7muI8Q"
     },
     "usePaymentsPreferencesQuery": {
         "metadata": {},
@@ -12404,6 +12404,13 @@
         "text": null,
         "operationName": "usePaymentsBalanceQuery",
         "queryId": "7WQ88d3vQAuRh8MKKeAVAg"
+    },
+    "useIssuedCardsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useIssuedCardsQuery",
+        "queryId": "s29qUZwmB56yWPWYhEWkLA"
     },
     "usePaymentsRegionQuery": {
         "metadata": {},
