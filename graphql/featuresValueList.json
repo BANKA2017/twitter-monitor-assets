@@ -994,6 +994,7 @@
     "rweb_premium_business_rebranding_premium_paywall_enabled": true,
     "rweb_premium_business_rebranding_premium_paywall_four_cards_enabled": false,
     "rweb_premium_business_rebranding_url_enabled": true,
+    "rweb_quick_promote_action_menu_enabled": true,
     "rweb_quick_promote_boost_enabled": false,
     "rweb_recommendations_sidebar_graphql_enabled": true,
     "rweb_save_video_progress_enabled": false,
@@ -1283,7 +1284,7 @@
     "subscriptions_upsells_radar_video_url_desktop": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_radar_video_url_mobile": "https://abs.twimg.com/images/radar_promo_v2.mp4",
     "subscriptions_upsells_reply_boost_enabled": false,
-    "subscriptions_upsells_reply_boost_popup_enabled": false,
+    "subscriptions_upsells_reply_boost_popup_enabled": true,
     "subscriptions_upsells_reply_boost_variant": "",
     "subscriptions_upsells_right_sidebar_variant": "",
     "subscriptions_upsells_rweb_analytics_fallback_destination": "",
@@ -1634,5 +1635,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "premium_paywall_on_app_load_min_account_age_days": 60
 }
