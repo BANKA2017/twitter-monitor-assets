@@ -729,7 +729,7 @@
     "responsive_web_grok_img_composer": true,
     "responsive_web_grok_imggen_count": 4,
     "responsive_web_grok_latest_news_preset_enabled": true,
-    "responsive_web_grok_link_edit_image_to_grok_com_enabled": false,
+    "responsive_web_grok_link_edit_image_to_grok_com_enabled": true,
     "responsive_web_grok_location_enabled": true,
     "responsive_web_grok_media_attribution_focal_post_force_show": false,
     "responsive_web_grok_media_attribution_imagine_force_show": false,
@@ -1226,7 +1226,7 @@
     "subscriptions_offers_dynamic_upsells_enabled": true,
     "subscriptions_offers_in_tier_switch_enabled": false,
     "subscriptions_offers_localized_pricing_enabled": false,
-    "subscriptions_offers_premium_nav_indicator_enabled": false,
+    "subscriptions_offers_premium_nav_indicator_enabled": true,
     "subscriptions_offers_special_perk_enabled": false,
     "subscriptions_offers_upgrade_offer_home_nav_upsell_enabled": false,
     "subscriptions_offers_upgrade_offer_sidebar_upsell_enabled": false,
@@ -1639,5 +1639,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "rweb_ssp_ads_refresh_enabled": true
 }
