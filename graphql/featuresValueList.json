@@ -399,7 +399,7 @@
     "gryphon_survey_enabled": false,
     "gryphon_survey_url": "",
     "gryphon_timeline_polling_latest_interval_ms": 30000,
-    "gryphon_timeline_polling_overrides": "explore,,60000",
+    "gryphon_timeline_polling_overrides": "explore,,60000;search,latest,60000",
     "gryphon_timeline_polling_top_interval_ms": 120000,
     "gryphon_underground_enabled": false,
     "gryphon_video_docking_enabled": true,
@@ -953,7 +953,6 @@
     "rweb_analytics_live_details_enabled": true,
     "rweb_analytics_live_overview_enabled": true,
     "rweb_analytics_nav_item_enabled": false,
-    "rweb_analytics_post_detail_enabled": true,
     "rweb_analytics_post_details_realtime_enabled": false,
     "rweb_analytics_spaces_details_enabled": true,
     "rweb_analytics_spaces_overview_enabled": true,
@@ -1005,6 +1004,7 @@
     "rweb_spaces_invite_search_enabled": true,
     "rweb_spaces_next_codec_enabled": true,
     "rweb_ssp_ads_enabled": false,
+    "rweb_ssp_ads_refresh_enabled": true,
     "rweb_starter_packs_topics_tab_enabled": false,
     "rweb_timeline_inline_show_more_enabled": true,
     "rweb_tipjar_consumption_enabled": true,
@@ -1639,6 +1639,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "rweb_ssp_ads_refresh_enabled": true
+    "xprofile_work_history_enabled": true
 }
