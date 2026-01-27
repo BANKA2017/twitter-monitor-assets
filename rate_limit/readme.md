@@ -35,8 +35,8 @@
 
 |                               |            old web |            new web |  tweetdeck preview |            android|
 | :-- | --: | --: | --: | --: |
-| restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |              _ ❌ |
-| restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |              _ ❌ |
+| restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
+| restful:userinfo_uid            |            180 ❌ |              _ ❌ |            180 ❌ |              _ ❌ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
