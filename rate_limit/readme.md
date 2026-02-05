@@ -29,7 +29,7 @@
 | graphql:list_timeline           |            500 ❌ |            500 ❌ |           1000 ❌ |            500 ❌ |
 | graphql:community_info          |             50 ✅ |             50 ✅ |             50 ❌ |             50 ✅ |
 | graphql:community_search        |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
-| graphql:community_timeline      |            500 ❌ |            500 ✅ |            500 ❌ |            500 ❌ |
+| graphql:community_timeline      |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 
 ## Restful
 
