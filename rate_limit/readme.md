@@ -36,7 +36,7 @@
 |                               |            old web |            new web |  tweetdeck preview |            android|
 | :-- | --: | --: | --: | --: |
 | restful:userinfo_screen_name    |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
-| restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
+| restful:userinfo_uid            |            180 ❌ |            180 ❌ |            180 ❌ |              _ ❌ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |
 | restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
@@ -50,7 +50,7 @@
 | restful:following               |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:followers               |             15 ❌ |             15 ❌ |             15 ❌ |             15 ❌ |
 | restful:likes                   |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
-| restful:onbroading              |            187 ✅ |            187 ✅ |            187 ✅ |            187 ✅ |
+| restful:onbroading              |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 
 ><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate_limit_checker>
 
