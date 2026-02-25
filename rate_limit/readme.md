@@ -35,10 +35,10 @@
 
 |                               |            old web |            new web |  tweetdeck preview |            android|
 | :-- | --: | --: | --: | --: |
-| restful:userinfo_screen_name    |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| restful:userinfo_uid            |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
+| restful:userinfo_screen_name    |              _ ❌ |              _ ❌ |            180 ❌ |              _ ❌ |
+| restful:userinfo_uid            |              _ ❌ |              _ ❌ |              _ ❌ |            180 ❌ |
 | restful:tweets                  |            300 ❌ |            300 ❌ |            300 ❌ |            300 ❌ |
-| restful:conversation            |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
+| restful:conversation            |            180 ❌ |            180 ✅ |            180 ❌ |            180 ❌ |
 | restful:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | restful:broadcast               |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
 | restful:live_stream             |              _ ✅ |              _ ✅ |              _ ✅ |              _ ✅ |
@@ -50,7 +50,7 @@
 | restful:following               |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:followers               |             15 ❌ |             15 ❌ |             15 ❌ |             15 ❌ |
 | restful:likes                   |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
-| restful:onbroading              |              _ ❌ |            187 ✅ |              _ ❌ |              _ ❌ |
+| restful:onbroading              |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 
 ><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate_limit_checker>
 
