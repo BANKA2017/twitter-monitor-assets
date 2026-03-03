@@ -13904,6 +13904,13 @@
         "operationName": "SuperFollowsManageQuery",
         "queryId": "9wSLGuGXeq_zKNUZYEAF6Q"
     },
+    "SubscriptionPaywallScreenQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "SubscriptionPaywallScreenQuery",
+        "queryId": "yxrsyXvMrEq7-0FNeN3XDA"
+    },
     "SuperFollowsSubscribeQuery": {
         "metadata": {
             "featureSwitches": [
@@ -13919,6 +13926,13 @@
             "creator_subscriptions_email_share_enabled": true,
             "super_follow_subscriptions_tax_calculation_enabled": true
         }
+    },
+    "SubscriptionSuccessScreenQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "SubscriptionSuccessScreenQuery",
+        "queryId": "1LBUt8z8zJ4s_uQb0LhYtg"
     },
     "AboutAccountQuery": {
         "metadata": {},
