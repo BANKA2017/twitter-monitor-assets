@@ -457,7 +457,7 @@
     "longform_notetweets_composer_upsell_enabled": true,
     "longform_notetweets_composition_without_claims_enabled": false,
     "longform_notetweets_consumption_enabled": true,
-    "longform_notetweets_inline_media_enabled": true,
+    "longform_notetweets_inline_media_enabled": false,
     "longform_notetweets_max_tweet_per_thread": 25,
     "longform_notetweets_max_weighted_character_length": 25000,
     "longform_notetweets_mobile_richtextinput": false,
@@ -1680,5 +1680,7 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_grok_model_selector_in_input": true,
+    "responsive_web_grok_model_selector_in_input_min_android_version": 11.71
 }
