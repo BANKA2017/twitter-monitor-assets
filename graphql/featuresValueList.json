@@ -702,6 +702,7 @@
     "responsive_web_grok_annotations_enabled": true,
     "responsive_web_grok_api_enable_grok_host": true,
     "responsive_web_grok_article_cover_image_gen_enabled": false,
+    "responsive_web_grok_article_summary_enabled": false,
     "responsive_web_grok_atgrok_sample_rate": 0.5,
     "responsive_web_grok_backend_prompts_enabled": true,
     "responsive_web_grok_bio_auto_translation_in_followers_enabled": false,
@@ -745,6 +746,8 @@
     "responsive_web_grok_media_attribution_focal_post_force_show": false,
     "responsive_web_grok_media_attribution_imagine_force_show": false,
     "responsive_web_grok_media_attribution_route_to_imagine_composer": false,
+    "responsive_web_grok_model_selector_in_input": true,
+    "responsive_web_grok_model_selector_in_input_min_android_version": 11.71,
     "responsive_web_grok_outage_banner_message": "",
     "responsive_web_grok_personality": true,
     "responsive_web_grok_places_card_enabled": false,
@@ -1610,6 +1613,7 @@
     "xchat_clear_chat_enabled": false,
     "xchat_conversation_event_limit": 200,
     "xchat_conversation_message_search_enabled": true,
+    "xchat_drafts_in_inbox_preview": false,
     "xchat_drop_sigs_after_seq_num": 9223372036854776000,
     "xchat_eagerly_observe_conv_list": false,
     "xchat_emit_conv_upgraded_info_item": true,
@@ -1646,6 +1650,7 @@
     "xchat_max_group_size_for_remove_info_item": 100,
     "xchat_max_users_to_fetch_per_request": 100,
     "xchat_notification_attachment": false,
+    "xchat_observe_inbox_categories_separately": false,
     "xchat_observe_inbox_users_enabled": false,
     "xchat_observe_inbox_users_in_memory": false,
     "xchat_passcode_options_enabled": false,
@@ -1680,7 +1685,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "responsive_web_grok_model_selector_in_input": true,
-    "responsive_web_grok_model_selector_in_input_min_android_version": 11.71
+    "xprofile_work_history_enabled": true
 }
