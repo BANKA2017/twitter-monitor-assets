@@ -9347,13 +9347,6 @@
         },
         "features": {}
     },
-    "affiliatesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "affiliatesQuery",
-        "queryId": "1Sjin33Vk96OVlNTUG6zSg"
-    },
     "CreateScheduledTweet": {
         "queryId": "LCVzRQGxOaGnOnYH01NQXg",
         "operationName": "CreateScheduledTweet",
@@ -9373,6 +9366,13 @@
             "fieldToggles": []
         },
         "features": {}
+    },
+    "affiliatesQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "affiliatesQuery",
+        "queryId": "1Sjin33Vk96OVlNTUG6zSg"
     },
     "DelegatedAccountListQuery": {
         "metadata": {},

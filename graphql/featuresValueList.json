@@ -643,8 +643,8 @@
     "responsive_web_birdwatch_url_notes_enabled": false,
     "responsive_web_card_conversion_hoisted": "off",
     "responsive_web_card_image_poll_enabled": true,
-    "responsive_web_card_image_poll_shuffle_enabled": false,
-    "responsive_web_card_image_poll_sort_by_vote_count_enabled": false,
+    "responsive_web_card_image_poll_shuffle_enabled": true,
+    "responsive_web_card_image_poll_sort_by_vote_count_enabled": true,
     "responsive_web_card_preconnect_enabled": false,
     "responsive_web_card_reminder_enabled": false,
     "responsive_web_carousel_v2_media_detail_enabled": false,
@@ -1626,7 +1626,7 @@
     "xchat_enable_drafts": false,
     "xchat_enable_eu_report": false,
     "xchat_enable_forward_message_v2": true,
-    "xchat_enable_in_memory_event_retry": false,
+    "xchat_enable_in_memory_event_retry": true,
     "xchat_enable_local_pagination": true,
     "xchat_enable_message_requests": false,
     "xchat_enable_ratcheting": false,
@@ -1652,7 +1652,7 @@
     "xchat_max_users_to_fetch_per_request": 100,
     "xchat_notification_attachment": false,
     "xchat_observe_inbox_categories_separately": false,
-    "xchat_observe_inbox_users_enabled": false,
+    "xchat_observe_inbox_users_enabled": true,
     "xchat_observe_inbox_users_in_memory": false,
     "xchat_passcode_options_enabled": false,
     "xchat_quick_reply_enabled": true,
@@ -1686,5 +1686,6 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "responsive_web_grok_media_block_edit_enabled": true
 }
