@@ -13004,13 +13004,6 @@
         "operationName": "usePaymentsSessionMutation",
         "queryId": "jrS6luzi2VuDNWvsG4ZSZA"
     },
-    "usePaymentsLimitsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "usePaymentsLimitsQuery",
-        "queryId": "v-byy53GzsElNP4gYBJ2BA"
-    },
     "finishTwoFactorAuthQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -13042,7 +13035,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "usePaymentsPreferencesQuery",
-        "queryId": "uE-NtvJMezL36xwKzvpS7g"
+        "queryId": "VfAq7VRXcS-l0-BwAsqtRg"
     },
     "useLinkBankCardMutation": {
         "metadata": {},
@@ -13076,6 +13069,13 @@
         "text": null,
         "operationName": "useActivateCardMutation",
         "queryId": "eTrF_9AC0wyM2_rVC9paUw"
+    },
+    "useUpdatePaymentsPreferencesMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useUpdatePaymentsPreferencesMutation",
+        "queryId": "JWdGBYzYzEwIY3UcyJ09UQ"
     },
     "useCustomerTasksQuery": {
         "metadata": {},
@@ -13144,6 +13144,13 @@
         "text": null,
         "operationName": "usePaymentsBalanceQuery",
         "queryId": "7WQ88d3vQAuRh8MKKeAVAg"
+    },
+    "usePaymentsLimitsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaymentsLimitsQuery",
+        "queryId": "cNjBMMxYJbgb9-cQPYDNZw"
     },
     "ActivityScreenGetSearchFiltersQuery": {
         "metadata": {},
