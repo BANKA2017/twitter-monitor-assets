@@ -437,7 +437,7 @@ export const _responsive_web_graphql_skip_user_profile_image_extensions_enabled 
 export const _responsive_web_graphql_timeline_navigation_enabled = true
 export const _responsive_web_grok_05221996 = false
 export const _responsive_web_grok_05231996 = ""
-export const _responsive_web_grok_420_toggle_enabled = true
+export const _responsive_web_grok_420_toggle_enabled = false
 export const _responsive_web_grok_allow_youtube_embeds = false
 export const _responsive_web_grok_analysis_button_from_backend = true
 export const _responsive_web_grok_analyze_button_fetch_trends_enabled = false
