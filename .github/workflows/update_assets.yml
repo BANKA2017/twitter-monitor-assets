@@ -8,18 +8,18 @@ jobs:
     update:
         runs-on: self-hosted
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v6
             - name: Use Node.js 24
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v6
               with:
                   node-version: 24
+                  cache: 'yarn'
             - name: Init
               run: |
-                  mkdir tmpFiles
-                  cp LICENSE tmpFiles/
-                  cp readme.md tmpFiles/
-                  cp -r .github/ tmpFiles/
-                  git clone https://github.com/BANKA2017/twitter-monitor
+                  mkdir -p tmpFiles
+                  cp LICENSE readme.md -t tmpFiles/
+                  cp -r .github tmpFiles/
+                  git clone --depth=1 -b node https://github.com/BANKA2017/twitter-monitor twitter-monitor
                   cd twitter-monitor
                   corepack enable
                   yarn install
@@ -30,20 +30,16 @@ jobs:
                 TWITTER_COOKIE_AUTH_TOKEN: ${{ secrets.TWITTER_COOKIE_AUTH_TOKEN }}
                 TWITTER_COOKIE_CT0: ${{ secrets.TWITTER_COOKIE_CT0 }}
               run: |
-                  mkdir tmpFiles/rate_limit/
-                  cd twitter-monitor/apps/rate_limit_checker/
-                  node run.mjs
-                  cp data/readme.md ../../../tmpFiles/rate_limit/readme.md
-                  cp data/rate_limit_status.json ../../../tmpFiles/rate_limit/rate_limit_status.json
+                out=tmpFiles/rate_limit
+                mkdir -p "$out"
+                node twitter-monitor/apps/rate_limit_checker/run.mjs
+                cp twitter-monitor/apps/rate_limit_checker/data/{readme.md,rate_limit_status.json} "$out/"
             - name: Graphql
               run: |
-                  mkdir tmpFiles/graphql/
-                  cd twitter-monitor/apps/scripts/
-                  node updateQueryIdList.mjs
-                  cp ../../libs/assets/graphql/featuresValueList.js ../../../tmpFiles/graphql/featuresValueList.js
-                  cp ../../libs/assets/graphql/graphqlQueryIdList.js ../../../tmpFiles/graphql/graphqlQueryIdList.js
-                  cp ../../libs/assets/graphql/featuresValueList.json ../../../tmpFiles/graphql/featuresValueList.json
-                  cp ../../libs/assets/graphql/graphqlQueryIdList.json ../../../tmpFiles/graphql/graphqlQueryIdList.json
+                out=tmpFiles/graphql
+                mkdir -p "$out"
+                node twitter-monitor/apps/scripts/updateQueryIdList.mjs
+                cp twitter-monitor/libs/assets/graphql/{featuresValueList.js,graphqlQueryIdList.js,featuresValueList.json,graphqlQueryIdList.json} "$out/"
             - name: Deploy
               uses: BANKA2017/git-publish-subdir-action@develop
               env:
