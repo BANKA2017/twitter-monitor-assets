@@ -9,17 +9,21 @@ jobs:
         runs-on: self-hosted
         steps:
             - uses: actions/checkout@v6
+            - uses: actions/checkout@v6
+              with:
+                repository: "BANKA2017/twitter-monitor"
+                path: twitter-monitor
             - name: Use Node.js 24
               uses: actions/setup-node@v6
               with:
                   node-version: 24
                   cache: 'yarn'
+                  cache-dependency-path: 'twitter-monitor/yarn.lock'
             - name: Init
               run: |
                   mkdir -p tmpFiles
                   cp LICENSE readme.md -t tmpFiles/
                   cp -r .github tmpFiles/
-                  git clone --depth=1 -b node https://github.com/BANKA2017/twitter-monitor twitter-monitor
                   cd twitter-monitor
                   corepack enable
                   yarn install
