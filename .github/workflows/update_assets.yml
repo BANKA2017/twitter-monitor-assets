@@ -34,10 +34,10 @@ jobs:
                 TWITTER_COOKIE_AUTH_TOKEN: ${{ secrets.TWITTER_COOKIE_AUTH_TOKEN }}
                 TWITTER_COOKIE_CT0: ${{ secrets.TWITTER_COOKIE_CT0 }}
               run: |
-                out=tmpFiles/rate_limit
-                mkdir -p "$out"
-                node twitter-monitor/apps/rate_limit_checker/run.mjs
-                cp twitter-monitor/apps/rate_limit_checker/data/{readme.md,rate_limit_status.json} "$out/"
+                mkdir -p "tmpFiles/rate_limit"
+                cd twitter-monitor/apps/rate_limit_checker/
+                node run.mjs
+                cp data/{readme.md,rate_limit_status.json} "../../../tmpFiles/rate_limit"
             - name: Graphql
               run: |
                 out=tmpFiles/graphql
