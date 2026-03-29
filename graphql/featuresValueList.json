@@ -327,6 +327,9 @@
     "content_disclosure_ai_generated_c2pa_detection_enabled": true,
     "content_disclosure_ai_generated_creation_enabled": true,
     "content_disclosure_ai_generated_indicator_enabled": true,
+    "content_disclosure_c2pa_detection_exemption_list": [
+        "Adobe Photoshop"
+    ],
     "content_disclosure_creation_enabled": true,
     "content_disclosure_indicator_enabled": true,
     "creator_monetization_profile_subscription_tweets_tab_enabled": true,
@@ -408,7 +411,6 @@
     "gryphon_timeline_polling_top_interval_ms": 120000,
     "gryphon_underground_enabled": false,
     "gryphon_upgrade_premium_plus_banner_enabled": true,
-    "gryphon_upgrade_premium_plus_eu_copy_enabled": false,
     "gryphon_video_docking_enabled": true,
     "hashfetti_all_hashflags": false,
     "hashfetti_also_match_query": false,
@@ -743,6 +745,7 @@
     "responsive_web_grok_imagine_native_share_enabled": false,
     "responsive_web_grok_imagine_profile_edit_enabled": false,
     "responsive_web_grok_img_composer": true,
+    "responsive_web_grok_img_composer_redirect_to_grok_com_imagine": true,
     "responsive_web_grok_imggen_count": 4,
     "responsive_web_grok_latest_news_preset_enabled": true,
     "responsive_web_grok_link_edit_image_to_grok_com_enabled": true,
@@ -1050,7 +1053,7 @@
     "rweb_xchat_logs": false,
     "rweb_xchat_messages_sidebar_enabled": false,
     "rweb_xchat_old_dms_inbox_item": true,
-    "rweb_xchat_search_redesign": false,
+    "rweb_xchat_search_redesign": true,
     "rweb_xchat_sentry_enabled": true,
     "rweb_xchat_sqlite_logs": false,
     "rweb_xchat_standalone_avcall_enabled": true,
@@ -1227,6 +1230,7 @@
     "subscriptions_management_failed_payment_api_call_enabled": true,
     "subscriptions_management_failed_payment_menu_alert_enabled": true,
     "subscriptions_management_failed_payment_message_premium_enabled": true,
+    "subscriptions_management_failed_payment_paywall_banner_enabled": false,
     "subscriptions_management_failed_payment_profile_card_enabled": true,
     "subscriptions_management_fetch_next_billing_time": true,
     "subscriptions_management_manage_subtext_update_enabled": true,
@@ -1610,7 +1614,7 @@
     "xchat_av_call_card_interaction_enabled": true,
     "xchat_av_call_start_should_notify": false,
     "xchat_av_pip_enabled": false,
-    "xchat_clear_chat_enabled": false,
+    "xchat_clear_chat_enabled": true,
     "xchat_conversation_event_limit": 200,
     "xchat_drafts_bump_to_top": true,
     "xchat_drafts_in_inbox_preview": true,
@@ -1692,6 +1696,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "responsive_web_grok_img_composer_redirect_to_grok_com_imagine": true
+    "xprofile_work_history_enabled": true
 }
