@@ -17,8 +17,6 @@ jobs:
               uses: actions/setup-node@v6
               with:
                   node-version: 24
-                  cache: 'yarn'
-                  cache-dependency-path: 'twitter-monitor/yarn.lock'
             - name: Init
               run: |
                   mkdir -p tmpFiles
