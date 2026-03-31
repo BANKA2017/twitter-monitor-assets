@@ -843,6 +843,7 @@
     "responsive_web_messages_watch_info_interval_s": 600,
     "responsive_web_mobile_app_spotlight_v1_config": false,
     "responsive_web_multiple_account_limit": 5,
+    "responsive_web_native_bridge_allowed_methods": [],
     "responsive_web_not_a_bot_signups_enabled": false,
     "responsive_web_ocf_reportflow_appeals_enabled": false,
     "responsive_web_ocf_reportflow_dms_enabled": false,
@@ -1007,6 +1008,7 @@
     "rweb_live_dock_enabled": true,
     "rweb_master_detail_enabled": false,
     "rweb_media_carousel_enabled": false,
+    "rweb_media_multi_requests_default_pool_size": 1,
     "rweb_media_multi_requests_enabled": true,
     "rweb_mixed_media_uploads_cap": 4,
     "rweb_mvr_blurred_media_interstitial_enabled": true,
@@ -1230,7 +1232,7 @@
     "subscriptions_management_failed_payment_api_call_enabled": true,
     "subscriptions_management_failed_payment_menu_alert_enabled": true,
     "subscriptions_management_failed_payment_message_premium_enabled": true,
-    "subscriptions_management_failed_payment_paywall_banner_enabled": false,
+    "subscriptions_management_failed_payment_paywall_banner_enabled": true,
     "subscriptions_management_failed_payment_profile_card_enabled": true,
     "subscriptions_management_fetch_next_billing_time": true,
     "subscriptions_management_manage_subtext_update_enabled": true,
@@ -1696,6 +1698,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "rweb_media_multi_requests_default_pool_size": 1
+    "xprofile_work_history_enabled": true
 }
