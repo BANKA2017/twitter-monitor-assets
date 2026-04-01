@@ -8880,13 +8880,6 @@
         "operationName": "SuperFollowsManageQuery",
         "queryId": "9wSLGuGXeq_zKNUZYEAF6Q"
     },
-    "DelegatedAccountListQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "DelegatedAccountListQuery",
-        "queryId": "iWqvCFQkkYoobdIjmXPKoA"
-    },
     "IntercomStarterQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9125,6 +9118,13 @@
             "fieldToggles": []
         },
         "features": {}
+    },
+    "DelegatedAccountListQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "DelegatedAccountListQuery",
+        "queryId": "iWqvCFQkkYoobdIjmXPKoA"
     },
     "Favoriters": {
         "queryId": "pZSO1S0jMONjdYm9ngQgzQ",
