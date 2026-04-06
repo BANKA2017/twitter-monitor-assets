@@ -8887,13 +8887,6 @@
         "operationName": "IntercomStarterQuery",
         "queryId": "RiB07no7KYovpEZOy3JQpQ"
     },
-    "useMonetizationCreatorSettingsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useMonetizationCreatorSettingsQuery",
-        "queryId": "5UotOgLcDoewXEKftGMiuQ"
-    },
     "BlueVerifiedProfileEditCalloutQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -10310,6 +10303,13 @@
         "operationName": "CommunitySelectQuery",
         "queryId": "Lue1DfmoW2cc0225t_8z1w"
     },
+    "useMonetizationCreatorSettingsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useMonetizationCreatorSettingsQuery",
+        "queryId": "5UotOgLcDoewXEKftGMiuQ"
+    },
     "useVerifiedProgramsEligibilityQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11692,6 +11692,26 @@
         "text": null,
         "operationName": "AccountParodyScreenImplV2ParodyLabelMutation",
         "queryId": "73OvlPaHKjWcU21X1w9SKA"
+    },
+    "UserAccountLabel": {
+        "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
+        "operationName": "UserAccountLabel",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "DisableUserAccountLabel": {
+        "queryId": "_ckHEj05gan2VfNHG6thBA",
+        "operationName": "DisableUserAccountLabel",
+        "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
     },
     "EditBlockBlockQuery": {
         "metadata": {},
@@ -13136,26 +13156,6 @@
         "queryId": "JpjlNgn4sLGvS6tgpTzYBg",
         "operationName": "ViewerEmailSettings",
         "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "UserAccountLabel": {
-        "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
-        "operationName": "UserAccountLabel",
-        "operationType": "query",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "DisableUserAccountLabel": {
-        "queryId": "_ckHEj05gan2VfNHG6thBA",
-        "operationName": "DisableUserAccountLabel",
-        "operationType": "mutation",
         "metadata": {
             "featureSwitches": [],
             "fieldToggles": []
