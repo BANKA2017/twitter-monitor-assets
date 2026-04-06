@@ -7,16 +7,13 @@ on:
 jobs:
     update:
         runs-on: self-hosted
+        container: node:24-alpine
         steps:
             - uses: actions/checkout@v6
             - uses: actions/checkout@v6
               with:
                 repository: "BANKA2017/twitter-monitor"
                 path: twitter-monitor
-            - name: Use Node.js 24
-              uses: actions/setup-node@v6
-              with:
-                  node-version: 24
             - name: Init
               run: |
                   mkdir -p tmpFiles
