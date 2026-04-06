@@ -32,13 +32,12 @@ jobs:
                 mkdir -p "tmpFiles/rate_limit"
                 cd twitter-monitor/apps/rate_limit_checker/
                 node run.mjs
-                cp data/{readme.md,rate_limit_status.json} "../../../tmpFiles/rate_limit"
+                cp data/readme.md data/rate_limit_status.json "../../../tmpFiles/rate_limit"
             - name: Graphql
               run: |
-                out=tmpFiles/graphql
-                mkdir -p "$out"
+                mkdir -p "tmpFiles/graphql"
                 node twitter-monitor/apps/scripts/updateQueryIdList.mjs
-                cp twitter-monitor/libs/assets/graphql/{featuresValueList.js,graphqlQueryIdList.js,featuresValueList.json,graphqlQueryIdList.json} "$out/"
+                cp twitter-monitor/libs/assets/graphql/featuresValueList.js twitter-monitor/libs/assets/graphql/graphqlQueryIdList.js twitter-monitor/libs/assets/graphql/featuresValueList.json twitter-monitor/libs/assets/graphql/graphqlQueryIdList.json "tmpFiles/graphql/"
             - name: Deploy
               uses: BANKA2017/git-publish-subdir-action@develop
               env:
