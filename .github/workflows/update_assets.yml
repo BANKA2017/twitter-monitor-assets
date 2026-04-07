@@ -16,6 +16,7 @@ jobs:
                 path: twitter-monitor
             - name: Init
               run: |
+                  apk --no-cache --update add git bash openssh-client
                   mkdir -p tmpFiles
                   cp LICENSE readme.md -t tmpFiles/
                   cp -r .github tmpFiles/
