@@ -4960,6 +4960,13 @@
             "responsive_web_enhance_cards_enabled": false
         }
     },
+    "affiliatesQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "affiliatesQuery",
+        "queryId": "1Sjin33Vk96OVlNTUG6zSg"
+    },
     "useCreateStripePortalUrlMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -6775,13 +6782,6 @@
         },
         "features": {}
     },
-    "DelegatedAccountListQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "DelegatedAccountListQuery",
-        "queryId": "iWqvCFQkkYoobdIjmXPKoA"
-    },
     "Favoriters": {
         "queryId": "CpsaKMXZoTKpIHAThzY1gA",
         "operationName": "Favoriters",
@@ -7714,6 +7714,13 @@
             "responsive_web_graphql_timeline_navigation_enabled": true,
             "responsive_web_enhance_cards_enabled": false
         }
+    },
+    "DelegatedAccountListQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "DelegatedAccountListQuery",
+        "queryId": "iWqvCFQkkYoobdIjmXPKoA"
     },
     "pendingCancelFollowRequestMutation": {
         "metadata": {},
@@ -11992,6 +11999,13 @@
         "operationName": "useClaimTransferMutation",
         "queryId": "dwu7_xdsSf1h0pxBgAtmFw"
     },
+    "useDirectDepositSwitchSessionMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useDirectDepositSwitchSessionMutation",
+        "queryId": "KZ2udsf73KoIfGqMTHdwhw"
+    },
     "usePaymentsTransactionStatusQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12012,13 +12026,6 @@
         "text": null,
         "operationName": "usePaymentsSessionRefreshAuthTokenMutation",
         "queryId": "M67Z2AnC9wWtbigxEs6zjA"
-    },
-    "useMarkDirectDepositSwitchCompleteMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useMarkDirectDepositSwitchCompleteMutation",
-        "queryId": "H2gnjMSmoy1oAdAEqkWh1A"
     },
     "usePaymentsCreateSupportChatMutation": {
         "metadata": {},
@@ -12082,13 +12089,6 @@
         "text": null,
         "operationName": "usePhysicalCardDetailsQuery",
         "queryId": "JLQgbRez3mplAJjiieVIZA"
-    },
-    "useDirectDepositSwitchSessionMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useDirectDepositSwitchSessionMutation",
-        "queryId": "KZ2udsf73KoIfGqMTHdwhw"
     },
     "useClaimTransferLinkMutation": {
         "metadata": {},
@@ -12192,6 +12192,13 @@
         "text": null,
         "operationName": "usePaymentsClientEventsMutation",
         "queryId": "52M2fQZPlEpzZTza6TN2_g"
+    },
+    "useMarkDirectDepositSwitchCompleteMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useMarkDirectDepositSwitchCompleteMutation",
+        "queryId": "H2gnjMSmoy1oAdAEqkWh1A"
     },
     "ArticleEntityResultByRestId": {
         "queryId": "8-OHhj8-KCAHUP8XjPaAYQ",
@@ -13265,13 +13272,6 @@
         "text": null,
         "operationName": "RelayUserNameQuery",
         "queryId": "qWQ4udyD6PykpSA6svaYRA"
-    },
-    "affiliatesQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "affiliatesQuery",
-        "queryId": "1Sjin33Vk96OVlNTUG6zSg"
     },
     "ConversationItem_RenameConversationMutation": {
         "metadata": {},
