@@ -11,7 +11,7 @@
 | :-- | --: | --: | --: | --: |
 | graphql:userinfo_screen_name    |            150 ✅ |            150 ✅ |            150 ❌ |            150 ✅ |
 | graphql:userinfo_uid            |            500 ✅ |            500 ✅ |            500 ❌ |            500 ✅ |
-| graphql:tweets_web              |             50 ✅ |             50 ✅ |            800 ❌ |             50 ✅ |
+| graphql:tweets_web              |             50 ✅ |             50 ✅ |             50 ✅ |             50 ✅ |
 | graphql:tweets_with_replies_web |            500 ✅ |            500 ✅ |            500 ❌ |            500 ✅ |
 | graphql:tweets_v2               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:tweets_with_replies_v2  |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
@@ -20,13 +20,13 @@
 | graphql:tweet_result_by_id      |            500 ✅ |            500 ✅ |            500 ✅ |            500 ✅ |
 | graphql:search                  |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:search_client           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:edit_history            |            500 ❌ |              _ ❌ |            500 ❌ |            500 ❌ |
 | graphql:audiospace              |            500 ✅ |            500 ✅ |            500 ❌ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 | graphql:translate_tweet         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:list_info               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:list_member             |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
-| graphql:list_timeline           |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:list_timeline           |            500 ❌ |            500 ❌ |            500 ❌ |              _ ❌ |
 | graphql:community_info          |             50 ✅ |             50 ✅ |             50 ❌ |             50 ✅ |
 | graphql:community_search        |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:community_timeline      |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
@@ -50,7 +50,7 @@
 | restful:following               |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
 | restful:followers               |             15 ❌ |             15 ❌ |             15 ❌ |             15 ❌ |
 | restful:likes                   |            180 ❌ |            180 ❌ |            180 ❌ |            180 ❌ |
-| restful:onbroading              |              _ ❌ |              _ ❌ |              _ ❌ |            187 ✅ |
+| restful:onbroading              |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
 
 ><https://github.com/BANKA2017/twitter-monitor/tree/node/apps/rate_limit_checker>
 
