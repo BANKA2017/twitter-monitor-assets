@@ -847,6 +847,7 @@
     "responsive_web_media_upload_appendmulti_max_segment_bytes": 8388608,
     "responsive_web_media_upload_appendmulti_min_file_bytes": 1048576,
     "responsive_web_media_upload_appendmulti_min_segment_bytes": 262144,
+    "responsive_web_media_upload_appendmulti_target_wire_send_time_ms": 30000,
     "responsive_web_media_upload_limit_2g": 250,
     "responsive_web_media_upload_limit_3g": 1500,
     "responsive_web_media_upload_limit_slow_2g": 150,
@@ -961,6 +962,7 @@
     "responsive_web_use_app_button_variations": "control",
     "responsive_web_use_app_prompt_copy_variant": "prompt_better",
     "responsive_web_use_app_prompt_enabled": false,
+    "responsive_web_use_new_landing_page": false,
     "responsive_web_use_new_onboarding": false,
     "responsive_web_user_badge_education_get_verified_button_enabled": true,
     "responsive_web_user_premium_user_gate": false,
@@ -1608,7 +1610,7 @@
     "user_display_name_max_limit": 50,
     "verified_phone_label_enabled": false,
     "verified_vo_refreshed_advertising_screen_enabled": true,
-    "video_attribution_display_over_video_cards_enabled": false,
+    "video_attribution_display_over_video_cards_enabled": true,
     "video_upload_metadata_title_enabled": false,
     "view_counts_everywhere_api_enabled": true,
     "view_counts_public_visibility_enabled": true,
@@ -1660,7 +1662,7 @@
     "xchat_enable_drafts": false,
     "xchat_enable_eu_report": false,
     "xchat_enable_forward_message_v2": true,
-    "xchat_enable_franking_report": false,
+    "xchat_enable_franking_report": true,
     "xchat_enable_in_memory_event_retry": true,
     "xchat_enable_in_memory_event_retry_bottom_cursor": true,
     "xchat_enable_message_requests": false,
@@ -1721,6 +1723,5 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true,
-    "responsive_web_use_new_landing_page": false
+    "xprofile_work_history_enabled": true
 }
