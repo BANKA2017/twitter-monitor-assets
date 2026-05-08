@@ -563,6 +563,7 @@
     "premium_paywall_on_app_load_fatigue_version": 1,
     "premium_paywall_on_app_load_journey_enabled": true,
     "premium_paywall_on_app_load_min_account_age_days": 60,
+    "premium_webview_paywall_custom_timelines_feature_enabled": true,
     "premium_webview_paywall_force_premium_tier_enabled": false,
     "premium_webview_paywall_intro_offer_title_new_copy_enabled": true,
     "premium_webview_paywall_offer_variant": "thanksgiving2025",
@@ -1732,5 +1733,7 @@
     "xprofile_section_visibility_enabled": false,
     "xprofile_work_history_consumption_enabled": true,
     "xprofile_work_history_domain_enabled": true,
-    "xprofile_work_history_enabled": true
+    "xprofile_work_history_enabled": true,
+    "xstudio_embed_origin": "https://studio.x.com",
+    "xstudio_rweb_live_studio_enabled": false
 }
