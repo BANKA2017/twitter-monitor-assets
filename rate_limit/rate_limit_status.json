@@ -194,12 +194,12 @@
                 "label": "restful:broadcast"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": "404",
+                "message": "Unknown error",
                 "rate_limit": "_",
                 "rate_limit_reset": "_",
-                "status": "✅",
-                "url": "https://api.x.com/1.1/live_video_stream/status/28_1645992664519655424?client=web&use_syndication_guest_id=false&cookie_set_host=twitter.com",
+                "status": "❌",
+                "url": "",
                 "method": "GET",
                 "label": "restful:live_stream"
             },
