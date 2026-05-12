@@ -8853,12 +8853,26 @@
         "operationName": "useFetchProfileSections_canViewExpandedProfileQuery",
         "queryId": "vqu78dKcEkW-UAYLw5rriA"
     },
+    "useFetchProfileBlocks_profileQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_profileQuery",
+        "queryId": "Azv1m7WiLnbn36nNCk7l0Q"
+    },
     "VisibilityDropdown_updateSectionVisibilityMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
         "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
+    },
+    "useDeleteProfileBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useDeleteProfileBlockMutation",
+        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
     },
     "SubscriptionSuccessScreenQuery": {
         "metadata": {},
@@ -11115,20 +11129,6 @@
         "operationName": "useUserInitialCommunitiesSpotlightQuery",
         "queryId": "-X2W306DsYIr_NlO6v3GZw"
     },
-    "useDeleteProfileBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useDeleteProfileBlockMutation",
-        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
-    },
-    "useCreateRichtextBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useCreateRichtextBlockMutation",
-        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
-    },
     "LocationSelectorQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -12647,13 +12647,6 @@
         "operationName": "useAdStatsQuery",
         "queryId": "q5fH_fvXR7wt2cpKN9KcNw"
     },
-    "useFetchProfileBlocks_profileQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileBlocks_profileQuery",
-        "queryId": "Azv1m7WiLnbn36nNCk7l0Q"
-    },
     "usePremiumPaywallOnLoadMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -13167,6 +13160,13 @@
         },
         "features": {}
     },
+    "useCreateRichtextBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useCreateRichtextBlockMutation",
+        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
+    },
     "BankCardPollerSubmissionStatusMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -13195,6 +13195,13 @@
         "operationName": "usePaymentsIssueReportMutation",
         "queryId": "Lko9MTXX3xrZ8DDkumk1Ww"
     },
+    "useDirectDepositFormSessionMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useDirectDepositFormSessionMutation",
+        "queryId": "aJkd9tnieL_iQTK3agBUMw"
+    },
     "useCustomerTasksDismissMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -13208,13 +13215,6 @@
         "text": null,
         "operationName": "useCloseAccountMutation",
         "queryId": "q7mxbycgjl1fiyAzS8ZMwA"
-    },
-    "usePaymentDepositMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePaymentDepositMutation",
-        "queryId": "-xbvEgaO6J8650VbrpWPMw"
     },
     "useLinkFinancialInstitutionMutation": {
         "metadata": {},
@@ -13277,7 +13277,7 @@
         "operationKind": "mutation",
         "text": null,
         "operationName": "useCreateTransferLinkMutation",
-        "queryId": "nHhqgSpFm7ueVfIEYXUYQg"
+        "queryId": "ufPjHUJrtcXEELit_hX8tA"
     },
     "useLockCardMutation": {
         "metadata": {},
@@ -13299,6 +13299,13 @@
         "text": null,
         "operationName": "usePaymentsClientEventsMutation",
         "queryId": "52M2fQZPlEpzZTza6TN2_g"
+    },
+    "usePaymentDepositMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePaymentDepositMutation",
+        "queryId": "-xbvEgaO6J8650VbrpWPMw"
     },
     "SharedAccountInvitationQuery": {
         "metadata": {},
