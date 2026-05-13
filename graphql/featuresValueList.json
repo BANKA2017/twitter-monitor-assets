@@ -331,7 +331,9 @@
     "content_disclosure_ai_generated_creation_enabled": true,
     "content_disclosure_ai_generated_indicator_enabled": true,
     "content_disclosure_c2pa_detection_exemption_list": [
-        "Adobe Photoshop"
+        "Adobe Photoshop",
+        "Adobe Firefly",
+        "Canva AI"
     ],
     "content_disclosure_creation_enabled": true,
     "content_disclosure_indicator_enabled": true,
@@ -499,6 +501,7 @@
     "network_layer_503_backoff_mode": "host",
     "netzdg_in_loggedout_posts_enabled": false,
     "netzdg_in_spaces_enabled": false,
+    "oauth_consent_account_switch_enabled": true,
     "oauth_trusted_developer_badge_enabled": true,
     "ocf_2fa_enrollment_bouncer_enabled": true,
     "ocf_2fa_enrollment_enabled": true,
@@ -1735,6 +1738,5 @@
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
     "xstudio_embed_origin": "https://studio.x.com",
-    "xstudio_rweb_live_studio_enabled": false,
-    "oauth_consent_account_switch_enabled": true
+    "xstudio_rweb_live_studio_enabled": false
 }
