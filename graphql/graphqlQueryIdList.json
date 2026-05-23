@@ -13499,12 +13499,12 @@
         "operationName": "usePaymentsIssueReportMutation",
         "queryId": "Lko9MTXX3xrZ8DDkumk1Ww"
     },
-    "P2PTransferParticipantQuery": {
+    "SharedAccountInvitationQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "P2PTransferParticipantQuery",
-        "queryId": "NhIjwzcaNBic03v2n_gB7A"
+        "operationName": "SharedAccountInvitationQuery",
+        "queryId": "RtjTEl4As3e2Hp9RagvOuQ"
     },
     "useDirectDepositFormSessionMutation": {
         "metadata": {},
@@ -13625,13 +13625,6 @@
         "operationName": "usePaymentDepositMutation",
         "queryId": "-xbvEgaO6J8650VbrpWPMw"
     },
-    "SharedAccountInvitationQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "SharedAccountInvitationQuery",
-        "queryId": "RtjTEl4As3e2Hp9RagvOuQ"
-    },
     "useAuthenticatePaymentMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -13666,6 +13659,13 @@
         "text": null,
         "operationName": "useLinkBankCardMutation",
         "queryId": "HcWAknxhir7sDB6j9CxFYw"
+    },
+    "P2PTransferParticipantQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "P2PTransferParticipantQuery",
+        "queryId": "NhIjwzcaNBic03v2n_gB7A"
     },
     "usePaymentsInitQuery": {
         "metadata": {},
