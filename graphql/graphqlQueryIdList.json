@@ -9111,34 +9111,6 @@
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
     },
-    "useFetchProfileSections_canViewExpandedProfileQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileSections_canViewExpandedProfileQuery",
-        "queryId": "vqu78dKcEkW-UAYLw5rriA"
-    },
-    "useFetchProfileBlocks_profileQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "useFetchProfileBlocks_profileQuery",
-        "queryId": "Azv1m7WiLnbn36nNCk7l0Q"
-    },
-    "VisibilityDropdown_updateSectionVisibilityMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
-        "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
-    },
-    "useDeleteProfileBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useDeleteProfileBlockMutation",
-        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
-    },
     "SubscriptionSuccessScreenQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11709,6 +11681,13 @@
         "operationName": "useUserInitialCommunitiesSpotlightQuery",
         "queryId": "-X2W306DsYIr_NlO6v3GZw"
     },
+    "VisibilityDropdown_updateSectionVisibilityMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "VisibilityDropdown_updateSectionVisibilityMutation",
+        "queryId": "8ICa6FMhnv00iHBjpoXdAQ"
+    },
     "LocationSelectorQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -13344,6 +13323,13 @@
         "operationName": "SpamSettingsQuery",
         "queryId": "e_3p_auZ82q8lV0r1x9OuA"
     },
+    "useFetchProfileBlocks_profileQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useFetchProfileBlocks_profileQuery",
+        "queryId": "Azv1m7WiLnbn36nNCk7l0Q"
+    },
     "ConsentScreen_xprofileMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -13470,6 +13456,13 @@
             "fieldToggles": []
         },
         "features": {}
+    },
+    "useDeleteProfileBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useDeleteProfileBlockMutation",
+        "queryId": "EvvA9IQR0sKW0tGqXwSzKA"
     },
     "useCreateRichtextBlockMutation": {
         "metadata": {},
