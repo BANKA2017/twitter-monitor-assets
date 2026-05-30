@@ -1661,6 +1661,8 @@
     "web_video_prefetch_playlist_autoplay_disabled": false,
     "web_video_safari_hlsjs_enabled": true,
     "web_video_transcribed_captions_enabled": true,
+    "x_android_apollo_graphql_accept_header": "application/json",
+    "x_android_apollo_graphql_accept_header_override": true,
     "x_jetfuel_enable_test_cluster": false,
     "x_jetfuel_event_screen_migration_enabled": false,
     "x_jetfuel_event_screen_migration_skip_ids": [
@@ -1725,6 +1727,7 @@
     "xchat_max_users_to_fetch_per_request": 100,
     "xchat_media_resolve_threshold_fast_network_bytes_str": "104857600",
     "xchat_media_resolve_threshold_slow_network_bytes_str": "10485760",
+    "xchat_message_composer_v2": false,
     "xchat_observe_inbox_categories_separately": true,
     "xchat_observe_inbox_users_enabled": true,
     "xchat_passcode_options_enabled": false,
