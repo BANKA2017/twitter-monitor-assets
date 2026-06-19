@@ -314,11 +314,11 @@
                 "label": "graphql:community_info"
             },
             {
-                "code": 404,
-                "message": "Not Found",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/graphql/HKgnJbw10TZW41Na4ToaSw/CommunitiesSearchQuery?variables=%7B%22query%22%3A%22Cat+Twitter%22%2C%22count%22%3A20%2C%22cursor%22%3Anull%7D",
                 "method": "GET",
                 "label": "graphql:community_search"
@@ -344,12 +344,12 @@
                 "label": "restful:following"
             },
             {
-                "code": "404",
-                "message": "Unknown error",
-                "rate_limit": "_",
-                "rate_limit_reset": "_",
+                "code": 34,
+                "message": "Sorry, that page does not exist",
+                "rate_limit": 15,
+                "rate_limit_reset": 900,
                 "status": "❌",
-                "url": "",
+                "url": "https://api.x.com/1.1/followers/list.json?screen_name=xdevelopers&count=20",
                 "method": "GET",
                 "label": "restful:followers"
             },
@@ -778,11 +778,11 @@
                 "label": "restful:userinfo_screen_name"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 404,
+                "message": "Not Found",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.x.com/graphql/VQfQ9wwYdk6j_u2O4vt64Q/UserByRestId?variables=%7B%22withSuperFollowsUserFields%22%3Atrue%2C%22withSafetyModeUserFields%22%3Atrue%2C%22userId%22%3A%22783214%22%7D&features=%7B%22hidden_profile_subscriptions_enabled%22%3Atrue%2C%22profile_label_improvements_pcf_label_in_post_enabled%22%3Atrue%2C%22responsive_web_profile_redirect_enabled%22%3Afalse%2C%22rweb_tipjar_consumption_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22highlights_tweets_tab_ui_enabled%22%3Atrue%2C%22responsive_web_twitter_article_notes_tab_enabled%22%3Atrue%2C%22subscriptions_feature_can_gift_premium%22%3Atrue%2C%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%7D",
                 "method": "GET",
                 "label": "graphql:userinfo_uid"
