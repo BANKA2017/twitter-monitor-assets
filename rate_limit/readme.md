@@ -23,12 +23,12 @@
 | graphql:edit_history            |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:audiospace              |            500 ✅ |            500 ✅ |            500 ❌ |            500 ✅ |
 | graphql:translate_bio           |              _ ❌ |              _ ❌ |              _ ❌ |              _ ❌ |
-| graphql:translate_tweet         |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:translate_tweet         |            500 ❌ |            500 ✅ |            500 ❌ |            500 ❌ |
 | graphql:list_info               |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:list_member             |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:list_timeline           |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:community_info          |             50 ✅ |             50 ✅ |             50 ❌ |             50 ✅ |
-| graphql:community_search        |            500 ✅ |            500 ❌ |            500 ❌ |            500 ❌ |
+| graphql:community_search        |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 | graphql:community_timeline      |            500 ❌ |            500 ❌ |            500 ❌ |            500 ❌ |
 
 ## Restful

@@ -546,6 +546,8 @@
     "payments_cheques_deposits_enabled": true,
     "payments_crb_iframe_delay_msecs": 1000,
     "payments_forward_with_enabled": true,
+    "payments_funds_insurance_redesign_enabled": false,
+    "payments_funds_insurance_sweep_enabled": false,
     "payments_half_cover_notices_enabled": true,
     "payments_passkey_onboarding_enabled": true,
     "payments_secondary_accounts_enabled": false,
@@ -1030,7 +1032,7 @@
     "rweb_analytics_live_details_enabled": true,
     "rweb_analytics_live_overview_enabled": true,
     "rweb_analytics_nav_item_enabled": false,
-    "rweb_analytics_post_details_realtime_enabled": false,
+    "rweb_analytics_post_details_realtime_enabled": true,
     "rweb_analytics_spaces_details_enabled": true,
     "rweb_analytics_spaces_overview_enabled": true,
     "rweb_analytics_theme": false,
@@ -1668,10 +1670,10 @@
     "web_video_hls_mp4_threshold_sec": 0,
     "web_video_hls_variant_version": "1",
     "web_video_hlsjs_version": "1.5.0",
+    "web_video_persist_bandwidth_estimate_enabled": false,
     "web_video_playback_rate_enabled": true,
     "web_video_prefetch_playlist_autoplay_disabled": false,
     "web_video_safari_hlsjs_enabled": true,
-    "web_video_teardown_listener_fix_enabled": false,
     "web_video_transcribed_captions_enabled": true,
     "x_android_apollo_graphql_accept_header": "application/json",
     "x_android_apollo_graphql_accept_header_override": true,
@@ -1784,6 +1786,5 @@
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
     "xstudio_embed_origin": "https://studio.x.com",
-    "xstudio_rweb_live_studio_enabled": false,
-    "web_video_persist_bandwidth_estimate_enabled": false
+    "xstudio_rweb_live_studio_enabled": true
 }
