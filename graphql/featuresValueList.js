@@ -277,9 +277,9 @@ export const _papago_tweet_translation_from_korean_entity_unprotected_destinatio
 export const _papago_tweet_translation_to_korean = false
 export const _papago_tweet_translation_to_korean_sources = ["en","ja"]
 export const _payments_1password_history_fix_enabled = true
-export const _payments_assets_activate_card_dark_video_url = ""
-export const _payments_assets_activate_card_light_video_url = ""
-export const _payments_assets_activate_card_video_ratio = 1
+export const _payments_assets_activate_card_dark_video_url = "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
+export const _payments_assets_activate_card_light_video_url = "https://pbs.twimg.com/static/money/x-card-animation-v4-white.mp4"
+export const _payments_assets_activate_card_video_ratio = 1.33
 export const _payments_auth_token_enabled = true
 export const _payments_cash_deposits_enabled = true
 export const _payments_chat_support_enabled = false
