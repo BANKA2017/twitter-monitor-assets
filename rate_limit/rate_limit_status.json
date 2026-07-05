@@ -64,11 +64,11 @@
                 "label": "graphql:tweets_with_replies_web"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 404,
+                "message": "Not Found",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.x.com/graphql/JLApJKFY0MxGTzCoK6ps8Q/UserWithProfileTweetsQueryV2?variables=%7B%22includeTweetImpression%22%3Atrue%2C%22includeHasBirdwatchNotes%22%3Afalse%2C%22includeEditPerspective%22%3Afalse%2C%22includeEditControl%22%3Atrue%2C%22count%22%3A40%2C%22rest_id%22%3A%22783214%22%2C%22includeTweetVisibilityNudge%22%3Atrue%2C%22autoplay_enabled%22%3Atrue%7D&features=%7B%22longform_notetweets_inline_media_enabled%22%3Atrue%2C%22super_follow_badge_privacy_enabled%22%3Atrue%2C%22longform_notetweets_rich_text_read_enabled%22%3Atrue%2C%22super_follow_user_api_enabled%22%3Atrue%2C%22unified_cards_ad_metadata_container_dynamic_card_content_query_enabled%22%3Atrue%2C%22super_follow_tweet_api_enabled%22%3Atrue%2C%22articles_api_enabled%22%3Afalse%2C%22android_graphql_skip_api_media_color_palette%22%3Atrue%2C%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Atrue%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22subscriptions_verification_info_enabled%22%3Atrue%2C%22blue_business_profile_image_shape_enabled%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Atrue%2C%22immersive_video_status_linkable_timestamps%22%3Afalse%2C%22super_follow_exclusive_tweet_notifications_enabled%22%3Atrue%7D",
                 "method": "GET",
                 "label": "graphql:tweets_v2"
@@ -204,12 +204,12 @@
                 "label": "restful:live_stream"
             },
             {
-                "code": 34,
-                "message": "Sorry, that page does not exist",
+                "code": "404",
+                "message": "Unknown error",
                 "rate_limit": "_",
                 "rate_limit_reset": "_",
                 "status": "❌",
-                "url": "https://api.x.com/1.1/search/typeahead.json?include_ext_is_blue_verified=1&q=Twitter&src=search_box&result_type=events%2Cusers%2Ctopics",
+                "url": "",
                 "method": "GET",
                 "label": "restful:typeahead"
             },
@@ -481,11 +481,11 @@
                 "label": "graphql:conversation"
             },
             {
-                "code": 404,
-                "message": "Not Found",
+                "code": 200,
+                "message": "OK",
                 "rate_limit": 500,
                 "rate_limit_reset": 900,
-                "status": "❌",
+                "status": "✅",
                 "url": "https://api.x.com/graphql/Vorskcd2tZ-tc4Gx3zbk4Q/ConversationTimelineV2?variables=%7B%22referrer%22%3A%22profile%22%2C%22includeTweetImpression%22%3Atrue%2C%22includeHasBirdwatchNotes%22%3Afalse%2C%22isReaderMode%22%3Afalse%2C%22includeEditPerspective%22%3Afalse%2C%22includeEditControl%22%3Atrue%2C%22focalTweetId%22%3A%221623411536243965954%22%2C%22includeCommunityTweetRelationship%22%3Atrue%2C%22includeTweetVisibilityNudge%22%3Atrue%7D&features=%7B%22longform_notetweets_inline_media_enabled%22%3Atrue%2C%22super_follow_badge_privacy_enabled%22%3Atrue%2C%22longform_notetweets_rich_text_read_enabled%22%3Atrue%2C%22super_follow_user_api_enabled%22%3Atrue%2C%22unified_cards_ad_metadata_container_dynamic_card_content_query_enabled%22%3Atrue%2C%22super_follow_tweet_api_enabled%22%3Atrue%2C%22articles_api_enabled%22%3Afalse%2C%22android_graphql_skip_api_media_color_palette%22%3Atrue%2C%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Atrue%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22subscriptions_verification_info_enabled%22%3Atrue%2C%22blue_business_profile_image_shape_enabled%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Atrue%2C%22immersive_video_status_linkable_timestamps%22%3Afalse%2C%22super_follow_exclusive_tweet_notifications_enabled%22%3Atrue%7D&fieldToggles=%7B%22withArticleRichContentState%22%3Atrue%2C%22withArticlePlainText%22%3Atrue%7D",
                 "method": "GET",
                 "label": "graphql:conversation_v2"
@@ -501,11 +501,11 @@
                 "label": "graphql:tweet_result_by_id"
             },
             {
-                "code": 200,
-                "message": "OK",
+                "code": 34,
+                "message": "Sorry, that page does not exist",
                 "rate_limit": 180,
                 "rate_limit_reset": 900,
-                "status": "✅",
+                "status": "❌",
                 "url": "https://api.x.com/2/timeline/conversation/1623411536243965954.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_composer_source=true&include_ext_alt_text=true&include_reply_count=1&tweet_mode=extended&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&send_error_codes=true&simple_quoted_tweets=true&count=1&ext=mediaStats%2CcameraMoment",
                 "method": "GET",
                 "label": "restful:conversation"
