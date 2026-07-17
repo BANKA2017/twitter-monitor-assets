@@ -33,8 +33,7 @@ jobs:
               #   TWITTER_COOKIE_CT0: ${{ secrets.TWITTER_COOKIE_CT0 }}
               run: |
                 mkdir -p "tmpFiles/rate_limit"
-                cd twitter-monitor/apps/rate_limit_checker/
-                cp data/readme.md "../../../tmpFiles/rate_limit"
+                cp "rate_limit/readme.md" "tmpFiles/rate_limit/readme.md"
             - name: Graphql
               run: |
                 mkdir -p "tmpFiles/graphql"
