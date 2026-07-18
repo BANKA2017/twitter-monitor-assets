@@ -9075,6 +9075,13 @@
         "operationName": "useVerifiedProgramsEligibilityQuery",
         "queryId": "SQkrzbueypUf6oyEdj_Zzg"
     },
+    "DelegatedAccountListQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "DelegatedAccountListQuery",
+        "queryId": "iWqvCFQkkYoobdIjmXPKoA"
+    },
     "useNhlLiveEventDataQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -11893,13 +11900,6 @@
         "operationName": "usePaymentsSessionRefreshAuthTokenMutation",
         "queryId": "M67Z2AnC9wWtbigxEs6zjA"
     },
-    "DebugDrawerConversationIdQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "DebugDrawerConversationIdQuery",
-        "queryId": "p1BzDIePWwkumE2_qYB98w"
-    },
     "GetGrokCustomizationSettingMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -11917,6 +11917,13 @@
         },
         "features": {}
     },
+    "DebugDrawerConversationIdQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "DebugDrawerConversationIdQuery",
+        "queryId": "p1BzDIePWwkumE2_qYB98w"
+    },
     "EnableLoggedOutWebNotifications": {
         "queryId": "BqIHKmwZKtiUBPi07jKctg",
         "operationName": "EnableLoggedOutWebNotifications",
@@ -11927,19 +11934,19 @@
         },
         "features": {}
     },
-    "fetchUsersQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "fetchUsersQuery",
-        "queryId": "6fYDbGEk5tycRGsKxrhI-Q"
-    },
     "delegateAccountsQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "delegateAccountsQuery",
         "queryId": "qhzXsXSWe5AlK3S5DW-Nrg"
+    },
+    "fetchUsersQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "fetchUsersQuery",
+        "queryId": "6fYDbGEk5tycRGsKxrhI-Q"
     },
     "useNordQueryQuery": {
         "metadata": {},
@@ -12279,16 +12286,6 @@
         "queryId": "-5e798p4EVbuhGGFFuw3Tg",
         "operationName": "GrokUnpinConversation",
         "operationType": "mutation",
-        "metadata": {
-            "featureSwitches": [],
-            "fieldToggles": []
-        },
-        "features": {}
-    },
-    "SearchGrokConversations": {
-        "queryId": "Sr2QEitvnemma5D2NJlA2Q",
-        "operationName": "SearchGrokConversations",
-        "operationType": "query",
         "metadata": {
             "featureSwitches": [],
             "fieldToggles": []
