@@ -210,13 +210,6 @@
             "responsive_web_graphql_timeline_navigation_enabled": true
         }
     },
-    "unfollowUserMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "unfollowUserMutation",
-        "queryId": "RjGnpAQuMmcqXSjoCR7t6w"
-    },
     "cancelFollowRequestMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -224,12 +217,12 @@
         "operationName": "cancelFollowRequestMutation",
         "queryId": "46LY_rIBJx7QNZ6ziF9ROg"
     },
-    "unblockUserMutation": {
+    "unfollowUserMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "unblockUserMutation",
-        "queryId": "A2MpLvDEQZ48_n2emniqsA"
+        "operationName": "unfollowUserMutation",
+        "queryId": "RjGnpAQuMmcqXSjoCR7t6w"
     },
     "followUserMutation": {
         "metadata": {},
@@ -237,6 +230,13 @@
         "text": null,
         "operationName": "followUserMutation",
         "queryId": "m5VXpPA-MH4DH7epCa7hCg"
+    },
+    "unblockUserMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "unblockUserMutation",
+        "queryId": "A2MpLvDEQZ48_n2emniqsA"
     },
     "useFetchProfileBlocks_profileQuery": {
         "metadata": {},
@@ -1102,13 +1102,6 @@
             "responsive_web_birdwatch_mobile_nav_setting_enabled": false,
             "responsive_web_birdwatch_note_limit_enabled": true
         }
-    },
-    "useArticleSummaryFeedbackMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useArticleSummaryFeedbackMutation",
-        "queryId": "pZ6Lr_O8VRROyNL_POagcw"
     },
     "bookmarkTweetToFolder": {
         "queryId": "4KHZvvNbHNf07bsgnL9gWA",
@@ -2231,6 +2224,13 @@
         "features": {
             "responsive_web_birdwatch_signup_prompt_enabled": true
         }
+    },
+    "useArticleSummaryFeedbackMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useArticleSummaryFeedbackMutation",
+        "queryId": "pZ6Lr_O8VRROyNL_POagcw"
     },
     "TranslationFeedbackProvideFeedbackMutation": {
         "metadata": {},
@@ -6978,19 +6978,19 @@
         },
         "features": {}
     },
-    "delegateAccountsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "delegateAccountsQuery",
-        "queryId": "qhzXsXSWe5AlK3S5DW-Nrg"
-    },
     "fetchUsersQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "fetchUsersQuery",
         "queryId": "6fYDbGEk5tycRGsKxrhI-Q"
+    },
+    "delegateAccountsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "delegateAccountsQuery",
+        "queryId": "qhzXsXSWe5AlK3S5DW-Nrg"
     },
     "useNordQueryQuery": {
         "metadata": {},
@@ -7481,19 +7481,19 @@
         },
         "features": {}
     },
-    "accountOverviewHourlyQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "accountOverviewHourlyQuery",
-        "queryId": "8hJwaObwS55mnPPsevcRhQ"
-    },
     "overviewDataPostQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "overviewDataPostQuery",
         "queryId": "9c83mWUXFc4RuVLInF9SOQ"
+    },
+    "accountOverviewHourlyQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "accountOverviewHourlyQuery",
+        "queryId": "8hJwaObwS55mnPPsevcRhQ"
     },
     "useFetchAnalyticsQuery": {
         "metadata": {},
@@ -8155,47 +8155,12 @@
         "operationName": "feedbackMutation",
         "queryId": "zv33bjbLTa35aipqMBnLgw"
     },
-    "insightsListContextQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "insightsListContextQuery",
-        "queryId": "WWRjBVCm43JPt3KJcYps_A"
-    },
-    "deleteInsightButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "deleteInsightButtonMutation",
-        "queryId": "XEhvVHbMAhHWWqqokHk-OA"
-    },
-    "insightProviderGetQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "insightProviderGetQuery",
-        "queryId": "KYqx5DM-ZWPSmsYaTRc7Pg"
-    },
     "usePostCountQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
         "operationName": "usePostCountQuery",
         "queryId": "VhY6XnydIgCYEfH0nja-5g"
-    },
-    "toggleAlertNotificationMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "toggleAlertNotificationMutation",
-        "queryId": "Lq-KxcdfTaaKmiyXJ1jffQ"
-    },
-    "queryInputMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "queryInputMutation",
-        "queryId": "rG7ih_YOL5vS5hdEtlQsFQ"
     },
     "insightsConfigQuery": {
         "metadata": {},
@@ -8204,12 +8169,12 @@
         "operationName": "insightsConfigQuery",
         "queryId": "O6KEHm-xm_6YHA8QWfNS0g"
     },
-    "usePaginatePostMetricsQuery": {
+    "queryInputMutation": {
         "metadata": {},
-        "operationKind": "query",
+        "operationKind": "mutation",
         "text": null,
-        "operationName": "usePaginatePostMetricsQuery",
-        "queryId": "-r_duG6VvH4qF8t-HiM6DQ"
+        "operationName": "queryInputMutation",
+        "queryId": "rG7ih_YOL5vS5hdEtlQsFQ"
     },
     "createInsightInputMutation": {
         "metadata": {},
@@ -8217,6 +8182,41 @@
         "text": null,
         "operationName": "createInsightInputMutation",
         "queryId": "ktnc_IoCymTxsQ4tnPKdHQ"
+    },
+    "usePaginatePostMetricsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaginatePostMetricsQuery",
+        "queryId": "-r_duG6VvH4qF8t-HiM6DQ"
+    },
+    "insightsListContextQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "insightsListContextQuery",
+        "queryId": "WWRjBVCm43JPt3KJcYps_A"
+    },
+    "toggleAlertNotificationMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "toggleAlertNotificationMutation",
+        "queryId": "Lq-KxcdfTaaKmiyXJ1jffQ"
+    },
+    "insightProviderGetQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "insightProviderGetQuery",
+        "queryId": "KYqx5DM-ZWPSmsYaTRc7Pg"
+    },
+    "deleteInsightButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "deleteInsightButtonMutation",
+        "queryId": "XEhvVHbMAhHWWqqokHk-OA"
     },
     "sendLiveChatMutation": {
         "metadata": {},
@@ -8506,13 +8506,6 @@
         "operationName": "usePaymentsIssueReportMutation",
         "queryId": "Lko9MTXX3xrZ8DDkumk1Ww"
     },
-    "usePaymentDepositMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePaymentDepositMutation",
-        "queryId": "o9lOsixJZWfyfDCLuz1Wkw"
-    },
     "SharedAccountInvitationQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8568,6 +8561,13 @@
         "text": null,
         "operationName": "useUpdatePaymentsPreferencesMutation",
         "queryId": "JWdGBYzYzEwIY3UcyJ09UQ"
+    },
+    "useLockCardMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useLockCardMutation",
+        "queryId": "FTRvsLzCHSdiKakILU5kMA"
     },
     "usePaymentsMethodUpdateMutation": {
         "metadata": {},
@@ -8632,6 +8632,13 @@
         "operationName": "usePaymentsClientEventsMutation",
         "queryId": "52M2fQZPlEpzZTza6TN2_g"
     },
+    "useIssuedCardDesignsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "useIssuedCardDesignsQuery",
+        "queryId": "AeeSsuF2XnjEOI5Qv6-_lQ"
+    },
     "ScreenNamePaneQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8667,6 +8674,13 @@
         "operationName": "useReonboardMutation",
         "queryId": "CfBeqlfvIwYpn-zan8xVSQ"
     },
+    "usePaymentDepositMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePaymentDepositMutation",
+        "queryId": "o9lOsixJZWfyfDCLuz1Wkw"
+    },
     "useLinkBankCardMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -8680,13 +8694,6 @@
         "text": null,
         "operationName": "CardIssuancePollerQuery",
         "queryId": "Og0DXpCtmZvBTco_e8TTRw"
-    },
-    "useLockCardMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useLockCardMutation",
-        "queryId": "FTRvsLzCHSdiKakILU5kMA"
     },
     "ActivityScreenGetSearchFiltersQuery": {
         "metadata": {},
