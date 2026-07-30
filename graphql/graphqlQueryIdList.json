@@ -6549,13 +6549,6 @@
         "operationName": "useUserInitialCommunitiesSpotlightQuery",
         "queryId": "-X2W306DsYIr_NlO6v3GZw"
     },
-    "useCreateRichtextBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useCreateRichtextBlockMutation",
-        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
-    },
     "LocationSelectorQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -7922,12 +7915,12 @@
         "operationName": "unblockUserMutation",
         "queryId": "A2MpLvDEQZ48_n2emniqsA"
     },
-    "unfollowUserMutation": {
+    "followUserMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "unfollowUserMutation",
-        "queryId": "RjGnpAQuMmcqXSjoCR7t6w"
+        "operationName": "followUserMutation",
+        "queryId": "m5VXpPA-MH4DH7epCa7hCg"
     },
     "cancelFollowRequestMutation": {
         "metadata": {},
@@ -7936,12 +7929,19 @@
         "operationName": "cancelFollowRequestMutation",
         "queryId": "46LY_rIBJx7QNZ6ziF9ROg"
     },
-    "followUserMutation": {
+    "unfollowUserMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "followUserMutation",
-        "queryId": "m5VXpPA-MH4DH7epCa7hCg"
+        "operationName": "unfollowUserMutation",
+        "queryId": "RjGnpAQuMmcqXSjoCR7t6w"
+    },
+    "useGrokAttachmentPublishMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useGrokAttachmentPublishMutation",
+        "queryId": "ut3N9CQkWtAZQo3WZX_cNA"
     },
     "useShareGrokConversationMutation": {
         "metadata": {},
@@ -7957,12 +7957,12 @@
         "operationName": "feedbackMutation",
         "queryId": "zv33bjbLTa35aipqMBnLgw"
     },
-    "insightsConfigQuery": {
+    "toggleAlertNotificationMutation": {
         "metadata": {},
-        "operationKind": "query",
+        "operationKind": "mutation",
         "text": null,
-        "operationName": "insightsConfigQuery",
-        "queryId": "O6KEHm-xm_6YHA8QWfNS0g"
+        "operationName": "toggleAlertNotificationMutation",
+        "queryId": "Lq-KxcdfTaaKmiyXJ1jffQ"
     },
     "deleteInsightButtonMutation": {
         "metadata": {},
@@ -7971,33 +7971,12 @@
         "operationName": "deleteInsightButtonMutation",
         "queryId": "XEhvVHbMAhHWWqqokHk-OA"
     },
-    "usePostCountQuery": {
+    "insightsListContextQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "usePostCountQuery",
-        "queryId": "VhY6XnydIgCYEfH0nja-5g"
-    },
-    "createInsightInputMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "createInsightInputMutation",
-        "queryId": "ktnc_IoCymTxsQ4tnPKdHQ"
-    },
-    "toggleAlertNotificationMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "toggleAlertNotificationMutation",
-        "queryId": "Lq-KxcdfTaaKmiyXJ1jffQ"
-    },
-    "usePaginatePostMetricsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "usePaginatePostMetricsQuery",
-        "queryId": "-r_duG6VvH4qF8t-HiM6DQ"
+        "operationName": "insightsListContextQuery",
+        "queryId": "WWRjBVCm43JPt3KJcYps_A"
     },
     "insightProviderGetQuery": {
         "metadata": {},
@@ -8013,12 +7992,33 @@
         "operationName": "queryInputMutation",
         "queryId": "rG7ih_YOL5vS5hdEtlQsFQ"
     },
-    "insightsListContextQuery": {
+    "usePostCountQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "insightsListContextQuery",
-        "queryId": "WWRjBVCm43JPt3KJcYps_A"
+        "operationName": "usePostCountQuery",
+        "queryId": "VhY6XnydIgCYEfH0nja-5g"
+    },
+    "usePaginatePostMetricsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaginatePostMetricsQuery",
+        "queryId": "-r_duG6VvH4qF8t-HiM6DQ"
+    },
+    "createInsightInputMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "createInsightInputMutation",
+        "queryId": "ktnc_IoCymTxsQ4tnPKdHQ"
+    },
+    "insightsConfigQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "insightsConfigQuery",
+        "queryId": "O6KEHm-xm_6YHA8QWfNS0g"
     },
     "sendLiveChatMutation": {
         "metadata": {},
@@ -8272,6 +8272,13 @@
             "fieldToggles": []
         },
         "features": {}
+    },
+    "useCreateRichtextBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useCreateRichtextBlockMutation",
+        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
     "usePaymentsRegionQuery": {
         "metadata": {},

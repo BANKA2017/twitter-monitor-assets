@@ -1784,6 +1784,7 @@
     "xchat_plaintext_grok_minimum_tier": "PremiumPlus",
     "xchat_ratchet_group_id_threshold": 9223372036854776000,
     "xchat_ratchet_group_id_threshold_str": "9223372036854775807",
+    "xchat_realm_migration_local_key_fallback_enabled": false,
     "xchat_repair_groups_after_passcode_reset": true,
     "xchat_resolve_unencrypted_media_locally": true,
     "xchat_sample_observation_queries": 500,
@@ -1814,5 +1815,9 @@
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
     "xstudio_embed_origin": "https://studio.x.com",
-    "xstudio_rweb_live_studio_enabled": true
+    "xstudio_rweb_live_studio_enabled": true,
+    "responsive_web_grok_edit_image_attribution_mode": "free",
+    "responsive_web_grok_imagine_continue_seamless_enabled": true,
+    "rweb_xchat_call_window_enabled": false,
+    "xchat_enable_metadata_sync": false
 }
