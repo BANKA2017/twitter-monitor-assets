@@ -6563,13 +6563,6 @@
         "operationName": "useUserInitialCommunitiesSpotlightQuery",
         "queryId": "-X2W306DsYIr_NlO6v3GZw"
     },
-    "useCreateRichtextBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useCreateRichtextBlockMutation",
-        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
-    },
     "LocationSelectorQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -7705,13 +7698,6 @@
         "operationName": "PremiumGiftingQuery",
         "queryId": "kn8hCE6bHstQV2MtfYDTKg"
     },
-    "SnoozeTagsSheetQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "SnoozeTagsSheetQuery",
-        "queryId": "XOYcrYzUO9kc12arb3tXzA"
-    },
     "useIDVerificationProcessVendorQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8146,6 +8132,13 @@
         "operationName": "SpamSettingsQuery",
         "queryId": "e_3p_auZ82q8lV0r1x9OuA"
     },
+    "SnoozeTagsSheetQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "SnoozeTagsSheetQuery",
+        "queryId": "XOYcrYzUO9kc12arb3tXzA"
+    },
     "ConversationItem_RenameConversationMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -8279,6 +8272,13 @@
             "fieldToggles": []
         },
         "features": {}
+    },
+    "useCreateRichtextBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useCreateRichtextBlockMutation",
+        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
     "usePaymentsRegionQuery": {
         "metadata": {},

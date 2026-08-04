@@ -859,7 +859,7 @@
     "responsive_web_list_tweet_integration_enabled": false,
     "responsive_web_live_commerce_enabled": false,
     "responsive_web_live_scheduled_broadcast_countdown_enabled": false,
-    "responsive_web_livecut_native_share_enabled": false,
+    "responsive_web_livecut_native_share_enabled": true,
     "responsive_web_locale_context_direction_enabled": true,
     "responsive_web_location_spotlight_display_map": true,
     "responsive_web_location_spotlight_v1_config": true,
@@ -1816,5 +1816,6 @@
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
     "xstudio_embed_origin": "https://studio.x.com",
-    "xstudio_rweb_live_studio_enabled": true
+    "xstudio_rweb_live_studio_enabled": true,
+    "payments_transaction_receipt_enabled": false
 }
