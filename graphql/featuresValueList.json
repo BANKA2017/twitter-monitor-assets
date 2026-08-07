@@ -554,11 +554,13 @@
     "payments_lexical_search_enabled": false,
     "payments_onboarding_issued_cards_polling_enabled": true,
     "payments_passkey_onboarding_enabled": true,
+    "payments_scheduled_payments_enabled": false,
     "payments_secondary_accounts_enabled": true,
     "payments_shared_accounts_enabled": false,
     "payments_support_grpc_enabled": true,
     "payments_support_xchat_sessions_enabled": true,
     "payments_tracing_reports_enabled": true,
+    "payments_transaction_receipt_enabled": false,
     "payments_transaction_search_enabled": true,
     "payments_transfer_link_enabled": false,
     "payments_web_external_app_enabled": false,
@@ -1749,7 +1751,7 @@
     "xchat_grpc_chat_page_enabled": false,
     "xchat_hide_pending_members_for_non_admin": true,
     "xchat_hybrid_pull_eagerly_fetch_history_after_seconds": -1,
-    "xchat_inbox_checksum_scribing_enabled": false,
+    "xchat_inbox_checksum_scribing_enabled": true,
     "xchat_inbox_conversation_event_limit": 5,
     "xchat_inbox_conversation_limit": 20,
     "xchat_inbox_conversation_limit_subsequent": 100,
@@ -1816,6 +1818,5 @@
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
     "xstudio_embed_origin": "https://studio.x.com",
-    "xstudio_rweb_live_studio_enabled": true,
-    "payments_transaction_receipt_enabled": false
+    "xstudio_rweb_live_studio_enabled": true
 }
