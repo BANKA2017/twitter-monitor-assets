@@ -6684,13 +6684,6 @@
         "operationName": "useUserInitialCommunitiesSpotlightQuery",
         "queryId": "-X2W306DsYIr_NlO6v3GZw"
     },
-    "useCreateRichtextBlockMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useCreateRichtextBlockMutation",
-        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
-    },
     "LocationSelectorQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -8393,6 +8386,13 @@
             "fieldToggles": []
         },
         "features": {}
+    },
+    "useCreateRichtextBlockMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useCreateRichtextBlockMutation",
+        "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
     "useClaimTransferMutation": {
         "metadata": {},
