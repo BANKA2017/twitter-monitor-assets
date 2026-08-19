@@ -8357,6 +8357,31 @@
         },
         "features": {}
     },
+    "QuickPromoteBoostContentCheck": {
+        "queryId": "hOmo4HnkN3_qLP1wsPLpOQ",
+        "operationName": "QuickPromoteBoostContentCheck",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [
+                "responsive_web_graphql_timeline_navigation_enabled",
+                "profile_label_improvements_pcf_label_in_post_enabled",
+                "responsive_web_profile_redirect_enabled",
+                "rweb_tipjar_consumption_enabled",
+                "verified_phone_label_enabled"
+            ],
+            "fieldToggles": [
+                "withPayments",
+                "withAuxiliaryUserLabels"
+            ]
+        },
+        "features": {
+            "responsive_web_graphql_timeline_navigation_enabled": true,
+            "profile_label_improvements_pcf_label_in_post_enabled": true,
+            "responsive_web_profile_redirect_enabled": true,
+            "rweb_tipjar_consumption_enabled": false,
+            "verified_phone_label_enabled": false
+        }
+    },
     "Coupons": {
         "queryId": "R1h43jnAl2bsDoUkgZb7NQ",
         "operationName": "Coupons",
@@ -8623,7 +8648,7 @@
         "operationKind": "mutation",
         "text": null,
         "operationName": "useLinkBankCardMutation",
-        "queryId": "HcWAknxhir7sDB6j9CxFYw"
+        "queryId": "gN01d_myD2-Q3qrIO5YtoQ"
     },
     "CardIssuancePollerQuery": {
         "metadata": {},
