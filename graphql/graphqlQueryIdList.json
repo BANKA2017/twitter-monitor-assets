@@ -2882,6 +2882,16 @@
         },
         "features": {}
     },
+    "SportsProductLiveViewers": {
+        "queryId": "IYQhJtndjln44l9SoPk8AQ",
+        "operationName": "SportsProductLiveViewers",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "QuickPromoteEligibility": {
         "queryId": "LtpCXh66W-uXh7u7XSRA8Q",
         "operationName": "QuickPromoteEligibility",
@@ -5156,6 +5166,13 @@
         "text": null,
         "operationName": "useFetchProfileSections_canViewExpandedProfileQuery",
         "queryId": "vqu78dKcEkW-UAYLw5rriA"
+    },
+    "usePaymentsSessionRefreshAuthTokenMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePaymentsSessionRefreshAuthTokenMutation",
+        "queryId": "M67Z2AnC9wWtbigxEs6zjA"
     },
     "ImmersiveProfile": {
         "queryId": "BdAlncZnDHJxK37vKTJ9hA",
@@ -7552,6 +7569,13 @@
         "operationName": "GetGrokCustomizationSettingMutation",
         "queryId": "G9u4mrv5jrU5UvFexfnEhw"
     },
+    "DebugDrawerConversationIdQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "DebugDrawerConversationIdQuery",
+        "queryId": "p1BzDIePWwkumE2_qYB98w"
+    },
     "UniversalSearchFeedbackMutation": {
         "queryId": "qaIzg304L134B5-NI43j2A",
         "operationName": "UniversalSearchFeedbackMutation",
@@ -7561,20 +7585,6 @@
             "fieldToggles": []
         },
         "features": {}
-    },
-    "DebugDrawerConversationIdQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "DebugDrawerConversationIdQuery",
-        "queryId": "p1BzDIePWwkumE2_qYB98w"
-    },
-    "usePaymentsSessionRefreshAuthTokenMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePaymentsSessionRefreshAuthTokenMutation",
-        "queryId": "M67Z2AnC9wWtbigxEs6zjA"
     },
     "delegateAccountsQuery": {
         "metadata": {},
@@ -7630,7 +7640,7 @@
         "operationKind": "query",
         "text": null,
         "operationName": "grokAccountJwtQuery",
-        "queryId": "IeVz3jENy0NbMSiOgyydHw"
+        "queryId": "DIW0leeI6-dvMzdOMJki4w"
     },
     "muteUserLiveChatMutation": {
         "metadata": {},
@@ -7695,19 +7705,19 @@
         "operationName": "MonetizationEarningsQuery",
         "queryId": "K9vENRfp7LRSuoavFjAw2A"
     },
-    "xCallsStartCall": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "xCallsStartCall",
-        "queryId": "uLWCEtCDOVp2sGCcJ_iO3g"
-    },
     "xChatInitializeMediaUpload": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "xChatInitializeMediaUpload",
         "queryId": "DidmR9ZXZhbiOAUY31bh_Q"
+    },
+    "xCallsStartCall": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "xCallsStartCall",
+        "queryId": "uLWCEtCDOVp2sGCcJ_iO3g"
     },
     "usePaymentsWidgetsQuery": {
         "metadata": {},
@@ -8121,12 +8131,12 @@
         "operationName": "liveDetailsTimeSeriesQuery",
         "queryId": "WWnhraJ5KYZ20khZEDILug"
     },
-    "unblockUserMutation": {
+    "unfollowUserMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "unblockUserMutation",
-        "queryId": "A2MpLvDEQZ48_n2emniqsA"
+        "operationName": "unfollowUserMutation",
+        "queryId": "RjGnpAQuMmcqXSjoCR7t6w"
     },
     "followUserMutation": {
         "metadata": {},
@@ -8135,19 +8145,19 @@
         "operationName": "followUserMutation",
         "queryId": "m5VXpPA-MH4DH7epCa7hCg"
     },
-    "unfollowUserMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "unfollowUserMutation",
-        "queryId": "RjGnpAQuMmcqXSjoCR7t6w"
-    },
     "cancelFollowRequestMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "cancelFollowRequestMutation",
         "queryId": "46LY_rIBJx7QNZ6ziF9ROg"
+    },
+    "unblockUserMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "unblockUserMutation",
+        "queryId": "A2MpLvDEQZ48_n2emniqsA"
     },
     "useTotalAdCampaignsForUserQuery": {
         "metadata": {},
@@ -8945,26 +8955,12 @@
         "operationName": "useShareGrokConversationMutation",
         "queryId": "VjcMAfH8MXzaWoNmAsUidw"
     },
-    "insightsListContextQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "insightsListContextQuery",
-        "queryId": "WWRjBVCm43JPt3KJcYps_A"
-    },
-    "insightProviderGetQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "insightProviderGetQuery",
-        "queryId": "KYqx5DM-ZWPSmsYaTRc7Pg"
-    },
-    "queryInputMutation": {
+    "toggleAlertNotificationMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "queryInputMutation",
-        "queryId": "rG7ih_YOL5vS5hdEtlQsFQ"
+        "operationName": "toggleAlertNotificationMutation",
+        "queryId": "Lq-KxcdfTaaKmiyXJ1jffQ"
     },
     "insightsConfigQuery": {
         "metadata": {},
@@ -8973,12 +8969,26 @@
         "operationName": "insightsConfigQuery",
         "queryId": "O6KEHm-xm_6YHA8QWfNS0g"
     },
-    "toggleAlertNotificationMutation": {
+    "usePaginatePostMetricsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaginatePostMetricsQuery",
+        "queryId": "Lp2CDPC5myiNLu7cY13-pA"
+    },
+    "queryInputMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
-        "operationName": "toggleAlertNotificationMutation",
-        "queryId": "Lq-KxcdfTaaKmiyXJ1jffQ"
+        "operationName": "queryInputMutation",
+        "queryId": "rG7ih_YOL5vS5hdEtlQsFQ"
+    },
+    "insightProviderGetQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "insightProviderGetQuery",
+        "queryId": "KYqx5DM-ZWPSmsYaTRc7Pg"
     },
     "usePostCountQuery": {
         "metadata": {},
@@ -8987,13 +8997,6 @@
         "operationName": "usePostCountQuery",
         "queryId": "N1m6ittZq2xkooeV6VPUKA"
     },
-    "deleteInsightButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "deleteInsightButtonMutation",
-        "queryId": "XEhvVHbMAhHWWqqokHk-OA"
-    },
     "createInsightInputMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9001,12 +9004,19 @@
         "operationName": "createInsightInputMutation",
         "queryId": "ktnc_IoCymTxsQ4tnPKdHQ"
     },
-    "usePaginatePostMetricsQuery": {
+    "insightsListContextQuery": {
         "metadata": {},
         "operationKind": "query",
         "text": null,
-        "operationName": "usePaginatePostMetricsQuery",
-        "queryId": "Lp2CDPC5myiNLu7cY13-pA"
+        "operationName": "insightsListContextQuery",
+        "queryId": "WWRjBVCm43JPt3KJcYps_A"
+    },
+    "deleteInsightButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "deleteInsightButtonMutation",
+        "queryId": "XEhvVHbMAhHWWqqokHk-OA"
     },
     "sendLiveChatMutation": {
         "metadata": {},
@@ -9162,13 +9172,6 @@
         "operationName": "useCreateRichtextBlockMutation",
         "queryId": "lDE6HUnPgNvp1_8bcCM3-w"
     },
-    "useClaimTransferMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useClaimTransferMutation",
-        "queryId": "-EuYphdH8rSduqdvtNZ-2Q"
-    },
     "usePaymentsRegionQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9323,12 +9326,26 @@
         "operationName": "usePaymentsClientEventsMutation",
         "queryId": "52M2fQZPlEpzZTza6TN2_g"
     },
+    "useClaimTransferMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useClaimTransferMutation",
+        "queryId": "-EuYphdH8rSduqdvtNZ-2Q"
+    },
     "useCreateIssuedCheckMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useCreateIssuedCheckMutation",
         "queryId": "L7OW-TBj-tL_mYtzyRV1DA"
+    },
+    "useCancelTransferMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useCancelTransferMutation",
+        "queryId": "EMOcwiVRD_Jag7tz-sKK6g"
     },
     "GrokSearchBottomBarSearchRecommendationsQuery": {
         "metadata": {},
@@ -9407,6 +9424,13 @@
         "operationName": "useMarkDirectDepositSwitchCompleteMutation",
         "queryId": "H2gnjMSmoy1oAdAEqkWh1A"
     },
+    "usePaymentsAccountEligibilityStatusMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "usePaymentsAccountEligibilityStatusMutation",
+        "queryId": "t5RacliZlaQuWbVox6wp_Q"
+    },
     "useIssuedCardDesignsQuery": {
         "metadata": {},
         "operationKind": "query",
@@ -9448,13 +9472,6 @@
         "text": null,
         "operationName": "useUnlockCardMutation",
         "queryId": "Lk3XNPF03ndyrdOMTIJLgw"
-    },
-    "usePaymentsAccountEligibilityStatusMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "usePaymentsAccountEligibilityStatusMutation",
-        "queryId": "t5RacliZlaQuWbVox6wp_Q"
     },
     "BankCardPollerQuery": {
         "metadata": {},
