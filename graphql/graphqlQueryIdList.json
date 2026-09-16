@@ -7995,19 +7995,19 @@
         "operationName": "MonetizationEarningsQuery",
         "queryId": "K9vENRfp7LRSuoavFjAw2A"
     },
-    "xChatInitializeMediaUpload": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "xChatInitializeMediaUpload",
-        "queryId": "DidmR9ZXZhbiOAUY31bh_Q"
-    },
     "xCallsStartCall": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "xCallsStartCall",
         "queryId": "uLWCEtCDOVp2sGCcJ_iO3g"
+    },
+    "xChatInitializeMediaUpload": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "xChatInitializeMediaUpload",
+        "queryId": "DidmR9ZXZhbiOAUY31bh_Q"
     },
     "usePaymentsWidgetsQuery": {
         "metadata": {},
@@ -8934,19 +8934,19 @@
         "operationName": "TierSwitchConfirmationSheetProgressQuery",
         "queryId": "wBi1RPHF2aD8bXDpRGMjaw"
     },
-    "feedbackMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "feedbackMutation",
-        "queryId": "zv33bjbLTa35aipqMBnLgw"
-    },
     "useGrokAttachmentPublishMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "useGrokAttachmentPublishMutation",
         "queryId": "ut3N9CQkWtAZQo3WZX_cNA"
+    },
+    "feedbackMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "feedbackMutation",
+        "queryId": "zv33bjbLTa35aipqMBnLgw"
     },
     "useShareGrokConversationMutation": {
         "metadata": {},
@@ -8969,27 +8969,6 @@
         "operationName": "insightProviderGetQuery",
         "queryId": "KYqx5DM-ZWPSmsYaTRc7Pg"
     },
-    "deleteInsightButtonMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "deleteInsightButtonMutation",
-        "queryId": "XEhvVHbMAhHWWqqokHk-OA"
-    },
-    "usePaginatePostMetricsQuery": {
-        "metadata": {},
-        "operationKind": "query",
-        "text": null,
-        "operationName": "usePaginatePostMetricsQuery",
-        "queryId": "Lp2CDPC5myiNLu7cY13-pA"
-    },
-    "queryInputMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "queryInputMutation",
-        "queryId": "rG7ih_YOL5vS5hdEtlQsFQ"
-    },
     "createInsightInputMutation": {
         "metadata": {},
         "operationKind": "mutation",
@@ -9011,12 +8990,33 @@
         "operationName": "insightsConfigQuery",
         "queryId": "O6KEHm-xm_6YHA8QWfNS0g"
     },
+    "usePaginatePostMetricsQuery": {
+        "metadata": {},
+        "operationKind": "query",
+        "text": null,
+        "operationName": "usePaginatePostMetricsQuery",
+        "queryId": "Lp2CDPC5myiNLu7cY13-pA"
+    },
+    "deleteInsightButtonMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "deleteInsightButtonMutation",
+        "queryId": "XEhvVHbMAhHWWqqokHk-OA"
+    },
     "toggleAlertNotificationMutation": {
         "metadata": {},
         "operationKind": "mutation",
         "text": null,
         "operationName": "toggleAlertNotificationMutation",
         "queryId": "Lq-KxcdfTaaKmiyXJ1jffQ"
+    },
+    "queryInputMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "queryInputMutation",
+        "queryId": "rG7ih_YOL5vS5hdEtlQsFQ"
     },
     "sendLiveChatMutation": {
         "metadata": {},
@@ -9185,6 +9185,13 @@
         "text": null,
         "operationName": "useListScheduledPaymentsQuery",
         "queryId": "c0dk03EpAn4PC_oBv3jLtQ"
+    },
+    "useMarkDirectDepositSwitchCompleteMutation": {
+        "metadata": {},
+        "operationKind": "mutation",
+        "text": null,
+        "operationName": "useMarkDirectDepositSwitchCompleteMutation",
+        "queryId": "H2gnjMSmoy1oAdAEqkWh1A"
     },
     "useActivateCardMutation": {
         "metadata": {},
@@ -9416,13 +9423,6 @@
         "text": null,
         "operationName": "usePaymentsAccountLimitsQuery",
         "queryId": "YWhLZWa3uQEYfq0h-QEAVw"
-    },
-    "useMarkDirectDepositSwitchCompleteMutation": {
-        "metadata": {},
-        "operationKind": "mutation",
-        "text": null,
-        "operationName": "useMarkDirectDepositSwitchCompleteMutation",
-        "queryId": "H2gnjMSmoy1oAdAEqkWh1A"
     },
     "usePaymentsAccountEligibilityStatusMutation": {
         "metadata": {},
