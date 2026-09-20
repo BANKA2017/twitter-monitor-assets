@@ -2893,6 +2893,16 @@
         },
         "features": {}
     },
+    "NFLTeamLastGameHighlights": {
+        "queryId": "RJLJjyt4VPiQ5006q8Tteg",
+        "operationName": "NFLTeamLastGameHighlights",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "NFLGameOdds": {
         "queryId": "BCsiVB5FamwjLHyEFBIOMA",
         "operationName": "NFLGameOdds",
@@ -2943,8 +2953,18 @@
         },
         "features": {}
     },
+    "SportsProductTeamPicker": {
+        "queryId": "XwhsOQbv-QA-y5CmUd6mdg",
+        "operationName": "SportsProductTeamPicker",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
     "SportsProductChatState": {
-        "queryId": "YNyONbdF7kyn5A7YrAom-w",
+        "queryId": "x1B2DaFQ3OroLl5xCmnVXQ",
         "operationName": "SportsProductChatState",
         "operationType": "query",
         "metadata": {
@@ -2957,6 +2977,16 @@
         "queryId": "Dd76ifUtARWFkfQo3krDxA",
         "operationName": "FollowTeamRoster",
         "operationType": "mutation",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "SportsProductTeamTallies": {
+        "queryId": "i4p1dyYRohDUQZCx22d0xA",
+        "operationName": "SportsProductTeamTallies",
+        "operationType": "query",
         "metadata": {
             "featureSwitches": [],
             "fieldToggles": []
@@ -2997,6 +3027,16 @@
         "queryId": "hsXGNRAhwRCPm9pv-pof4g",
         "operationName": "NFLWeeklySchedule",
         "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "SportsProductSetTeamPick": {
+        "queryId": "wgQc8AbBeexw0Hx3kPtFFQ",
+        "operationName": "SportsProductSetTeamPick",
+        "operationType": "mutation",
         "metadata": {
             "featureSwitches": [],
             "fieldToggles": []
@@ -3211,7 +3251,7 @@
         "features": {}
     },
     "NFLGameRoster": {
-        "queryId": "SruM3PX-YvCLmsvaaGjqPQ",
+        "queryId": "8pLIKp-Khhl_ANf4ZeSgVg",
         "operationName": "NFLGameRoster",
         "operationType": "query",
         "metadata": {
@@ -3389,6 +3429,16 @@
     "SportsTeamRosterFollowState": {
         "queryId": "7ULJsc0TrtBg5zOp5Ig2Bw",
         "operationName": "SportsTeamRosterFollowState",
+        "operationType": "query",
+        "metadata": {
+            "featureSwitches": [],
+            "fieldToggles": []
+        },
+        "features": {}
+    },
+    "SportsProductAdSlots": {
+        "queryId": "pgakXvDW-RVau7vMG6En0A",
+        "operationName": "SportsProductAdSlots",
         "operationType": "query",
         "metadata": {
             "featureSwitches": [],
@@ -4397,27 +4447,6 @@
         "text": null,
         "operationName": "PreRollAdsEligibilityScreenQuery",
         "queryId": "7pFQCE1DgV61s1gfRdV8fg"
-    },
-    "AdRevShareDashboardScreenQuery": {
-        "metadata": {
-            "sliceInfoPath": [
-                "viewer",
-                "user_results",
-                "result",
-                "ad_revenue_sharing_payouts",
-                "slice_info"
-            ],
-            "featureSwitches": [
-                "responsive_web_ad_revenue_sharing_total_earnings_enabled"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "AdRevShareDashboardScreenQuery",
-        "queryId": "oWDnMigorgKkGEYnnGp7Fw",
-        "features": {
-            "responsive_web_ad_revenue_sharing_total_earnings_enabled": false
-        }
     },
     "xChatDmSettingsMutation": {
         "metadata": {},
@@ -9220,20 +9249,6 @@
         "text": null,
         "operationName": "NotificationSettingsModalQuery",
         "queryId": "d86C1tsqqQ-_2b7xStjYJQ"
-    },
-    "membersSliceTimeline_Query": {
-        "metadata": {
-            "sliceInfoPath": [
-                "communityResults",
-                "result",
-                "members_slice",
-                "slice_info"
-            ]
-        },
-        "operationKind": "query",
-        "text": null,
-        "operationName": "membersSliceTimeline_Query",
-        "queryId": "woAp_YdzAdqnWDrqLTNpAw"
     },
     "communityPeopleActionMenu_roleUpdate_Mutation": {
         "metadata": {},
