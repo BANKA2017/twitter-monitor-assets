@@ -922,6 +922,7 @@
     "responsive_web_nfl_hub_home_tab_enabled": true,
     "responsive_web_nfl_profile_sports_enabled": true,
     "responsive_web_nfl_sidebar_enabled": true,
+    "responsive_web_nfl_sidebar_for_all_users_enabled": true,
     "responsive_web_nfl_sidebar_max_live_games": 3,
     "responsive_web_nfl_team_picker_enabled": true,
     "responsive_web_not_a_bot_signups_enabled": false,
@@ -1144,8 +1145,8 @@
     "rweb_spaces_invite_search_enabled": true,
     "rweb_spaces_next_codec_enabled": true,
     "rweb_sports_post_context_enabled": true,
-    "rweb_sports_post_context_footer_enabled": false,
-    "rweb_sports_post_context_header_enabled": true,
+    "rweb_sports_post_context_footer_enabled": true,
+    "rweb_sports_post_context_header_enabled": false,
     "rweb_ssp_ads_enabled": false,
     "rweb_ssp_ads_premium_bypass_enabled": false,
     "rweb_ssp_ads_refresh_enabled": false,
@@ -1748,7 +1749,7 @@
     "x_sports_game_chat_should_hide_logos": false,
     "x_sports_nfl_favorite_teams_enabled": true,
     "x_sports_nfl_game_chat_enabled": true,
-    "x_sports_nfl_game_chat_team_pick_enabled": false,
+    "x_sports_nfl_game_chat_team_pick_enabled": true,
     "x_sports_nfl_game_feed_enabled": true,
     "x_sports_nfl_game_odds_card_enabled": true,
     "x_sports_nfl_game_player_props_enabled": false,
@@ -1907,5 +1908,6 @@
     "xprofile_work_history_domain_enabled": true,
     "xprofile_work_history_enabled": true,
     "xstudio_embed_origin": "https://studio.x.com",
-    "xstudio_rweb_live_studio_enabled": true
+    "xstudio_rweb_live_studio_enabled": true,
+    "responsive_web_live_video_viewer_session_enabled": false
 }
